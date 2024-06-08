@@ -1,7 +1,7 @@
 {
   "name": "project-zohar",
   "version": "0.1.0",
-  "homepage": "https://Sniffin3083.github.io/project-zohar",
+  "homepage": "https://sniffin3083.github.io/project-zohar",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
