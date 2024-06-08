@@ -11,6 +11,7 @@ export default function XCOne() {
             <th className="border-solid border-2 border-black">test</th>
             <th className="border-solid border-2 border-black">test</th>
           </tr>
+          <p>hi</p>
         </table>
       </>
     );
