@@ -8,7 +8,10 @@ import {
   RouterProvider
  } from 'react-router-dom';
 
- import ErrorPage from './error-page';
+import ErrorPage from './error-page';
+import XCOne from './routes/XCone';
+import XCTwo from './routes/XCtwo';
+import XCThree from './routes/XCthree';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +19,18 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />
   },
+  {
+    path: "xeno1",
+    element: <XCOne />
+  },
+  {
+    path: "xeno2",
+    element: <XCTwo />
+  },
+  {
+    path: "xeno3",
+    element: <XCThree />
+  }
 ]);
 
 const root = ReactDOM.createRoot(
