@@ -7,12 +7,12 @@ const Data = [
   {
     id: 1,
     name: 'test',
-    LastName: 'testLast'
+    LastName: 'testLast',
   },
   {
     id: 2,
     name: 'test2',
-    LastName: 'testLast2'
+    LastName: 'testLast2',
   }
 ]
 
@@ -37,8 +37,13 @@ export default function XCOne() {
   }
 
   useEffect(() => {
+    const data = window.localStorage.getItem('MY_APP_STATE');
+    if ( data !== null ) setMyRecords(JSON.parse(data));
+  }, []);
+
+  useEffect(() => {
     window.localStorage.setItem('MY_APP_STATE', JSON.stringify(myRecords));
-  }, [myRecords]);
+  }, []);
 
   return (
     <>
@@ -54,7 +59,7 @@ export default function XCOne() {
         >
           <th className="border-solid border-2 border-black">{current.name}</th>
           <th className="border-solid border-2 border-black">{current.LastName}</th>
-          <th className="border-solid border-2 border-black">test</th>
+          <th className="border-solid border-2 border-black">{current.state}</th>
         </tr>
         ))}
         <p>hi</p>
