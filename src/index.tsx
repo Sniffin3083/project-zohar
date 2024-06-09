@@ -9,9 +9,9 @@ import {
  } from 'react-router-dom';
 
 import ErrorPage from './error-page';
-import XCOne from './routes/XCone';
-import XCTwo from './routes/XCtwo';
-import XCThree from './routes/XCthree';
+import XCOne from './routes/XCone.jsx';
+import XCTwo from './routes/XCtwo.jsx';
+import XCThree from './routes/XCthree.jsx';
 
 const router = createBrowserRouter([
   {
