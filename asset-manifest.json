@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/project-zohar/static/css/main.eac57963.css",
-    "main.js": "/project-zohar/static/js/main.f1960a06.js",
+    "main.js": "/project-zohar/static/js/main.463f2c8b.js",
     "static/js/453.1ffb319b.chunk.js": "/project-zohar/static/js/453.1ffb319b.chunk.js",
     "static/media/XenobladeThreeBoxArt.jpg": "/project-zohar/static/media/XenobladeThreeBoxArt.af1b761f633aedba0963.jpg",
     "static/media/XenobladeOneBoxArt.jpg": "/project-zohar/static/media/XenobladeOneBoxArt.1499bd1e19c3d25e385c.jpg",
     "static/media/XenobladeTwoBoxArt.jpg": "/project-zohar/static/media/XenobladeTwoBoxArt.47c13aeed1102efd311a.jpg",
     "index.html": "/project-zohar/index.html",
     "main.eac57963.css.map": "/project-zohar/static/css/main.eac57963.css.map",
-    "main.f1960a06.js.map": "/project-zohar/static/js/main.f1960a06.js.map",
+    "main.463f2c8b.js.map": "/project-zohar/static/js/main.463f2c8b.js.map",
     "453.1ffb319b.chunk.js.map": "/project-zohar/static/js/453.1ffb319b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eac57963.css",
-    "static/js/main.f1960a06.js"
+    "static/js/main.463f2c8b.js"
   ]
 }
