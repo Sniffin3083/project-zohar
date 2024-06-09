@@ -1,7 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -13,17 +11,17 @@ function App() {
 
         <div className="mt-12 w-screen h-28 flex flex-row justify-center items-center items-stretch">
           <div className="">
-            <Link to={"xeno1"}>
+            <Link to={"/xeno1"}>
               <img className="w-52 hover:w-56" src={require("./images/XenobladeOneBoxArt.jpg")} /> 
             </Link>
           </div>
           <div>
-            <Link to={"xeno2"}>
+            <Link to={"/xeno2"}>
               <img className="w-44 mx-32 hover:w-48" src={require("./images/XenobladeTwoBoxArt.jpg")} /> 
             </Link>
           </div>
           <div>
-            <Link to={"xeno3"}>
+            <Link to={"/xeno3"}>
               <img className="w-44 hover:w-48" src={require("./images/XenobladeThreeBoxArt.jpg")} /> 
             </Link>
           </div>
