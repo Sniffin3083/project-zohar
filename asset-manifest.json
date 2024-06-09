@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.eac57963.css",
-    "main.js": "/static/js/main.d8ed9ec4.js",
+    "main.js": "/static/js/main.b1409e22.js",
     "static/js/453.1ffb319b.chunk.js": "/static/js/453.1ffb319b.chunk.js",
     "static/media/XenobladeThreeBoxArt.jpg": "/static/media/XenobladeThreeBoxArt.af1b761f633aedba0963.jpg",
     "static/media/XenobladeOneBoxArt.jpg": "/static/media/XenobladeOneBoxArt.1499bd1e19c3d25e385c.jpg",
     "static/media/XenobladeTwoBoxArt.jpg": "/static/media/XenobladeTwoBoxArt.47c13aeed1102efd311a.jpg",
     "index.html": "/index.html",
     "main.eac57963.css.map": "/static/css/main.eac57963.css.map",
-    "main.d8ed9ec4.js.map": "/static/js/main.d8ed9ec4.js.map",
+    "main.b1409e22.js.map": "/static/js/main.b1409e22.js.map",
     "453.1ffb319b.chunk.js.map": "/static/js/453.1ffb319b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eac57963.css",
-    "static/js/main.d8ed9ec4.js"
+    "static/js/main.b1409e22.js"
   ]
 }
