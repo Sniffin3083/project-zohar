@@ -1,69 +1,71 @@
 import React from 'react';
+import DataTable from "react-data-table-component";
+
+import XCOneData from "../data/XCOneData"
 
 const {useState} = React;
 const {useEffect} = React;
 
-const Data = [
+const columns = [
   {
-    id: 1,
-    name: 'test',
-    LastName: 'testLast',
+    name: "Id",
+    selector: row => row.id,
+    sortable: true
   },
   {
-    id: 2,
-    name: 'test2',
-    LastName: 'testLast2',
+    name: "Title",
+    selector: row => row.title,
+    sortable: true
+  },
+  {
+    name: "Name",
+    selector: row => row.name,
+    sortable: true
   }
-]
+];
+
+const conditionalRowStyles = [
+  {
+    when: row => row.toggleSelected,
+    style: {
+      backgroundColor: "green",
+      userSelect: "none"
+    }
+  }
+];
 
 export default function XCOne() {
 
-  const formatData = (items) => {
-    return items.map((item) => ({...item, isActive: false}))
-  }
+  const [data, setData] = React.useState(XCOneData);
 
-  const [myRecords, setMyRecords] = useState(formatData(Data))
+  const handleRowClicked = row => {
+    const updatedData = data.map(item => {
+      if (row.id !== item.id) {
+        return item;
+      }
 
-  const handleColorChange = (id) => {
-    setMyRecords((prevState) => {
-      return prevState.map((item) => {
-        if(item.id === id) {
-          return {...item, isActive: !item.isActive}
-        }else {
-          return item;
-        }
-      })
-    })
-  }
+      document.cookie = "id=" + data.id + "; toggle=" + data.toggleSelected + "; expires=Tue, 31 Dec 2024 12:00:00 TTC";
 
-  useEffect(() => {
-    const data = window.localStorage.getItem('MY_APP_STATE');
-    if ( data !== null ) setMyRecords(JSON.parse(data));
-  }, []);
+      return {
+        ...item,
+        toggleSelected: !item.toggleSelected
+      };
+    });
 
-  useEffect(() => {
-    window.localStorage.setItem('MY_APP_STATE', JSON.stringify(myRecords));
-  }, []);
+    setData(updatedData);
+  };
 
   return (
     <>
-      <table className="border-solid border-2 border-black">
-        {myRecords.map((current) => (
-        <tr 
-          key={current.id}
-          onClick={() => handleColorChange(current.id)} 
-          style={{
-            backgroundColor: current.isActive ? 'crimson' : '',
-          }}
-          className=""
-        >
-          <th className="border-solid border-2 border-black">{current.name}</th>
-          <th className="border-solid border-2 border-black">{current.LastName}</th>
-          <th className="border-solid border-2 border-black">{current.state}</th>
-        </tr>
-        ))}
-        <p>hi</p>
-      </table>
+      <DataTable
+        title="Data"
+        columns={columns}
+        data={data}
+        defaultSortFieldId="title"
+        pagination
+        onRowClicked={handleRowClicked}
+        conditionalRowStyles={conditionalRowStyles}
+      />
     </>
   );
 }
