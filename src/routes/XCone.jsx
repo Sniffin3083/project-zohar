@@ -8,24 +8,46 @@ const {useEffect} = React;
 
 const columns = [
   {
-    name: "Id",
-    selector: row => row.id,
-    sortable: true
-  },
-  {
-    name: "Title",
-    selector: row => row.title,
-    sortable: true
-  },
-  {
-    name: "Name",
+    name: "Quest Name",
     selector: row => row.name,
+    sortable: true,
+    width: "200px"
+  },
+  {
+    name: "Giver",
+    selector: row => row.giver,
+    sortable: true,
+    width: "100px"
+  },
+  {
+    name: "Time and Location",
+    selector: row => row.area,
+    sortable: true,
+    width: "300px"
+  },
+  {
+    name: "Prerequisites",
+    selector: row => row.prerequisites,
+    sortable: true,
+    width: "400px",
+    wrap: true,
+  },
+  {
+    name: "Timed?",
+    selector: row => row.timed,
+    sortable: true,
+    width: "80px"
+  },
+  {
+    name: "Mutually Exclusive?",
+    selector: row => row.exclusive,
     sortable: true
   }
 ];
 
 const conditionalRowStyles = [
   {
+    
     when: row => row.toggleSelected,
     style: {
       backgroundColor: "green",
@@ -44,7 +66,13 @@ export default function XCOne() {
         return item;
       }
 
-      document.cookie = "id=" + data.id + "; toggle=" + data.toggleSelected + "; expires=Tue, 31 Dec 2024 12:00:00 TTC";
+      if(localStorage.getItem(item.id) === "true") {
+        localStorage.removeItem(item.id);
+      }
+      
+      else {
+        localStorage.setItem(item.id, true)
+      }
 
       return {
         ...item,
@@ -58,11 +86,10 @@ export default function XCOne() {
   return (
     <>
       <DataTable
-        title="Data"
+        title="Xenoblade Chronicles One Side Quests"
         columns={columns}
         data={data}
         defaultSortFieldId="title"
-        pagination
         onRowClicked={handleRowClicked}
         conditionalRowStyles={conditionalRowStyles}
       />
