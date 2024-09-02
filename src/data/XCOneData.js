@@ -6,7 +6,8 @@ export default [
         area: "Colony 9 (Commercial District) 06:00 - 15:00",
         prerequisites: "Access to Tephra Cave",
         timed: "No",
-        exclusive: "No"
+        exclusive: "No",
+        uid: "q_mementosLostSon"
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ export default [
         area: "Colony 9 (Residential District) 06:00 - 13:00",
         prerequisites: "None",
         timed: "No",
-        exclusive: "No"
+        exclusive: "No",
+        uid: "q_keyLongLife"
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ export default [
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
         prerequisites: "Colony 9 area ☆1 1/2",
         timed: "No",
-        exclusive: "No"
+        exclusive: "No",
+        uid: "q_curryConundrum"
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ export default [
         area: "Colony 9 (Commercial District) 9:00 - 15:00",
         prerequisites: "None",
         timed: "No",
-        exclusive: "No"
+        exclusive: "No",
+        uid: "q_biscuitsGrandson"
     },
     {
         id: 5,
@@ -42,6 +46,7 @@ export default [
         area: "Colony 9 (Military District) 6:00 - 15:00",
         prerequisites: "Mechonis Core cleared quests: Education-Crazy Suzanna, A Young Caotain's Trust/A Young Captains Revival.\tColony 9 Area ☆4 1/2",
         timed: "No",
-        exclusive: "No"
+        exclusive: "No",
+        uid: "q_birthdayShoes"
     },
 ]
