@@ -47,7 +47,6 @@ const columns = [
 
 const conditionalRowStyles = [
   {
-    
     when: row => row.toggleSelected,
     style: {
       backgroundColor: "green",
@@ -56,9 +55,35 @@ const conditionalRowStyles = [
   }
 ];
 
-export default function XCOne() {
+var store = JSON.parse(localStorage.getItem("XCOne-QuestList"));
 
+if (store === null) {
+  store = new Set();
+} else {
+  store = new Set(store);
+}
+
+function saveStore() {
+  localStorage.setItem("XCOne-QuestList", JSON.stringify([...store]));
+}
+
+
+export default function XCOne() {
   const [data, setData] = React.useState(XCOneData);
+
+  var selected = false;
+
+  useEffect(() => {
+    var x = 0;
+    for (let i of XCOneData) {
+      if(store.has(XCOneData[x]["uid"])) {
+        handleRowClicked(XCOneData[x]);
+        console.log(XCOneData[x])
+      }
+      x++;
+    }
+
+  }, [])
 
   const handleRowClicked = row => {
     const updatedData = data.map(item => {
@@ -66,13 +91,13 @@ export default function XCOne() {
         return item;
       }
 
-      if(localStorage.getItem(item.id) === "true") {
-        localStorage.removeItem(item.id);
+      if(store.has(item.uid)) {
+        store.delete(item.uid);
+      } else {
+        store.add(item.uid);
       }
-      
-      else {
-        localStorage.setItem(item.id, true)
-      }
+
+      saveStore();
 
       return {
         ...item,
