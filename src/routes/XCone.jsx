@@ -71,14 +71,11 @@ function saveStore() {
 export default function XCOne() {
   const [data, setData] = React.useState(XCOneData);
 
-  var selected = false;
-
   useEffect(() => {
     var x = 0;
     for (let i of XCOneData) {
       if(store.has(XCOneData[x]["uid"])) {
-        handleRowClicked(XCOneData[x]);
-        console.log(XCOneData[x])
+        XCOneData[x].toggleSelected = true;
       }
       x++;
     }
