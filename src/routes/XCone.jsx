@@ -1,7 +1,7 @@
 import React from 'react';
 import DataTable from "react-data-table-component";
 
-import XCOneData from "../data/XCOneData"
+import XCOneQData from "../data/XCOneQData"
 
 const {useState} = React;
 const {useEffect} = React;
@@ -69,13 +69,13 @@ function saveStore() {
 
 
 export default function XCOne() {
-  const [data, setData] = React.useState(XCOneData);
+  const [data, setData] = React.useState(XCOneQData);
 
   useEffect(() => {
     var x = 0;
-    for (let i of XCOneData) {
-      if(store.has(XCOneData[x]["uid"])) {
-        XCOneData[x].toggleSelected = true;
+    for (let i of XCOneQData) {
+      if(store.has(XCOneQData[x]["uid"])) {
+        XCOneQData[x].toggleSelected = true;
       }
       x++;
     }
