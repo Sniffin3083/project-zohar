@@ -498,7 +498,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest1Pt1"
+        uid: "q_colony9MonsterQuest1Pt1"
     },
     {
         id: 51,
@@ -508,7 +508,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest1Pt2"
+        uid: "q_colony9MonsterQuest1Pt2"
     },
     {
         id: 52,
@@ -518,7 +518,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest1Pt3"
+        uid: "q_colony9MonsterQuest1Pt3"
     },
     {
         id: 53,
@@ -528,7 +528,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest2Pt1"
+        uid: "q_colony9MonsterQuest2Pt1"
     },
     {
         id: 54,
@@ -538,7 +538,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest2Pt2"
+        uid: "q_colony9MonsterQuest2Pt2"
     },
     {
         id: 55,
@@ -548,7 +548,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest2Pt3"
+        uid: "q_colony9MonsterQuest2Pt3"
     },
     {
         id: 56,
@@ -558,7 +558,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest3Pt1"
+        uid: "q_colony9MonsterQuest3Pt1"
     },
     {
         id: 57,
@@ -568,7 +568,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest3Pt2"
+        uid: "q_colony9MonsterQuest3Pt2"
     },
     {
         id: 58,
@@ -578,7 +578,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest3Pt3"
+        uid: "q_colony9MonsterQuest3Pt3"
     },
     {
         id: 59,
@@ -588,7 +588,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest3Pt4"
+        uid: "q_colony9MonsterQuest3Pt4"
     },
     {
         id: 60,
@@ -598,7 +598,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest4Pt1"
+        uid: "q_colony9MonsterQuest4Pt1"
     },
     {
         id: 61,
@@ -608,7 +608,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest4Pt2"
+        uid: "q_colony9MonsterQuest4Pt2"
     },
     {
         id: 62,
@@ -618,7 +618,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_monsterQuest4Pt3"
+        uid: "q_colony9MonsterQuest4Pt3"
     },
     {
         id: 63,
@@ -628,7 +628,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_challenge1"
+        uid: "q_colony9Challenge1"
     },
     {
         id: 64,
@@ -638,7 +638,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_challenge2"
+        uid: "q_colony9Challenge2"
     },
     {
         id: 65,
@@ -648,7 +648,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_challenge3"
+        uid: "q_colony9Challenge3"
     },
     {
         id: 66,
@@ -658,7 +658,7 @@ export default [
         prerequisites: "Reyn met at the Weapon Development Lab",
         timed: "No",
         exclusive: "No",
-        uid: "q_challenge4"
+        uid: "q_colony9Challenge4"
     },
     {
         id: 67,
@@ -668,7 +668,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_materialQuest1"
+        uid: "q_colony9MaterialQuest1"
     },
     {
         id: 68,
@@ -678,7 +678,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_materialQuest2"
+        uid: "q_colony9MaterialQuest2"
     },
     {
         id: 69,
@@ -688,7 +688,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_materialQuest3"
+        uid: "q_colony9MaterialQuest3"
     },
     {
         id: 70,
@@ -698,7 +698,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_materialQuest4"
+        uid: "q_colony9MaterialQuest4"
     },
     {
         id: 71,
@@ -708,7 +708,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_collectionQuest1"
+        uid: "q_colony9CollectionQuest1"
     },
     {
         id: 72,
@@ -718,7 +718,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_collectionQuest2"
+        uid: "q_colony9CollectionQuest2"
     },
     {
         id: 73,
@@ -728,7 +728,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_collectionQuest3"
+        uid: "q_colony9CollectionQuest3"
     },
     {
         id: 74,
@@ -738,7 +738,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_collectionQuest4"
+        uid: "q_colony9CollectionQuest4"
     },
     {
         id: 75,
@@ -748,7 +748,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_searchQuest1"
+        uid: "q_colony9SearchQuest1"
     },
     {
         id: 76,
@@ -758,7 +758,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_searchQuest2"
+        uid: "q_colony9SearchQuest2"
     },
     {
         id: 77,
@@ -768,7 +768,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_searchQuest3"
+        uid: "q_colony9SearchQuest3"
     },
     {
         id: 78,
@@ -778,7 +778,7 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_searchQuest4"
+        uid: "q_colony9SearchQuest4"
     },
     {
         id: 79,
@@ -808,6 +808,136 @@ export default [
         prerequisites: "None",
         timed: "No",
         exclusive: "No",
-        uid: "q_delivering Food"
-    }
+        uid: "q_deliveringFood"
+    },
+    {
+        id: 82,
+        name: "Missing in Action",
+        giver: "Defense Force Soldier",
+        area: "Tephra Cave (Warehouse 2) Anytime",
+        prerequisites: "After the Mechon attack in Colony 9",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_missingInAction"
+    },
+    {
+       id: 83,
+       name: "Arachno Silk Fundraising",
+       giver: "Defense Force Soldier",
+       area: "Tephra Cave (Warehouse 2) Anytime",
+       prerequisites: "After the Mechon attack in Colony 9",
+       timed: "No",
+       exclusive: "No",
+       uid: "q_arachnoSilkFundraising"
+    },
+    {
+        id: 84,
+        name: "A Thank you",
+        giver: "Defense Force Soldier",
+        area: "Tephra Cave (Warehouse 2) Anytime",
+        prerequisites: "After the Mechon attack in Colony 9 | Arachno Silk Fundraising complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_aThankYou"
+    },
+    {
+        id: 85,
+        name: "Clearing Obstructions",
+        giver: "Defense Force Soldier",
+        area: "Tephra Cave (Warehouse 2) Anytime",
+        prerequisites: "Vilia Lake reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_clearing Obstructions"
+    },
+    {
+        id: 86,
+        name: "The Book of Bafalgar",
+        giver: "Shura",
+        area: "Tephra Cave (Bafalgar Tomb) Anytime",
+        prerequisites: "Mechonis Core cleared",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_theBookOfBagalagar"
+    },
+    {
+        id: 87,
+        name: "The Blood of Bafalgar",
+        giver: "Shura",
+        area: "Tephra Cave (Bafalgar Tomb) Anytime",
+        prerequisites: "Mechonis Core cleared | The Book of Bafalgar complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_theBloodOfBafalgar"
+    },
+    {
+        id: 88,
+        name: "The Path of Bafalgar",
+        giver: "Shura",
+        area: "Tephra Cave (Bafalgar Tomb) Anytime",
+        prerequisites: "Mechonis Core cleared | The Blood of Bafalgar complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_thePathOfBafalgar"
+    },
+    {
+        id: 89,
+        name: "The Coffin of Bafalgar",
+        giver: "Shura",
+        area: "Tephra Cave (Bafalgar Tomb) Anytime",
+        prerequisites: "Mechonis Core cleared | The Path of Bafalgar complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_theCoffinOfBafalgar"
+    },
+    {
+       id: 90,
+       name: "The Gratitude of Bafalgar",
+       giver: "Shura",
+       area: "Tephra Cave (Bafalgar Tomb) Anytime",
+       prerequisites: "Mechonis Core cleared | The Coffin of Bafalgar complete",
+       timed: "No",
+       exclusive: "No",
+       uid: "q_theGratitudeOfBafalgar" 
+    },
+    {
+        id: 91,
+        name: "Collection Quest 1",
+        giver: "Defense Force Soldier",
+        area: "Tephra Cave (Escape Pod Bay) Anytime",
+        prerequisites: "Afterr the Mechon attack in Colony 9",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_tephraCaveCollectionQuest1"
+    },
+    {
+        id: 92,
+        name: "Collection Quest 2",
+        giver: "Defense Force Soldier",
+        area: "Tephra Cave (Escape Pod Bay) Anytime",
+        prerequisites: "After the Mechon attack in Colony 9" ,
+        timed: "No" ,
+        exclusive: "No",
+        uid: "q_tephraCaveCollectionQuest2" 
+    },
+    {
+        id: 93,
+        name: "Meterial Quest 1",
+        giver: "Defense Force Soldier",
+        area: "Tephra Cave (Escape Pod Bay) Anytime",
+        prerequisites: "After the Mechon attack in Colony 9" ,
+        timed: "No" ,
+        exclusive: "No",
+        uid: "q_tephraCaveMaterialQuest1" 
+    },
+    {
+        id: 94,
+        name: "Meterial Quest 2",
+        giver: "Defense Force Soldier",
+        area: "Tephra Cave (Escape Pod Bay) Anytime",
+        prerequisites: "After the Mechon attack in Colony 9" ,
+        timed: "No" ,
+        exclusive: "No",
+        uid: "q_tephraCaveMaterialQuest2" 
+    },
 ]
