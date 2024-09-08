@@ -1,3 +1,5 @@
+import { CompletionInfoFlags } from "typescript"
+
 export default [
     {
         id: 1,
@@ -1990,4 +1992,1186 @@ export default [
         exclusive: "No",
         uid: "q_defendColony6Demon",
     },
+    {
+        id: 200,
+        name: "Preventing Starvation",
+        giver: "Zazadan",
+        area: "Satorl Marsh (Nopon Refuge) Anytime",
+        prerequisites: "Satorl Marsh area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_preventingStarvation"
+    },
+    {
+        id: 201,
+        name: "Zazadan in Danger",
+        giver: "Zazadan",
+        area: "Satorl Marsh (Nopon Refuge) Anytime",
+        prerequisites: "Satorl Marsh area reached | Preventing Starvation complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_zazadanInDanger"
+    },
+    {
+        id: 2,
+        name: "Zazadan Still in Danger",
+        giver: "Zazadan",
+        area: "Satorl Marsh (Nopon Refuge) Anytime",
+        prerequisites: "Satorl Marsh area reached | Zazadan in Danger complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_zazadanStillDanger"
+    },
+    {
+        id: 202,
+        name: "It's All in the Mind",
+        giver: "Zazadan",
+        area: "Satorl Marsh (Nopon Refuge) Anytime",
+        prerequisites: "Satorl Marsh area reached | Zazadan Still in Danger complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_allInTheMind"
+    },
+    {
+        id: 203,
+        name: "A Mysterious Delicacy",
+        giver: "Zazadan",
+        area: "Satorl Marsh (Nopon Refuge) Anytime",
+        prerequisites: "Satorl Marsh area reached | It's All in the Mind complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mysteriousDelicacy"
+    },
+    {
+        id: 204,
+        name: "A Gift?",
+        giver: "Zazadan",
+        area: "Satorl Marsh (Nopon Refuge) Anytime",
+        prerequisites: "Satorl Marsh area reached | A Mysterious Delicacy complete",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_aGift"
+    },
+    {
+        id: 205,
+        name: "Gather Information",
+        giver: "Surprise Quest",
+        area: "Satorl Marsh (Nopon Refuge) Automatic",
+        prerequisites: "Eryth Sea reached | Adviser Hunt accepted complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_gatherInformation"
+    },
+    {
+        id: 206,
+        name: "Kacha's Kidnapping",
+        giver: "Bokoko",
+        area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
+        prerequisites: "Satorl Marsh area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_kachasKidnapping"
+    },
+    {
+        id: 207,
+        name: "The Giants' Key",
+        giver: "Kacha",
+        area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
+        prerequisites: "Satorl Marsh area reached | Kacha's Kidnapping complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_giantsKey"
+    },
+    {
+        id: 208,
+        name: "The Giants' Treasure",
+        giver: "Kacha",
+        area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
+        prerequisites: "Satorl Marsh area reached | The Giants' Key complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_giantsTreasure"
+    },
+    {
+        id: 209,
+        name: "Making Camp",
+        giver: "Bokoko",
+        area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
+        prerequisites: "Satorl Marsh area reached | Kacha's Kidnapping complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_makingCamp"
+    },
+    {
+        id: 210,
+        name: "Monster Quest 1",
+        giver: "A Nopon Merchant",
+        area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
+        prerequisites: "Satorl Marsh area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_satorlMarshMonsterQuest1"
+    },
+    {
+        id: 211,
+        name: "Monster Quest 2",
+        giver: "A Nopon Merchant",
+        area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
+        prerequisites: "Satorl Marsh area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_satorlMarshMonsterQuest2"
+    },
+    {
+        id: 212,
+        name: "Monster Quest 3",
+        giver: "A Nopon Merchant",
+        area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
+        prerequisites: "Satorl Marsh area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_satorlMarshMonsterQuest3"
+    },
+    {
+        id: 213,
+        name: "Monster Quest 4",
+        giver: "A Nopon Merchant",
+        area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
+        prerequisites: "Satorl Marsh area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_satorlMarshMonsterQuest4"
+    },
+    {
+        id: 214,
+        name: "Challenge",
+        giver: "High Entia Refugee",
+        area: "Satorl Marsh (Sororal Statues) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_satorlMarshChallenge"
+    },
+    {
+        id: 215,
+        name: "For a Friend",
+        giver: "Rozeal",
+        area: "Satorl Marsh (Sororal Statues) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_forAFriend"
+    },
+    {
+        id: 216,
+        name: "A Merciful End",
+        giver: "Rozeal",
+        area: "Satorl Marsh (Sororal Statues) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | For a Friend complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mercifulEnd"
+    },
+    {
+        id: 217,
+        name: "A Release from Duty",
+        giver: "Rozeal",
+        area: "Satorl Marsh (Sororal Statues) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | A Merciful End complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_releaseFromDuty"
+    },
+    {
+        id: 218,
+        name: "The Imperial Ceremony",
+        giver: "Scarlen",
+        area: "Satorl Marsh (Oath Sanctuary) Anytime",
+        prerequisites: "Mechonis Core cleared",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_imperialCeremony"
+    },
+    {
+        id: 219,
+        name: "Imperial Ceremony Offerings",
+        giver: "Scarlen",
+        area: "Satorl Marsh (Oath Sanctuary) Anytime",
+        prerequisites: "Mechonis Core cleared | The Imperial Ceremony accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_imperialCeremonyOfferings"
+    },
+    {
+        id: 220,
+        name: "The Ancient Ceremony",
+        giver: "Nopon Merchant (Story Quest)",
+        area: "Satorl Marsh (Sororal Statues) Anytime",
+        prerequisites: "Sororal Statues reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_ancientCeremony"
+    },
+    {
+        id: 221,
+        name: "Ancient Ceremony Offerings",
+        giver: "Nopon Merchant (Story Quest)",
+        area: "Satorl Marsh (Sororal Statues) Anytime",
+        prerequisites: "Sororal Statues reached | The Ancient Ceremony accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_ancientCeremonyOfferings"
+    },
+    {
+        id: 222,
+        name: "Legend of the Sage",
+        giver: "Nopon Sage",
+        area: "Makna Forest (Divine Sanctuary) 12:00 - 15:00",
+        prerequisites: "Eryth Sea reached | Meeting the Nopon Sage complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_legendOfTheSage"
+    },
+    {
+        id: 223,
+        name: "Challenge of the Sage",
+        giver: "Nopon Sage",
+        area: "Makna Forest (Divine Sanctuary) 12:00 - 15:00",
+        prerequisites: "Eryth Sea reached | Legend of the Sage complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_challengeOfTheSea"
+    },
+    {
+        id: 224,
+        name: "Final Challenge of the Sage",
+        giver: "Nopon Sage",
+        area: "Makna Forest (Divine Sanctuary) 12:00 - 15:00",
+        prerequisites: "Mechonis Core cleared | Challenge of the Sage complete | Central Bionis ☆3½ | Riki in the lead",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_finalChallengeOfTheSea"
+    },
+    {
+        id: 225,
+        name: "Bridge Repair",
+        giver: "Nopon Researcher",
+        area: "Makna Forest (Pod Landing Site) Anytime",
+        prerequisites: "Access to Pod Landing Site in order to reach Valak Mountain",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_bridgeRepair"
+    },
+    {
+        id: 226,
+        name: "Monster Quest 1",
+        giver: "A Nopon Merchant",
+        area: "Makna Forest (Agni Tablet) Anytime",
+        prerequisites: "Makna Forest area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_maknaForestMonsterQuest1"
+    },
+    {
+        id: 227,
+        name: "Monster Quest 2",
+        giver: "A Nopon Merchant",
+        area: "Makna Forest (Agni Tablet) Anytime",
+        prerequisites: "Makna Forest area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_maknaForestMonsterQuest2"
+    },
+    {
+        id: 228,
+        name: "Monster Quest 3",
+        giver: "A Nopon Merchant",
+        area: "Makna Forest (Agni Tablet) Anytime",
+        prerequisites: "Makna Forest area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_maknaForestMonsterQuest3"
+    },
+    {
+        id: 229,
+        name: "Monster Quest 4",
+        giver: "A Nopon Merchant",
+        area: "Makna Forest (Agni Tablet) Anytime",
+        prerequisites: "Makna Forest area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_maknaForestMonsterQuest4"
+    },
+    {
+        id: 230,
+        name: "Challenge",
+        giver: "A Nopon Merchant",
+        area: "Makna Forest (Agni Tablet) Anytime",
+        prerequisites: "Frontier Village reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_maknaForestChallenge"
+    },
+    {
+        id: 231,
+        name: "Mystery Girl Rescue ",
+        giver: "Story Quest",
+        area: "Makna Forest (Contaminated Area) Automatic",
+        prerequisites: "Makna Forest area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mysteryGirlRescue"
+    },
+    {
+        id: 232,
+        name: "Leku's Food Crisis",
+        giver: "Leku",
+        area: "Frontier Village (Archaeology Level) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached | Kilaki registered on the Central Bionis Affinity Chart",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_lekusFoodCrisis"
+    },
+    {
+        id: 233,
+        name: "Hunt for a Patron",
+        giver: "Leku",
+        area: "Frontier Village (Archaeology Level) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached | Leku's Food Crisis complete | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_huntForAPatron"
+    },
+    {
+        id: 234,
+        name: "Heropon's Spirit",
+        giver: "Kilaki",
+        area: "Frontier Village (Archaeology Level) 06:00 - 15:00",
+        prerequisites: "Frontier Village area reached | Hunt for a Patron complete | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_heroponsSpirit"
+    },
+    {
+        id: 235,
+        name: "Beat Kilaki to it!",
+        giver: "Leku",
+        area: "Frontier Village (Archaeology Level) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached | Heropon's Spirit complete | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_beatKilakiToIt"
+    },
+    {
+        id: 236,
+        name: "Lousy Lizards",
+        giver: "Modamo",
+        area: "Frontier Village (Archaeology Level) 18:00 - 06:00",
+        prerequisites: "Riki joined the party | Beat Kilaki to it! complete | Central Bionis ☆2½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_lousyLizards"
+    },
+    {
+        id: 237,
+        name: "Popularity Premonition",
+        giver: "Leku",
+        area: "Frontier Village (Archaeology Level) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached | Beat Kilaki to it! complete | Central Bionis ☆2½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_popularityPremonition"
+    },
+    {
+        id: 238,
+        name: "Making a Mixer",
+        giver: "Rono",
+        area: "Frontier Village (Pollen Works) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached | Pepa registered on the Central Bionis Affinity Chart | Shulk in the lead.",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_makingMixer"
+    },
+    {
+        id: 239,
+        name: "Materials for a Mixer",
+        giver: "Rono",
+        area: "Frontier Village (Pollen Works) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached | Making a Mixer accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_materialsMixer"
+    },
+    {
+        id: 240,
+        name: "Decoration Makeover",
+        giver: "Pepa",
+        area: "Frontier Village (Chief's Residence) 06:00 - 15:00",
+        prerequisites: "Riki joined the party",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_decorationMakeover"
+    },
+    {
+        id: 241,
+        name: "Hunt for Bug-Loving Friend",
+        giver: "Kokora",
+        area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached | Deki registered on the Central Bionis Affinity Chart",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_huntBugLovingFriend"
+    },
+    {
+        id: 242,
+        name: "A Worried Bug-Lover",
+        giver: "Deki",
+        area: "Frontier Village (Nopon Tower) 09:00 - 18:00",
+        prerequisites: "Frontier Village area reached | Hunt for Bug-Loving Friend complete | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_worriedBugLover"
+    },
+    {
+        id: 243,
+        name: "A Tormented Bug-Lover",
+        giver: "Deki",
+        area: "Frontier Village (Nopon Tower) 09:00 - 18:00",
+        prerequisites: "Eryth Sea reached | A Worried Bug-Lover complete | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_tormentedBugLover"
+    },
+    {
+        id: 244,
+        name: "Mushy Mushrooms",
+        giver: "Kofuko",
+        area: "Frontier Village (Central Plaza) 21:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mushyMushrooms"
+    },
+    {
+        id: 245,
+        name: "Medical Advancements",
+        giver: "Medi",
+        area: "Frontier Village (Kyn Shopping Street) 21:00 - 03:00",
+        prerequisites: "Access to Valak Mountain | Yusa registered on the Affinity Chart | Mushy Mushrooms complete | Let's Make Fillings! not completed | Central Bionis ☆2",
+        timed: "Yes",
+        exclusive: "Yes",
+        uid: "q_medicalAdvancements"
+    },
+    {
+        id: 246,
+        name: "Let's Make Fillings!",
+        giver: "Yusa",
+        area: "Frontier Village (Underground Store) 06:00 - 15:00",
+        prerequisites: "Access to Valak Mountain | Medi registered on the Affinity Chart | Mushy Mushrooms complete | Medical Advancements not completed | Central Bionis ☆2",
+        timed: "Yes",
+        exclusive: "Yes",
+        uid: "q_makeFillings"
+    },
+    {
+        id: 247,
+        name: "World's Strongest Flavour",
+        giver: "Kofuko",
+        area: "Frontier Village (Central Plaza) 21:00 - 06:00",
+        prerequisites: "Access to Valak Mountain | Medical Advancements | Central Bionis ☆4",
+        timed: "No",
+        exclusive: "Yes",
+        uid: "q_worldsStrongest Flavour"
+    },
+    {
+        id: 248,
+        name: "Reversed Tastes",
+        giver: "Kofuko",
+        area: "Frontier Village (Central Plaza) 21:00 - 06:00",
+        prerequisites: "Access to Valak Mountain | Let's Make Fillings! complete | Central Bionis ☆4",
+        timed: "No",
+        exclusive: "Yes",
+        uid: "q_reversedTastes"
+    },
+    {
+        id: 249,
+        name: "Sweet Seduction",
+        giver: "Migaga",
+        area: "Frontier Village (Sacred Altar) 06:00 - 18:00",
+        prerequisites: "Riki joined the party | Kofuko registered on the Affinity Chart | Fixing Time Mushrooms complete | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_sweetSeduction"
+    },
+    {
+        id: 250,
+        name: "Ingredients For A Brew",
+        giver: "Kofuko",
+        area: "Frontier Village (Central Plaza) 21:00 - 06:00",
+        prerequisites: "Riki joined the party | Sweet Seduction accepted | Fixing Time Mushrooms complete | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_ingredientsForBrew"
+    },
+    {
+        id: 251,
+        name: "Healing the Healer",
+        giver: "Npa",
+        area: "Frontier Village (Underground Store) 06:00 - 18:00",
+        prerequisites: "Access to Valak Mountain | Medical Advancements or Let's Make Fillings! complete | Central Bionis ☆3",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_healingHealer"
+    },
+    {
+        id: 252,
+        name: "Legendary Nopon Charm",
+        giver: "Npa",
+        area: "Frontier Village (Sacred Altar) Automatic",
+        prerequisites: "Access to Valak Mountain | Medical Advancements or Let's Make Fillings! complete | Healing the Healer accepted | Central Bionis ☆3",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_legendaryNoponCharm"
+    },
+    {
+        id: 253,
+        name: "Mislabelling Problem",
+        giver: "Medi",
+        area: "Frontier Village (Kyn Shopping Street) 21:00 - 03:00",
+        prerequisites: "Access to Valak Mountain | Healing the Healer complete | Central Bionis ☆3",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_"
+    },
+    {
+        id: 254,
+        name: "Getting Bigger!",
+        giver: "Dabidabi",
+        area: "Frontier Village (Chief's Residence) 18:00 - 03:00",
+        prerequisites: "Access to Valak Mountain | Mislabelling Problem complete | Adidi registered on the Affinity Chart | Central Bionis ☆3½ | Riki in the lead",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_gettingBigger"
+    },
+    {
+        id: 255,
+        name: "Who is Bigger?",
+        giver: "Dabidabi",
+        area: "Frontier Village (Mysterious Sanctuary) 18:00 - 03:00",
+        prerequisites: "Access to Valak Mountain | Getting Bigger! accepted | Central Bionis ☆3½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_whoIsBigger"
+    },
+    {
+        id: 256,
+        name: "Strange Noises from Below",
+        giver: "Pipiki",
+        area: "Frontier Village (Central Plaza) 06:00 - 18:00",
+        prerequisites: "Riki joined the party | An Errand for the Heropon complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_strangeNoisesFromBelow"
+    },
+    {
+        id: 257,
+        name: "Musical Genius",
+        giver: "Tati",
+        area: "Frontier Village (Nopon Kitchen) 18:00 - 06:00",
+        prerequisites: "Riki joined the party | Strange Noises from Below complete | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_musicalGenius"
+    },
+    {
+        id: 258,
+        name: "Things that Hum",
+        giver: "Tati",
+        area: "Frontier Village (Nopon Kitchen) 18:00 - 06:00",
+        prerequisites: "Riki joined the party | Strange Noises from Below complete | Musical Genius accepted | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_thingsThatHum"
+    },
+    {
+        id: 259,
+        name: "Things that Rumble",
+        giver: "Tati",
+        area: "Frontier Village (Nopon Kitchen) 18:00 - 06:00",
+        prerequisites: "Riki joined the party | Strange Noises from Below complete | Musical Genius accepted | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_thingsThatRumble"
+    },
+    {
+        id: 260,
+        name: "Disinsectization",
+        giver: "Rasha",
+        area: "Frontier Village (Sacred Altar) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached | Cherri registered on the Affinity Chart | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_disinsectization"
+    },
+    {
+        id: 261,
+        name: "Avenge a Mamapon's Death",
+        giver: "Rasha",
+        area: "Frontier Village (Central Plaza) 06:00 - 18:00",
+        prerequisites: "Eryth Sea reached | Disinsectization complete | Secret Innovation complete | Central Bionis ☆4 | Sharla in the lead",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_avengeMamaponsDeath"
+    },
+    {
+        id: 262,
+        name: "Dadapon in Trouble",
+        giver: "Pachipa",
+        area: "Frontier Village (Archaeology Centre) 09:00 - 15:00",
+        prerequisites: "Frontier Village area reached | Pachipa and Gerugu affinity link: Orange | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_dadaponInTrouble"
+    },
+    {
+        id: 263,
+        name: "It Definitely Exist!",
+        giver: "Pachipa",
+        area: "Frontier Village (Archaeology Centre) 09:00 - 15:00",
+        prerequisites: "Frontier Village area reached | Pipiki and Pachipa affinity link:Yellow | Kuriku registered on the Affinity Chart | Dadapon in Trouble complete | Central Bionis ☆2½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_itDefinitelyExist"
+    },
+    {
+        id: 264,
+        name: "Even in the Chief's Absence",
+        giver: "Miko",
+        area: "Frontier Village (Prophecy Hut) 06:00 - 03:00",
+        prerequisites: "Met Miqol in the Hidden Machina Village | Lalapa and Miko affinity link: yellow",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_evenInTheChiefsAbsence"
+    },
+    {
+        id: 265,
+        name: "Bored Pelupelu",
+        giver: "Pelupelu",
+        area: "Frontier Village (Prophecy Hut) 06:00 - 03:00",
+        prerequisites: "Met Miqol in Hidden Machina Village | Even In the Chief's Absence complete | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_boredPelupelu"
+    },
+    {
+        id: 266,
+        name: "A Gift for Miko",
+        giver: "Pelupelu",
+        area: "Frontier Village (Prophecy Hut) 06:00 - 03:00",
+        prerequisites: "Met Miqol in Hidden Machina Village | Bored Pelupelu complete | Central Bionis ☆3",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_giftForMiko"
+    },
+    {
+        id: 267,
+        name: "Giant Attack!",
+        giver: "Lalapa",
+        area: "Frontier Village (Chief's Residence) 06:00 - 18:00",
+        prerequisites: "Access to Valak Mountain | Bridge Repair complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_giantAttack"
+    },
+    {
+        id: 268,
+        name: "Kind Lupa's Grampypon",
+        giver: "Lupa",
+        area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
+        prerequisites: "Frontier Village area reached | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_kindLupasGrampypon"
+    },
+    {
+        id: 269,
+        name: "Secret Elixer Ingredients",
+        giver: "Lupa",
+        area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
+        prerequisites: "Frontier Village area reached | Kind Lupa's Grampypon accepted | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_secretElixerIngredients"
+    },
+    {
+        id: 270,
+        name: "Mystery of Makna Ruins 1",
+        giver: "Lupa",
+        area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
+        prerequisites: "Access to Pod Landing Site | Kind Lupa's Grampypon complete | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mysteryOfMaknaRuins1"
+    },
+    {
+        id: 271,
+        name: "Mystery of Makna Ruins 2",
+        giver: "Lupa",
+        area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
+        prerequisites: "Access to Pod Landing Site | Mystery of Makna Ruins 1 complete | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mysteryOfMaknaRuins2"
+    },
+    {
+        id: 272,
+        name: "Mystery of Makna Ruins 3",
+        giver: "Lupa",
+        area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
+        prerequisites: "Access to Pod Landing Site | Mystery of Makna Ruins 2 complete | Central Bionis ☆3",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mysteryOfMaknaRuins3"
+    },
+    {
+        id: 273,
+        name: "Mystery of Makna Ruins 4",
+        giver: "Lupa",
+        area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
+        prerequisites: "Access to Pod Landing Site | Mystery of Makna Ruins 3 complete | Central Bionis ☆3",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mysteryOfMaknaRuins4"
+    },
+    {
+        id: 274,
+        name: "Honouring the Nopon Sage",
+        giver: "Pipiki",
+        area: "Frontier Village (Central Plaza) 06:00 - 18:00",
+        prerequisites: "Eryth Sea reached | Strange Noises from Below complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_honouringTheNoponSage"
+    },
+    {
+        id: 275,
+        name: "Meeting the Nopon Sage",
+        giver: "Pipiki",
+        area: "Frontier Village (Central Plaza) 06:00 - 18:00",
+        prerequisites: "Eryth Sea reached | Honouring the Nopon Sage complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_meetingTheNoponSage"
+    },
+    {
+        id: 276,
+        name: "Fixing Time Mushrooms",
+        giver: "Migaga",
+        area: "Frontier Village (Sacred Altar) 06:00 - 18:00",
+        prerequisites: "An Errand for the Heropon story quest accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_fixingTimeMushrooms"
+    },
+    {
+        id: 277,
+        name: "Restoring the Capital",
+        giver: "Nelo",
+        area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
+        prerequisites: "Mechonis Core cleared",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_restoringCapital"
+    },
+    {
+        id: 278,
+        name: "Restoring the Capital 2",
+        giver: "Nelo",
+        area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
+        prerequisites: "Mechonis Core cleared | Restoring the Capital complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_restoringCapital2"
+    },
+    {
+        id: 279,
+        name: "Broken Ether Furnace",
+        giver: "Kaleka",
+        area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
+        prerequisites: "Mechonis Core cleared | Restoring the Capital and Vidian Rescue Mission in Alcamoth triggered",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_brokenEtherFurnace"
+    },
+    {
+        id: 280,
+        name: "Broken Ether Furnace 2",
+        giver: "Kaleka",
+        area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
+        prerequisites: "Mechonis Core cleared | Broken Ether Furnace complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_brokenEtherFurnace2"
+    },
+    {
+        id: 281,
+        name: "A Memento of Daddy",
+        giver: "Atael",
+        area: "Frontier Village (Reservoir) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | Cian registered on the Central Bionis Affinity Chart",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mementoOfDaddy"
+    },
+    {
+        id: 282,
+        name: "Pollen Orb Ingredients",
+        giver: "Dobadoba",
+        area: "Frontier Village (Pollen Orb Storehouse) 03:00 - 21:00",
+        prerequisites: "Frontier Village area reached | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_pollenOrbIngredients"
+    },
+    {
+        id: 283,
+        name: "Secret Ingredient Hunt",
+        giver: "Bana",
+        area: "Frontier Village (Central Plaza) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached | Pollen Orb Ingredients complete | Gadada registered on the Affinity Chart then spoken to | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_secretIngredientHunt"
+    },
+    {
+        id: 284,
+        name: "Secret Innovation",
+        giver: "Rasha",
+        area: "Frontier Village (Central Plaza) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached | Pollen Orb Ingredients complete | Cherri registered on the Affinity Chart then spoken to | Central Bionis ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_secretInnovation"
+    },
+    {
+        id: 285,
+        name: "The Master's Successor",
+        giver: "Dobadoba",
+        area: "Frontier Village (Pollen Orb Storehouse) 03:00 - 21:00",
+        prerequisites: "Frontier Village area reached | Secret Ingredient Hunt complete | Secret Innovation complete | Central Bionis ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mastersSuccessor"
+    },
+    {
+        id: 286,
+        name: "Dangerous Ambition",
+        giver: "Cherri",
+        area: "Frontier Village (Pollen Orb Storehouse) 06:00 - 18:00",
+        prerequisites: "Alcamoth reached | The Master's Successor complete | Central Bionis ☆2½",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_dangerousAmibition"
+    },
+    {
+        id: 287,
+        name: "Find the Kingpin",
+        giver: "Gadada",
+        area: "Frontier Village (Pollen Works) 06:00 - 18:00",
+        prerequisites: "Alcamoth reached | Dangerous Ambition complete | Central Bionis ☆2½",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_findKingpin"
+    },
+    {
+        id: 288,
+        name: "Adviser Hunt",
+        giver: "Gadada",
+        area: "Frontier Village (Pollen Works) 06:00 - 18:00",
+        prerequisites: "Alcamoth reached | Find the Kingpin complete | A Gift? complete | Central Bionis ☆2½",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_adviserHunt"
+    },
+    {
+        id: 289,
+        name: "Evidence Collection",
+        giver: "Gadada",
+        area: "Frontier Village (Pollen Works) 06:00 - 18:00",
+        prerequisites: "Alcamoth reached | Adviser Hunt complete | Central Bionis ☆2½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_evidenceCollection"
+    },
+    {
+        id: 290,
+        name: "Destroying the City Trade",
+        giver: "Gadada",
+        area: "Frontier Village (Pollen Works) 06:00 - 18:00",
+        prerequisites: "Alcamoth reached | Evidence Collection complete | Central Bionis ☆2½",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_destroyingCityTrades"
+    },
+    {
+        id: 291,
+        name: "Bana the Betrayer",
+        giver: "Gadada",
+        area: "Frontier Village (Pollen Works) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | Destroying the City Trade complete | Central Bionis ☆2½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_banaBetrayer"
+    },
+    {
+        id: 292,
+        name: "Presents for Priceless Pupils",
+        giver: "Dobadoba",
+        area: "Frontier VIllage (Pollen Orb Storehouse) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | Safer Energy or Distilling Active Ingredients complete | Central Bionis ☆4½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_presentsPricelessPupils"
+    },
+    {
+        id: 293,
+        name: "Safer Energy",
+        giver: "Gadada",
+        area: "Frontier Village (Pollen Works) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | The Master's Successor completed with A route | Bana the Betrayer complete | Central Bionis ☆2½",
+        timed: "No",
+        exclusive: "Yes",
+        uid: "q_saferEnergy"
+    },
+    {
+        id: 294,
+        name: "Distilling Active Ingredients",
+        giver: "Cherri",
+        area: "Frontier VIllage (Pollen Orb Storehouse) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | The Master's Successor completed with B route | Bana the Betrayer complete | Central Bionis ☆2½",
+        timed: "No",
+        exclusive: "Yes",
+        uid: "q_distillingActiveIngredients"
+    },
+    {
+        id: 295,
+        name: "Monster Quest 1 - Part 1",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMonsterQuest1Part1"
+    },
+    {
+        id: 296,
+        name: "Monster Quest 1 - Part 2",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMonsterQuest1Part2"
+    },
+    {
+        id: 297,
+        name: "Monster Quest 1 - Part 3",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMonsterQuest1Part3"
+    },
+    {
+        id: 298,
+        name: "Monster Quest 2 - Part 1",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMonsterQuest2Part1"
+    },
+    {
+        id: 299,
+        name: "Monster Quest 2 - Part 2",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMonsterQuest2Part2"
+    },
+    {
+        id: 300,
+        name: "Monster Quest 2 - Part 3",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMonsterQuest2Part3"
+    },
+    {
+        id: 301,
+        name: "Challenge 1",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Reservoir) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageChallenge1"
+    },
+    {
+        id: 302,
+        name: "Challenge 2",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Kyn Shopping Street) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageChallenge2"
+    },
+    {
+        id: 303,
+        name: "Challenge 3",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Archaeology Centre) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageChallenge3"
+    },
+    {
+        id: 304,
+        name: "Material Quest 1",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMaterialQuest1"
+    },
+    {
+        id: 305,
+        name: "Material Quest 2",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Sacred Altar) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMaterialQuest2"
+    },
+    {
+        id: 306,
+        name: "Material Quest 3",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Archaeology Centre) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMaterialQuest3"
+    },
+    {
+        id: 307,
+        name: "Material Quest 4",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Prophecy Hut) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageMaterialQuest4"
+    },
+    {
+        id: 308,
+        name: "Collection Quest 1",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Kyn Shopping Street) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageCollectionQuest1"
+    },
+    {
+        id: 309,
+        name: "Collection Quest 2",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageCollectionQuest2"
+    },
+    {
+        id: 310,
+        name: "Collection Quest 3",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Chief's Residence) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageCollectionQuest3"
+    },
+    {
+        id: 311,
+        name: "Collection Quest 4",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Apex Lake) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageCollectionQuest4"
+    },
+    {
+        id: 312,
+        name: "Search Quest 1",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Middle Housing Level) 06:00 - 18:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageSearchQuest1"
+    },
+    {
+        id: 313,
+        name: "Search Quest 2",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Archaeology Level) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageSearchQuest2"
+    },
+    {
+        id: 314,
+        name: "Search Quest 3",
+        giver: "Nopon Villager",
+        area: "Frontier Village (Underground Store) 18:00 - 06:00",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_frontierVillageSearchQuest3"
+    },
+    {
+        id: 315,
+        name: "An Errand for the Heropon",
+        giver: "Story Quest",
+        area: "Frontier Village Automatic",
+        prerequisites: "Frontier Village area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_errandForTheHeropon"
+    },
 ]
+/*
+{
+    id: 3,
+    name: "",
+    giver: "",
+    area: "",
+    prerequisites: "",
+    timed: "No",
+    exclusive: "No",
+    uid: "q_"
+},
+*/
