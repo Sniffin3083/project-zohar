@@ -3162,16 +3162,1654 @@ export default [
         exclusive: "No",
         uid: "q_errandForTheHeropon"
     },
+    {
+        id: 316,
+        name: "Trouble at the Plant",
+        giver: "Jarack",
+        area: "Eryth Sea (Ether Plant) Anytime",
+        prerequisites: "Eryth Sea area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_troubleAtPlant"
+    },
+    {
+        id: 317,
+        name: "Punish the Hodes",
+        giver: "Jarack",
+        area: "Eryth Sea (Ether Plant) Anytime",
+        prerequisites: "Eryth Sea area reached | Trouble at the Plant accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_punishHodes"
+    },
+    {
+        id: 318,
+        name: "Mend the Plant",
+        giver: "Jarack",
+        area: "Eryth Sea (Ether Plant) Anytime",
+        prerequisites: "Eryth Sea area reached | Trouble at the Plant accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mendPlant"
+    },
+    {
+        id: 319,
+        name: "Hode Attack",
+        giver: "Jarack",
+        area: "Eryth Sea (Ether Plant) Anytime",
+        prerequisites: "Eryth Sea area reached | Trouble at the Plant complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_hodeAttack"
+    },
+    {
+        id: 320,
+        name: "Trouble at the Lighthouse",
+        giver: "Shalen",
+        area: "Eryth Sea (Syrath Lighthouse) Anytime",
+        prerequisites: "Eryth Sea area reached | Hode Attack complete | Melia in the lead",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_troubleAtLighthouse"
+    },
+    {
+        id: 321,
+        name: "Investigating Satorl",
+        giver: "Miriall",
+        area: "Eryth Sea (Ether Plant) 18:00 - 06:00",
+        prerequisites: "Mechonis Core cleared | Talia's Research not completed | The Missing Boy accepted",
+        timed: "No",
+        exclusive: "Yes",
+        uid: "q_investigatingSatorl"
+    },
+    {
+        id: 322,
+        name: "Ancient High Entia Mystery",
+        giver: "Talia",
+        area: "Eryth Sea (Ether Plant) 18:00 - 06:00",
+        prerequisites: "Mechonis Core cleared | Talia's Research or Investigating Satorl complete | Upper Bionis ☆2½ | Melia in the lead",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_ancientHighEntiaMystery"
+    },
+    {
+        id: 323,
+        name: "The Missing Boy",
+        giver: "Miriall",
+        area: "Eryth Sea (Ether Plant) 18:00 - 06:00",
+        prerequisites: "Mechonis Core cleared",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_missingBoy"
+    },
+    {
+        id: 324,
+        name: "The Only Thing I Can Do",
+        giver: "Vidian",
+        area: "Eryth Sea (Ether Plant) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | Vidian Rescue Mission complete | Believing Again not completed | Upper Bionis ☆1½",
+        timed: "No",
+        exclusive: "Yes",
+        uid: "q_theOnlyThingICanDo"
+    },
+    {
+        id: 325,
+        name: "I Will Never Forget You",
+        giver: "Vidian",
+        area: "Eryth Sea (Ether Plant) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | Vidian Rescue Mission complete | Believing Again complete | Upper Bionis ☆1½",
+        timed: "No",
+        exclusive: "Yes",
+        uid: "q_iWillNeverForgetYou"
+    },
+    {
+        id: 326,
+        name: "Secret Research",
+        giver: "Teelan",
+        area: "Eryth Sea (Ether Plant) 06:00 - 18:00",
+        prerequisites: "Mechonis Core cleared | The Missing Boy complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_secretResearch"
+    },
+    {
+        id: 327,
+        name: "Monster Quest 1",
+        giver: "Lighthouse Keeper",
+        area: "Eryth Sea (Syrath Lighthouse) Anytime",
+        prerequisites: "Eryth Sea area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_erythSeaMonsterQuest1"
+    },
+    {
+        id: 328,
+        name: "Monster Quest 2",
+        giver: "Lighthouse Keeper",
+        area: "Eryth Sea (Syrath Lighthouse) Anytime",
+        prerequisites: "Eryth Sea area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_erythSeaMonsterQuest2"
+    },
+    {
+        id: 329,
+        name: "Challenge",
+        giver: "Lighthouse Keeper",
+        area: "Eryth Sea (Syrath Lighthouse) Anytime",
+        prerequisites: "Eryth Sea area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_erythSeaChallenge"
+    },
+    {
+        id: 330,
+        name: "Collection Quest 1",
+        giver: "Alcamoth Citizen",
+        area: "Eryth Sea (Syrath Lighthouse) Anytime",
+        prerequisites: "Eryth Sea area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_erythSeaCollectionQuest1"
+    },
+    {
+        id: 331,
+        name: "Collection Quest 2",
+        giver: "Alcamoth Citizen",
+        area: "Eryth Sea (Syrath Lighthouse) Anytime",
+        prerequisites: "Eryth Sea area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_erythSeaCollectionQuest2"
+    },
+    {
+        id: 332,
+        name: "Save the Worker",
+        giver: "Story Quest",
+        area: "Alcamoth (Whitewing Palace) Automatic",
+        prerequisites: "Alcamoth reached.",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_saveWorker"
+    },
+    {
+        id: 333,
+        name: "Path to Prison Island",
+        giver: "Story Quest",
+        area: "Eryth Sea Automatic",
+        prerequisites: "In the course to Prison Island",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_pathToPrisonIsland"
+    },
+    {
+        id: 334,
+        name: "Sister Seals",
+        giver: "Story Quest",
+        area: "Eryth Sea Automatic",
+        prerequisites: "In the course to Prison Island | Path to Prison Island accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_sisterSeals"
+    },
+    {
+        id: 335,
+        name: "The Deciphering Machine",
+        giver: "Ruthan",
+        area: "Alcamoth (Imperial Palance) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_decipheringMachine"
+    },
+    {
+        id: 336,
+        name: "A Necessary Upgrade",
+        giver: "Naroth",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "In the course to the High Entia Tomb | The Deciphering Machine complete | Upper Bionis ☆1¼",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_necessaryUpgrade"
+    },
+    {
+        id: 337,
+        name: "Talia's Research",
+        giver: "Talia",
+        area: "Alcamoth (Imperial Palace) 18:00 - 06:00",
+        prerequisites: "In the course to the High Entia Tomb | A Necessary Upgrade complete | Upper Bionis ☆2",
+        timed: "Yes",
+        exclusive: "Yes",
+        uid: "q_taliasResearch"
+    },
+    {
+        id: 338,
+        name: "Bring Back My Son!",
+        giver: "Merisa",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached | Mir'leiz registered on the Affinity Chart",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_bringBackMySon"
+    },
+    {
+        id: 339,
+        name: "Teaching Materials",
+        giver: "Mir'leiz",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached | Bring Back My Son! complete",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_teachingMaterials"
+    },
+    {
+        id: 340,
+        name: "Brave Actions",
+        giver: "Mir'leiz",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached | A Friend in Need complete | Teaching Materials complete | Upper Bionis ☆1½",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_braveActions"
+    },
+    {
+        id: 341,
+        name: "Protect the Capital!",
+        giver: "Lecrough",
+        area: "Alcamoth (Great Hall) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached | Brave Actions accepted",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_protectTheCapital"
+    },
+    {
+        id: 342,
+        name: "How Do They Feel?",
+        giver: "Scarlen",
+        area: "Alcamoth (Main Entrance) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_howDoTheyFeel"
+    },
+    {
+        id: 343,
+        name: "How Do I Feel?",
+        giver: "Scarlen",
+        area: "Alcamoth (Main Entrance) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached | How Do They Feel? complete",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_howDoIFeel"
+    },
+    {
+        id: 344,
+        name: "I Love You No Matter What",
+        giver: "Scarlen",
+        area: "Alcamoth (Main Entrance) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached | How Do I Feel? A route completed",
+        timed: "Yes",
+        exclusive: "Yes",
+        uid: "q_iLoveYouNoMatterWhat"
+    },
+    {
+        id: 345,
+        name: "Together Forever",
+        giver: "Scarlen",
+        area: "Alcamoth (Main Entrance) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached | How Do I Feel? B route completed",
+        timed: "Yes",
+        exclusive: "Yes",
+        uid: "q_togetherForever"
+    },
+    {
+        id: 346,
+        name: "A Friend in Need",
+        giver: "Lecrough",
+        area: "Alcamoth (Great Hall) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached | Galvin registered on the Affinity Chart and spoken to",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_friendInNeed"
+    },
+    {
+        id: 347,
+        name: "Preparing for Adventure",
+        giver: "Zain",
+        area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached Kurralth registered on the Affinity Chart and spoken to",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_preparingForAdventure"
+    },
+    {
+        id: 348,
+        name: "Preparing for Adventure 2",
+        giver: "Zain",
+        area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached | Preparing for Adventure complete | Upper Bionis ☆1¼",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_preparingForAdventure2"
+    },
+    {
+        id: 349,
+        name: "Preparing for Adventure 3",
+        giver: "Zain",
+        area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached | Preparing for Adventure 2 complete | Upper Bionis ☆1½",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_preparingForAdventure3"
+    },
+    {
+        id: 350,
+        name: "Adventureres in Peril",
+        giver: "Miriall",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Valak Mountain reached | Preparing for Adventure 3 complete | Upper Bionis ☆2½",
+        timed: "Yes",
+        exclusive: "Yes",
+        uid: "q_adventuresInPeril"
+    },
+    {
+        id: 351,
+        name: "Building Bridges",
+        giver: "Arielle",
+        area: "Alcamoth (Fountain of Eternity) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached | Vidian registered on the Affinity Chart",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_buildingBridges"
+    },
+    {
+        id: 352,
+        name: "Believing Again",
+        giver: "Vidian",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Valak Mountain reached | Building Bridges complete | Upper Bionis ☆1½",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_believingAgain"
+    },
+    {
+        id: 352,
+        name: "Starlight Seeker",
+        giver: "Elior",
+        area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached | Preparing for Adventure 3 complete | Miriall registered on the Affinity Chart | Upper Bionis ☆1½",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_starlightSeeker"
+    },
+    {
+        id: 353,
+        name: "Starlight Gazer",
+        giver: "Elior",
+        area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
+        prerequisites: "In the course to the High Entia Tomb | Starlight Seeker complete | Upper Bionis ☆2½",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_starlightGazer"
+    },
+    {
+        id: 354,
+        name: "Back Pain",
+        giver: "Galdo",
+        area: "Alcamoth (Great Hall) 18:00 - 06:00",
+        prerequisites: "Whitewing Palace reached | Lar'shen registered on the Affinity Chart and spoken to",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_backPain"
+    },
+    {
+        id: 355,
+        name: "Looking for Gold Bugs",
+        giver: "Teelan",
+        area: "Alcamoth (Imperial Palace) 06:00 - 15:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_lookingForGoldBugs"
+    },
+    {
+        id: 356,
+        name: "Losing the Taste for Alcohol",
+        giver: "Nelo",
+        area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_losingTheTasteForAlcohol"
+    },
+    {
+        id: 357,
+        name: "Looking for a Lost Son",
+        giver: "Vol'aren",
+        area: "Alcamoth (Fountain of Hope) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_lookingForALostSon"
+    },
+    {
+        id: 358,
+        name: "Looking for a Lost Daughter",
+        giver: "Vol'aren",
+        area: "Alcamoth (Fountain of Hope) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached | Looking for a Lost Son complete",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_lookingForALostDaughter"
+    },
+    {
+        id: 359,
+        name: "Going Out to Play",
+        giver: "Popipo",
+        area: "Alcamoth (Main Entrance) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_goingOutToPlay"
+    },
+    {
+        id: 360,
+        name: "Getting a Member's Card",
+        giver: "Surprise Quest",
+        area: "Automatic",
+        prerequisites: "Alcamoth area reached | Destroying the City Trade accepted",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_gettingAMembersCard"
+    },
+    {
+        id: 361,
+        name: "Vidian Rescue Mission",
+        giver: "Surprise Quest",
+        area: "Automatic",
+        prerequisites: "Mechonis Core cleared | Restoring the Capital objective completed",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_vidianRescueMission"
+    },
+    {
+        id: 362,
+        name: "Monster Quest 1 - Part 1",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest1Part1"
+    },
+    {
+        id: 362,
+        name: "Monster Quest 1 - Part 2",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest1Part2"
+    },
+    {
+        id: 363,
+        name: "Monster Quest 1 - Part 3",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest1Part3"
+    },
+    {
+        id: 364,
+        name: "Monster Quest 2 - Part 1",
+        giver: "Alcamoth Imperial Guard",
+        area: "Alcamoth (Imperial Palace) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest2Part1"
+    },
+    {
+        id: 365,
+        name: "Monster Quest 2 - Part 2",
+        giver: "Alcamoth Imperial Guard",
+        area: "Alcamoth (Imperial Palace) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest2Part2"
+    },
+    {
+        id: 366,
+        name: "Monster Quest 2 - Part 3",
+        giver: "Alcamoth Imperial Guard",
+        area: "Alcamoth (Imperial Palace) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest2Part3"
+    },
+    {
+        id: 367,
+        name: "Monster Quest 3 - Part 1",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Melfica Road) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest3Part1"
+    },
+    {
+        id: 368,
+        name: "Monster Quest 3 - Part 2",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Melfica Road) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest3Part2"
+    },
+    {
+        id: 369,
+        name: "Monster Quest 3 - Part 3",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Melfica Road) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest3Part3"
+    },
+    {
+        id: 370,
+        name: "Monster Quest 4 - Part 1",
+        giver: "Alcamoth Imperial Guard",
+        area: "Alcamoth (Ascension Hall) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest4Part1"
+    },
+    {
+        id: 371,
+        name: "Monster Quest 4 - Part 2",
+        giver: "Alcamoth Imperial Guard",
+        area: "Alcamoth (Ascension Hall) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest4Part2"
+    },
+    {
+        id: 372,
+        name: "Monster Quest 4 - Part 3",
+        giver: "Alcamoth Imperial Guard",
+        area: "Alcamoth (Ascension Hall) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMonsterQuest4Part3"
+    },
+    {
+        id: 373,
+        name: "Challenge 1",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothChallenge1"
+    },
+    {
+        id: 374,
+        name: "Challenge 2",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Fountain of Eternity) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothChallenge2"
+    },
+    {
+        id: 375,
+        name: "Challenge 3",
+        giver: "Alcamoth Imperial Guard",
+        area: "Alcamoth (Ascension Hall) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothChallenge3"
+    },
+    {
+        id: 376,
+        name: "Challenge 4",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothChallenge4"
+    },
+    {
+        id: 377,
+        name: "Material Quest 1",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Main Entrance) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMaterialQuest1"
+    },
+    {
+        id: 378,
+        name: "Material Quest 2",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMaterialQuest2"
+    },
+    {
+        id: 379,
+        name: "Material Quest 3",
+        giver: "Alcamoth Imperial Guard",
+        area: "Alcamoth (Main Entrance) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMaterialQuest3"
+    },
+    {
+        id: 380,
+        name: "Material Quest 4",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothMaterialQuest4"
+    },
+    {
+        id: 381,
+        name: "Collection Quest 1",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Melfica Road) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothCollectionQuest1"
+    },
+    {
+        id: 382,
+        name: "Collection Quest 2",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Main Entrance) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothCollectionQuest2"
+    },
+    {
+        id: 383,
+        name: "Collection Quest 3",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Fountain of Hope) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothCollectionQuest3"
+    },
+    {
+        id: 384,
+        name: "Collection Quest 4",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Melfica Road) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothCollectionQuest4"
+    },
+    {
+        id: 385,
+        name: "Search Quest 1",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothSearchQuest1"
+    },
+    {
+        id: 386,
+        name: "Search Quest 2",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothSearchQuest2"
+    },
+    {
+        id: 387,
+        name: "Search Quest 3",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothSearchQuest3"
+    },
+    {
+        id: 388,
+        name: "Search Quest 4",
+        giver: "Alcamoth Citizen",
+        area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
+        prerequisites: "Alcamoth area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_alcamothSearchQuest4"
+    },
+    {
+        id: 389,
+        name: "Chilkins and Antols",
+        giver: "A Nopon Researcher",
+        area: "Valak Mountain (Nopon Camp) Anytime",
+        prerequisites: "Valak Mountain area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_chilkinsAntols"
+    },
+    {
+        id: 390,
+        name: "Valak Mountain Research",
+        giver: "A Nopon Researcher",
+        area: "Valak Mountain (Nopon Camp) Anytime",
+        prerequisites: "Valak Mountain area reached | Chilkins and Antols complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_valakMountainResearch"
+    },
+    {
+        id: 391,
+        name: "The Freezing Nopon",
+        giver: "A Nopon Researcher",
+        area: "Valak Mountain (Hollow Bone) Anytime",
+        prerequisites: "Valak Mountain area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_freezingNopon"
+    },
+    {
+        id: 392,
+        name: "Bad Timing",
+        giver: "A Nopon Researcher",
+        area: "Valak Mountain (Great Glacier) Anytime",
+        prerequisites: "Valak Mountain area reached | The Magma Rock complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_badTiming"
+    },
+    {
+        id: 393,
+        name: "Chilkin Changes",
+        giver: "Dakuku",
+        area: "Valak Mountain (Nopon Camp) Anytime",
+        prerequisites: "Valak Mountain area reached | Bad Timing complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_chilkinChanges"
+    },
+    {
+        id: 394,
+        name: "The Balance of Power",
+        giver: "Dakuku",
+        area: "Valak Mountain (Nopon Camp) Anytime",
+        prerequisites: "Valak Mountain area reached | Chilkin Changes complete | Dunban in the lead",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_balanceOfPower"
+    },
+    {
+        id: 395,
+        name: "The Missing Partner",
+        giver: "Kurralth",
+        area: "Valak Mountain (Harict Chapel) Anytime",
+        prerequisites: "Mechonis Core cleared | Adventurers in Peril not completed",
+        timed: "No",
+        exclusive: "Yes",
+        uid: "q_missingPower"
+    },
+    {
+        id: 396,
+        name: "The Final Giants' Ruins",
+        giver: "Zain",
+        area: "Valak Mountain (Harict Chapel) Anytime",
+        prerequisites: "Mechonis Core cleared | The Missing Partner or Adventurers in Peril complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_finalGiantsRuins"
+    },
+    {
+        id: 397,
+        name: "The Giants' Treasures",
+        giver: "Zain",
+        area: "Valak Mountain (Harict Chapel) Anytime",
+        prerequisites: "Mechonis Core cleared | The Final Giants' Ruins accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_giantsTreasures"
+    },
+    {
+        id: 398,
+        name: "Monster Quest 1",
+        giver: "A Nopon Researcher",
+        area: "Valak Mountain (Zokhed Pass) Anytime",
+        prerequisites: "Valak Mountain area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_valakMountainMonsterQuest1"
+    },
+    {
+        id: 399,
+        name: "Monster Quest 2",
+        giver: "A Nopon Researcher",
+        area: "Valak Mountain (Zokhed Pass) Anytime",
+        prerequisites: "Valak Mountain area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_valakMountainMonsterQuest2"
+    },
+    {
+        id: 400,
+        name: "Monster Quest 3",
+        giver: "A Nopon Researcher",
+        area: "Valak Mountain (Zokhed Pass) Anytime",
+        prerequisites: "Valak Mountain area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_valakMountainMonsterQuest3"
+    },
+    {
+        id: 401,
+        name: "Monster Quest 4",
+        giver: "A Nopon Researcher",
+        area: "Valak Mountain (Zokhed Pass) Anytime",
+        prerequisites: "Valak Mountain area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_valakMountainMonsterQuest4"
+    },
+    {
+        id: 402,
+        name: "The Magma Rock",
+        giver: "Story Quest",
+        area: "Valak Mountain (Sealed Tower)",
+        prerequisites: "Automatic",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_magmaRock"
+    },
+    {
+        id: 403,
+        name: "Secure Dolgan Outpost",
+        giver: "Surprise Quest",
+        area: "Sword Valley (Dolgan Outpost) Automatic",
+        prerequisites: "None",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_secureDolganOutpost"
+    },
+    {
+        id: 404,
+        name: "Secure Enalda Control Base",
+        giver: "Surprise Quest",
+        area: "Sword Valley (Enalda Control Base) Automatic",
+        prerequisites: "None",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_secureEnaldaControlBase"
+    },
+    {
+        id: 405,
+        name: "3rd Gate Front Line",
+        giver: "Surprise Quest",
+        area: "Sword Valley (3rd Gate) Automatic",
+        prerequisites: "None",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_3rdGateFrontLine"
+    },
+    {
+        id: 406,
+        name: "Secure the Radio Tower",
+        giver: "Surprise Quest",
+        area: "Sword Valley (Radio Tower) Automatic",
+        prerequisites: "None",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_secureTheRadioTower"
+    },
+    {
+        id: 407,
+        name: "Lift Battle",
+        giver: "Story Quest",
+        area: "Galahad Fortress (Main Maintenance Bay) Automatic",
+        prerequisites: "None",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_liftBattle"
+    },
+    {
+        id: 408,
+        name: "Supply Station Battle",
+        giver: "Story Quest",
+        area: "Galahad Fortress (Main Control Room) Automatic",
+        prerequisites: "None",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_supplyStationBattle"
+    },
+    {
+        id: 409,
+        name: "Turbine Battle",
+        giver: "Story Quest",
+        area: "Galahad Fortress (Main Control Room) Automatic",
+        prerequisites: "Supply Station Battle accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_turbineBattle"
+    },
+    {
+        id: 408,
+        name: "Fiora's Conviction",
+        giver: "Story Quest",
+        area: "Galahad Fortress (Face Maintenance Bay) Automatic",
+        prerequisites: "None",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_fiorasConviction"
+    },
+    {
+        id: 409,
+        name: "Chase Dickson",
+        giver: "Story Quest",
+        area: "Prison Island (Behemoth Nest) Automatic",
+        prerequisites: "Prison Island area reached for the second time",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_chaseDickson"
+    },
+    {
+        id: 410,
+        name: "Path to the Top",
+        giver: "Story Quest",
+        area: "Prison Island (Corridor of Silence) Automatic",
+        prerequisites: "Prison Island area reached for the second time | Chase Dickson complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_pathToTheTop"
+    },
+    {
+        id: 411,
+        name: "Save the Machina!",
+        giver: "Voltak",
+        area: "Fallen Arm (Junks) Anytime",
+        prerequisites: "Hidden Machina Village reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_saveTheMachina"
+    },
+    {
+        id: 412,
+        name: "Eliminate the Threat",
+        giver: "Voltak",
+        area: "Fallen Arm (Junks) Anytime",
+        prerequisites: "Save the Machina! complete | Hidden Village ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_eliminateTheThreat"
+    },
+    {
+        id: 413,
+        name: "Mysterious Noises",
+        giver: "Prox",
+        area: "Fallen Arm (Ether Light) 18:00 - 06:00",
+        prerequisites: "Hidden Machina Village reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mysteriousNoises"
+    },
+    {
+        id: 414,
+        name: "Protect the Village",
+        giver: "Eleqa",
+        area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
+        prerequisites: "Hidden Machina Village reached | Hidden Village ☆1¼",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_protectTheVillage"
+    },
+    {
+        id: 415,
+        name: "Stop the Mechon Rampage!",
+        giver: "Eleqa",
+        area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
+        prerequisites: "Hidden Machina Village reached | Protect the Village complete | Hidden Village ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_stopTheMechonRampage"
+    },
+    {
+        id: 416,
+        name: "Stunted Growth",
+        giver: "Orkatix",
+        area: "Fallen Arm (Junks) Anytime",
+        prerequisites: "After the attack on Colony 6 | Vronik registered to the Affinity Chart | Hidden Village ☆3½ | Dunban in the lead",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_stuntedGrowth"
+    },
+    {
+        id: 417,
+        name: "Transmission Bypass",
+        giver: "Orkatix",
+        area: "Fallen Arm (Junks) Anytime",
+        prerequisites: "After the attack on Colony 6 | Vronik registered to the Affinity Chart | Hidden Village ☆4 | Stunted Growth accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_transmissionBypass"
+    },
+    {
+        id: 418,
+        name: "The Exhaust Pump",
+        giver: "Orkatix",
+        area: "Fallen Arm (Junks) Anytime",
+        prerequisites: "After the attack on Colony 6 | Vronik registered to the Affinity Chart | Hidden Village ☆4 | Stunted Growth accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_theExhaustPump"
+    },
+    {
+        id: 419,
+        name: "The Mini Reactor",
+        giver: "Orkatix",
+        area: "Fallen Arm (Junks) Anytime",
+        prerequisites: "After the attack on Colony 6 | Vronik registered to the Affinity Chart | Hidden Village ☆4 | Stunted Growth accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_miniReactor"
+    },
+    {
+        id: 420,
+        name: "The History of Mechonis",
+        giver: "Zilex",
+        area: "Fallen Arm (Junks) Anytime",
+        prerequisites: "Access to Mechonis Field",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_historyOfMechonis"
+    },
+    {
+        id: 421,
+        name: "The History of the Capital",
+        giver: "Zilex",
+        area: "Fallen Arm (Junks) Anytime",
+        prerequisites: "Agniratha reached | The History of Mechonis complete",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_historyOfTheCapital"
+    },
+    {
+        id: 422,
+        name: "I Want to be a Homs!",
+        giver: "Rakzet",
+        area: "Fallen Arm (Junks) 00:00 - 21:00",
+        prerequisites: "Hidden Machina Village reached | Natalia registered on the Affinity Chart",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_iWantToBeAHoms"
+    },
+    {
+        id: 423,
+        name: "Powerless",
+        giver: "Rakzet",
+        area: "Fallen Arm (Junks) 00:00 - 21:00",
+        prerequisites: "I Want to be a Homs! complete | Hidden Village ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_powerless"
+    },
+    {
+        id: 424,
+        name: "Power up!",
+        giver: "Rakzet",
+        area: "Fallen Arm (Junks) 00:00 - 21:00",
+        prerequisites: "Powerless complete | Hidden Village ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_powerUp"
+    },
+    {
+        id: 425,
+        name: "Fixing a Broken Door",
+        giver: "Rizaka",
+        area: "Fallen Arm (Hidden Machina Village) 06:00 - 15:00",
+        prerequisites: "Hidden Machina Village reached | Eleqa registered on the Affinity Chart",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_fixingABrokenDoor"
+    },
+    {
+        id: 426,
+        name: "The Wilted Flower",
+        giver: "Rizaka",
+        area: "Fallen Arm (Hidden Machina Village) 06:00 - 15:00",
+        prerequisites: "Hidden Machina Village reached | Vronik registered on the Affinity Chart | Fixing a Broken Door complete | Hidden Village ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_wiltedFlower"
+    },
+    {
+        id: 427,
+        name: "The Oath Sword",
+        giver: "Karlos",
+        area: "Fallen Arm (Hidden Machina Village) 18:00 - 06:00",
+        prerequisites: "Mechonis Field reached | The Wilted Flower complete | Hidden Village ☆2 | Fiora in the lead",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_oathSword"
+    },
+    {
+        id: 428,
+        name: "Scheduled Inspection",
+        giver: "Xekit",
+        area: "Fallen Arm (Ether Light) 18:00 - 06:00",
+        prerequisites: "The Wilted Flower complete | Hidden Village ☆2½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_schesuledInspection"
+    },
+    {
+        id: 429,
+        name: "A Tough Battle",
+        giver: "Kazat",
+        area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
+        prerequisites: "Hidden Machina Village reached | Hidden Village ☆2",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_toughBattle"
+    },
+    {
+        id: 430,
+        name: "A Weapon Just For Me",
+        giver: "Kazat",
+        area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
+        prerequisites: "Access to Mechonis Field | Mending Memories complete | A Tough Battle complete | Hidden Village ☆3",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_weaponJustForMe"
+    },
+    {
+        id: 431,
+        name: "Therapy",
+        giver: "Eleqa",
+        area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
+        prerequisites: "Stop the Mechon Rampage! complete | Hidden Village ☆2 | Eleqa and Eiz affinity link yellow",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_therapy"
+    },
+    {
+        id: 432,
+        name: "Mending Memories",
+        giver: "Mixik",
+        area: "Fallen Arm (Junks) 21:00 - 03:00",
+        prerequisites: "Access to Mechonis Field | Hidden Village ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_mendingMemories"
+    },
+    {
+        id: 433,
+        name: "Resolution - Father",
+        giver: "Kazat",
+        area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
+        prerequisites: "Access to Mechonis Field | Mending Memories accepted | Hidden Village ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_resolutionFather"
+    },
+    {
+        id: 434,
+        name: "Resolution - Mother",
+        giver: "Qofaria",
+        area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
+        prerequisites: "Access to Mechonis Field | Mending Memories accepted | Hidden Village ☆1½",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_resolutionMother"
+    },
+    {
+        id: 435,
+        name: "Food Delivery",
+        giver: "Natalia",
+        area: "Fallen Arm (Junks) 18:00 - 06:00",
+        prerequisites: "Hidden Machina Village reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_foodDelivery"
+    },
+    {
+        id: 436,
+        name: "For my Loved One...",
+        giver: "Zarkort",
+        area: "Fallen Arm (Digit 2) Anytime",
+        prerequisites: "Hidden Machina Village reached | Food Delivery accepted and Theo spoken to",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_forMyLovedOne"
+    },
+    {
+        id: 437,
+        name: "To My Loved One...",
+        giver: "Zarkort",
+        area: "Fallen Arm (Digit 2) Anytime",
+        prerequisites: "Hidden Machina Village reached | For My Loved One... complete",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_toMyLovedOne"
+    },
+    {
+        id: 438,
+        name: "Reunion with Fiora",
+        giver: "Story Quest",
+        area: "Automatic",
+        prerequisites: "Fallen Arm area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_reuinionWithFiora"
+    },
+    {
+        id: 439,
+        name: "We Made It",
+        giver: "Story Quest",
+        area: "Automatic",
+        prerequisites: "Fallen Arm area reached | Reunion with Fiora complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_weMadeIt"
+    },
+    {
+        id: 440,
+        name: "Fiora's Treatment",
+        giver: "Linada (Story Quest)",
+        area: "Automatic",
+        prerequisites: "Miqol met in the Hidden Machina Village",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_fiorasTreatment"
+    },
+    {
+        id: 441,
+        name: "Best Boots",
+        giver: "Bozatrox",
+        area: "Mechonis Field (Machina Refuge) Anytime",
+        prerequisites: "Mechonis Field area reached | For My Loved One... complete | To My Loved One... complete",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_bestBoots"
+    },
+    {
+        id: 442,
+        name: "Monster Quest",
+        giver: "A Garrisoned Troop Machina",
+        area: "Mechonis Field (Machina Refuge) Anytime",
+        prerequisites: "Mechonis Field area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_mechonisFieldMonsterQuest"
+    },
+    {
+        id: 443,
+        name: "Challenge Quest 1",
+        giver: "A Garrisoned Troop Machina",
+        area: "Mechonis Field (Machina Refuge) Anytime",
+        prerequisites: "Mechonis Field area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_mechonisFieldChallengeQuest1"
+    },
+    {
+        id: 444,
+        name: "Challenge Quest 2",
+        giver: "A Garrisoned Troop Machina",
+        area: "Mechonis Field (Machina Refuge) Anytime",
+        prerequisites: "Mechonis Field area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_mechonisFieldChallengeQuest2"
+    },
+    {
+        id: 445,
+        name: "Aiming for the Top",
+        giver: "Story Quest",
+        area: "Mechonis Field (2nd Lift - GF) Automatic",
+        prerequisites: "Mechonis Field area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_aimingForTheTop"
+    },
+    {
+        id: 446,
+        name: "Get the 3rd Lift Moving",
+        giver: "Story Quest",
+        area: "Mechonis Field (2nd Lift - 1F) Automatic",
+        prerequisites: "Mechonis Field area reached | Aiming for the Top complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_getThe3rdLiftMoving"
+    },
+    {
+        id: 447,
+        name: "Opening the Bulkhead",
+        giver: "Story Quest",
+        area: "Mechonis Field (3rd Lift - 3F) Automatic",
+        prerequisites: "Mechonis Field area reached | Get the 3rd Lift Moving complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_openingTheBulkhead"
+    },
+    {
+        id: 448,
+        name: "The High-Velocity Lift",
+        giver: "Story Quest",
+        area: "Mechonis Field (Upper Bulkhead Bridge) Automatic",
+        prerequisites: "Mechonis Field area reached | Opening the Bulkhead complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_highVelocityLift"
+    },
+    {
+        id: 449,
+        name: "Need Power!",
+        giver: "Story Quest",
+        area: "Mechonis Field (Upper Bulkhead Bridge) Automatic",
+        prerequisites: "Mechonis Field area reached | Opening the Bulkhead complete | The High-Velocity Lift accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_needPower"
+    },
+    {
+        id: 450,
+        name: "Eliminate the Backup!",
+        giver: "Surprise Quest",
+        area: "Central Factory (Storage Depot) Automatic",
+        prerequisites: "Central Factory area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_eliminateTheBackup"
+    },
+    {
+        id: 451,
+        name: "Daring Assault",
+        giver: "Surprise Quest",
+        area: "Central Factory (Mechon Factory) Automatic",
+        prerequisites: "Central Factory area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_daringAssault"
+    },
+    {
+        id: 452,
+        name: "Roof Battle",
+        giver: "Surprise Quest",
+        area: "Central Factory (Training Ground Roof) Automatic",
+        prerequisites: "Central Factory area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_roofBattle"
+    },
+    {
+        id: 453,
+        name: "New Weapon for Fiora",
+        giver: "Junks Staff",
+        area: "Central Factory (Ventilation Conduit) Automatic",
+        prerequisites: "Ventilation Conduit reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_newWeaponForFiora"
+    },
+    {
+        id: 454,
+        name: "To the Central Tower",
+        giver: "Story Quest",
+        area: "Central Factory (Central Gate) Automatic",
+        prerequisites: "Central Factory area reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_toTheCentralTower"
+    },
+    {
+        id: 455,
+        name: "Maintenance Wing Escape",
+        giver: "Story Quest",
+        area: "Central Factory (Maintenance Wing) Automatic",
+        prerequisites: "Central Factory area reached | To the Central Tower complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_maintenanceWingEscape"
+    },
+    {
+        id: 456,
+        name: "Find a Path to the Top",
+        giver: "Story Quest",
+        area: "Central Factory (Central Warehouse Lift) Automatic",
+        prerequisites: "Central Factory area reached | Maintenance Wing Escape complete",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_findAPathToTheTop"
+    },
+    {
+        id: 457,
+        name: "Materials for a Bomb",
+        giver: "Story Quest",
+        area: "Central Factory (Factory Vent) Automatic",
+        prerequisites: "Central Factory area reached | Maintenance Wing Escape complete | Find a Path to the Top accepted",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_materialsForABomb"
+    },
+    {
+        id: 458,
+        name: "The Central Tower Barrier",
+        giver: "Story Quest",
+        area: "Central Factory (Tower Boarding Gate) Automatic",
+        prerequisites: "",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_theCentralTowerBarrier"
+    },
+    {
+        id: 459,
+        name: "Civil Protection 1 - 1",
+        giver: "Civil Protection Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_civilProtection1-1"
+    },
+    {
+        id: 460,
+        name: "Civil Protection 1 - 2",
+        giver: "Civil Protection Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_civilProtection1-2"
+    },
+    {
+        id: 461,
+        name: "Civil Protection 1 - 3",
+        giver: "Civil Protection Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_civilProtection1-3"
+    },
+    {
+        id: 462,
+        name: "Civil Protection 1 - 3",
+        giver: "Civil Protection Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_civilProtection1-3"
+    },
+    {
+        id: 463,
+        name: "Civil Protection 2 - 1",
+        giver: "Civil Protection Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_civilProtection2-1"
+    },
+    {
+        id: 464,
+        name: "Civil Protection 2 - 2",
+        giver: "Civil Protection Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_civilProtection2-2"
+    },
+    {
+        id: 465,
+        name: "Civil Protection 2 - 3",
+        giver: "Civil Protection Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_civilProtection2-3"
+    },
+    {
+        id: 466,
+        name: "Military Status 1 - 1",
+        giver: "Military Status Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_militaryStatus1-1"
+    },
+    {
+        id: 467,
+        name: "Military Status 1 - 2",
+        giver: "Military Status Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_militaryStatus1-2"
+    },
+    {
+        id: 468,
+        name: "Military Status 2 - 1",
+        giver: "Military Status Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_militaryStatus2-1"
+    },
+    {
+        id: 469,
+        name: "Military Status 2 - 2",
+        giver: "Military Status Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_militaryStatus2-2"
+    },
+    {
+        id: 470,
+        name: "Agniratha Beautification 1",
+        giver: "City Planning Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_agnirathaBeautification1"
+    },
+    {
+        id: 471,
+        name: "Agniratha Beautification 2",
+        giver: "City Planning Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_agnirathaBeautification2"
+    },
+    {
+        id: 472,
+        name: "Telethia Investigation 1",
+        giver: "Strategic Intel Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_telethiaInvestigation1"
+    },
+    {
+        id: 473,
+        name: "Telethia Investigation 2",
+        giver: "Strategic Intel Terminal",
+        area: "Agniratha (Central Tower) Anytime",
+        prerequisites: "Agniratha area reached",
+        timed: "Yes",
+        exclusive: "No",
+        uid: "q_telethiaInvestigation2"
+    },
+    {
+        id: 474,
+        name: "Shrine Transport",
+        giver: "Story Quest",
+        area: "Automatic",
+        prerequisites: "None",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_shrineTransport"
+    },
+    {
+        id: 475,
+        name: "Pillar Verification Devices",
+        giver: "Story Quest",
+        area: "Automatic",
+        prerequisites: "None",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_pillarVerificationDevices"
+    },
+    {
+        id: 476,
+        name: "Save Bionis",
+        giver: "Story Quest",
+        area: "Automatic",
+        prerequisites: "Mechonis Core reached",
+        timed: "No",
+        exclusive: "No",
+        uid: "q_saveBionis"
+    },
 ]
-/*
-{
-    id: 3,
-    name: "",
-    giver: "",
-    area: "",
-    prerequisites: "",
-    timed: "No",
-    exclusive: "No",
-    uid: "q_"
-},
-*/
