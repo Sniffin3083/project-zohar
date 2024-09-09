@@ -108,7 +108,7 @@ export default function XCOne() {
   return (
     <>
       <DataTable
-        title="Xenoblade Chronicles One Side Quests"
+        title="Xenoblade Chronicles One Quests"
         columns={columns}
         data={data}
         defaultSortFieldId="title"
