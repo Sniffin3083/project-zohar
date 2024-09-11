@@ -24,19 +24,20 @@ const columns = [
         name: "Time and Location",
         selector: row => row.area,
         sortable: true,
-        width: "300px"
+        width: "300px",
+        wrap: true
     },
     {
         name: "Mechon?",
         selector: row => row.mechon,
         sortable: true,
-        width: "80px"
+        width: "95px"
     },
     {
         name: "Quest Monster?",
         selector: row => row.quest,
         sortable: true,
-        width: "100px"
+        width: "130px"
     },
     {
         name: "Quest Name",
