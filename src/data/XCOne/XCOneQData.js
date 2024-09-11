@@ -1,8 +1,5 @@
-import { CompletionInfoFlags } from "typescript"
-
 export default [
     {
-        id: 1,
         name: "Mementos of a Lost Son",
         giver: "Cheryl",
         area: "Colony 9 (Commercial District) 06:00 - 15:00",
@@ -12,7 +9,6 @@ export default [
         uid: "q_mementosLostSon"
     },
     {
-        id: 2,
         name: "The Key to a Long Life",
         giver: "Dionysis",
         area: "Colony 9 (Residential District) 06:00 - 13:00",
@@ -22,7 +18,6 @@ export default [
         uid: "q_keyLongLife"
     },
     {
-        id: 3,
         name: "A Curry Conundrum",
         giver: "Giorgio",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -32,7 +27,6 @@ export default [
         uid: "q_curryConundrum"
     },
     {
-        id: 4,
         name: "Biscuits for a Grandson",
         giver: "Marcia",
         area: "Colony 9 (Commercial District) 09:00 - 15:00",
@@ -42,7 +36,6 @@ export default [
         uid: "q_biscuitsGrandson"
     },
     {
-        id: 5,
         name: "Birithday Shoes",
         giver: "Kantz",
         area: "Colony 9 (Military District) 06:00 - 15:00",
@@ -52,7 +45,6 @@ export default [
         uid: "q_birthdayShoes"
     },
     {
-        id: 6,
         name: "Education-Minded Suzanna",
         giver: "Suzanna",
         area: "Colony 9 (Residential District) 06:00 - 15:00",
@@ -62,7 +54,6 @@ export default [
         uid: "q_eduMindedSuzanna"
     },
     {
-        id: 7,
         name: "Education-Crazed Suzanna",
         giver: "Suzanna",
         area: "Colony 9 (Residential District) 06:00 - 15:00",
@@ -72,7 +63,6 @@ export default [
         uid: "q_eduCrazedSuzanna"
     },
     {
-        id: 8,
         name: "Flattened Flowers",
         giver: "Françoise",
         area: "Colony 9 (Residential Distrcit) 06:00 - 15:00",
@@ -82,7 +72,6 @@ export default [
         uid: "q_flatFlowers"
     },
     {
-        id: 9,
         name: "Lonely Niranira",
         giver: "Niranira",
         area: "Colony 9 (Residential District) 06:00 - 15:00",
@@ -92,7 +81,6 @@ export default [
         uid: "q_lonelyNiranira"
     },
     {
-        id: 10,
         name: "The Broken Watch",
         giver: "Desiree",
         area: "Colony 9 (Commercial District) 18:00 - 03:00",
@@ -102,7 +90,6 @@ export default [
         uid: "q_brokenWatch"
     },
     {
-        id: 11,
         name: "The Old Soldier's Test",
         giver: "Jan",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -112,7 +99,6 @@ export default [
         uid: "q_oldSoldiersTest"
     },
     {
-        id: 12,
         name: "Romantic Notions of a Girl",
         giver: "Monica",
         area: "Colony 9 (Military District) 18:00 - 06:00",
@@ -122,7 +108,6 @@ export default [
         uid: "q_romanticNotionsOfAGirl"
     },
     {
-        id: 13,
         name: "Romantic Notions of a Boy",
         giver: "Andreas",
         area: "Colony 9 (Military District) 18:00 - 06:00",
@@ -132,7 +117,6 @@ export default [
         uid: "q_romanticNotionsOfABoy"
     },
     {
-        id: 14,
         name: "An Impoverished Critic",
         giver: "Leopold",
         area: "Colony 9 (Commercial District) 18:00 - 06:00",
@@ -142,7 +126,6 @@ export default [
         uid: "q_impoverishedCritic"
     },
     {
-        id: 15,
         name: "Financial Planning",
         giver: "King Squeeze",
         area: "Colony 9 (Commercial District) 21:00 - 03:00",
@@ -152,7 +135,6 @@ export default [
         uid: "q_financialPlanning"
     },
     {
-        id: 16,
         name: "Overworked and Underpaid",
         giver: "Giorgio",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -162,7 +144,6 @@ export default [
         uid: "q_overworkedUnderpaid"
     },
     {
-        id: 17,
         name: "Pestering Paola",
         giver: "Giorgio",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -172,7 +153,6 @@ export default [
         uid: "q_pesteringPaola"
     },
     {
-        id: 18,
         name: "Out-of-Luck Giorgio",
         giver: "Giorgio",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -182,7 +162,6 @@ export default [
         uid: "q_outOfLuckGiorgio"
     },
     {
-        id: 19,
         name: "Paola and Narine",
         giver: "Narine",
         area: "Colony 9 (Tranquil Square) 09:00 - 15:00",
@@ -192,7 +171,6 @@ export default [
         uid: "q_paolaNarine"
     },
     {
-        id: 20,
         name: "The Plan - Preparation",
         giver: "Sesame",
         area: "Colony 9 (Commercial District) 18:00 - 03:00",
@@ -202,7 +180,6 @@ export default [
         uid: "q_planPreparation"
     },
     {
-        id: 21,
         name: "The Plan - The Night Before",
         giver: "Sesame",
         area: "Colony 9 (Commercial District) 18:00 - 03:00",
@@ -212,7 +189,6 @@ export default [
         uid: "q_planNightBefore"
     },
     {
-        id: 22,
         name: "The Plan - Execution",
         giver: "Sesame",
         area: "Colony 9 (Commercial District) 18:00 - 03:00",
@@ -222,7 +198,6 @@ export default [
         uid: "q_planExecution"
     },
     {
-        id: 23,
         name: "A Young Captian's Request",
         giver: "Emmy Leater",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -232,7 +207,6 @@ export default [
         uid: "q_youngCaptainsRequest"
     },
     {
-        id: 24,
         name: "A Young Captain's Suffering",
         giver: "Emmy Leater",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -242,7 +216,6 @@ export default [
         uid: "q_youngCaptiansSuffering"
     },
     {
-        id: 25,
         name: "A Young Captain's Rise",
         giver: "Emmy Leater",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -252,7 +225,6 @@ export default [
         uid: "q_youngCaptainsRise"
     },
     {
-        id: 26,
         name: "A Young Captain's Challenge",
         giver: "Emmy Leater",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -262,7 +234,6 @@ export default [
         uid: "q_youngCaptainsChallenge"
     },
     {
-        id: 27,
         name: "A Young Captian's Revival",
         giver: "Miller",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -272,7 +243,6 @@ export default [
         uid: "q_youngCaptainsRevival"
     },
     {
-        id: 28,
         name: "A Young Captain's Trust",
         giver: "Miller",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -283,7 +253,6 @@ export default [
     },
     
     {
-        id: 29,
         name: "Pride and Courage",
         giver: "Lukas",
         area: "Colony 9 (Residential District) 09:00 - 15:00",
@@ -293,7 +262,6 @@ export default [
         uid: "q_prideAndCourage"
     },
     {
-        id: 30,
         name: "Friendship Tokens",
         giver: "Moritz",
         area: "Colony 9 (Residential District) 09:00 - 15:00",
@@ -303,7 +271,6 @@ export default [
         uid: "q_friendshipTokens"
     },
     {
-        id: 31,
         name: "A Big Brother's Fight",
         giver: "Zukazu",
         area: "Colony 9 (Residential District) 21:00 - 06:00",
@@ -313,7 +280,6 @@ export default [
         uid: "q_bigBrothersFight"
     },
     {
-        id: 32,
         name: "A Little Brother's Fight",
         giver: "Jiroque",
         area: "Colony 9 (Residential District) 18:00 - 03:00",
@@ -323,7 +289,6 @@ export default [
         uid: "q_littleBrothersFight"
     },
     {
-        id: 33,
         name: "A Place to Come Home to",
         giver: "Jiroque",
         area: "Colony 9 (Residential District) 18:00 - 03:00",
@@ -333,7 +298,6 @@ export default [
         uid: "q_placeToComeHome"
     },
     {
-        id: 34,
         name: "Thawing Relationships",
         giver: "Zuzaku",
         area: "Colony 9 (Residential District) 21:00 - 06:00",
@@ -343,7 +307,6 @@ export default [
         uid: "q_thawingRelationships"
     },
     {
-        id: 35,
         name: "Rocco's Heartful Request",
         giver: "Rocco",
         area: "Colony 9 (Commercial District) 09:00 - 18:00",
@@ -353,7 +316,6 @@ export default [
         uid: "q_roccosHeartfulRequest"
     },
     {
-        id: 36,
         name: "Dean's Shady Request",
         giver: "Dean",
         area: "Colony 9 (Commercial District) 06:00 - 15:00",
@@ -363,7 +325,6 @@ export default [
         uid: "q_deansShadyRequest"
     },
     {
-        id: 37,
         name: "Lilianna's Sincere Request",
         giver: "Liliana",
         area: "Colony 9 (Commercial District) 09:00 - 18:00",
@@ -373,7 +334,6 @@ export default [
         uid: "q_liliannasSincereRequest"
     },
     {
-        id: 38,
         name: "Jackson's Awakening",
         giver: "Jackson",
         area: "Colony 9 (Residential District) 06:00 - 18:00",
@@ -383,7 +343,6 @@ export default [
         uid: "q_jacksonsAwakening"
     },
     {
-        id: 39,
         name: "Jackson The Poet",
         giver: "Jackson",
         area: "Colony 9 (Residential District) 06:00 - 18:00",
@@ -393,7 +352,6 @@ export default [
         uid: "q_jacksonThePoet"
     },
     {
-        id: 40,
         name: "Jackson The Cook",
         giver: "Jackson",
         area: "Colony 9 (Residential District) 06:00 - 18:00",
@@ -403,7 +361,6 @@ export default [
         uid: "q_jacksonTheCook"
     },
     {
-        id: 41,
         name: "Désirée's Future",
         giver: "Désirée",
         area: "Colony 9 (Commercial District) 18:00 - 03:00",
@@ -413,7 +370,6 @@ export default [
         uid: "q_desireesFuture"
     },
     {
-        id: 42,
         name: "Betty's Gift",
         giver: "Betty",
         area: "Colony 9 (Residential District) 06:00 - 15:00",
@@ -423,7 +379,6 @@ export default [
         uid: "q_bettysGift"
     },
     {
-        id: 43,
         name: "Désirée's Apology",
         giver: "Désirée",
         area: "Colony 9 (Commerical District) 21:00 - 03:00",
@@ -433,7 +388,6 @@ export default [
         uid: "q_desireesApology"
     },
     {
-        id: 44,
         name: "The Elite Captain's Anguish",
         giver: "Raoul",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -443,7 +397,6 @@ export default [
         uid: "q_eliteCaptainsAnguish"
     },
     {
-        id: 45,
         name: "Getting to Know Minnie",
         giver: "Minnie",
         area: "Colony 9 (Residential District) 18:00 - 06:00",
@@ -453,7 +406,6 @@ export default [
         uid: "q_gettingToKnowMinnie"
     },
     {
-        id: 46,
         name: "Getting to Know Dorothy",
         giver: "Dorothy",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -463,7 +415,6 @@ export default [
         uid: "q_gettngToKnowDorothy"
     },
     {
-        id: 47,
         name: "A Mysterious Light",
         giver: "Kenny Rohan",
         area: "Colony 9 (Residential District) 21:00 - 15:00",
@@ -473,7 +424,6 @@ export default [
         uid: "q_mysteriousLight"
     },
     {
-        id: 48,
         name: "Out Like a Light?",
         giver: "Kenny Rohan",
         area: "Colony 9 (Residential District) 21:00 - 15:00",
@@ -483,7 +433,6 @@ export default [
         uid: "q_outLikeALight"
     },
     {
-        id: 49,
         name: "The Lost Pendant",
         giver: "A Defence Force Soilder",
         area: "Colony 9 (Cylinder Hanger) Anytime",
@@ -493,7 +442,6 @@ export default [
         uid: "q_theLostPendant"
     },
     {
-        id: 50,
         name: "Monster Quest 1 - Part 1",
         giver: "A Defence Force Soilder",
         area: "Colony 9 (Military District) 18:00 - 06:00",
@@ -503,7 +451,6 @@ export default [
         uid: "q_colony9MonsterQuest1Pt1"
     },
     {
-        id: 51,
         name: "Monster Quest 1 - Part 2",
         giver: "A Defence Force Soilder",
         area: "Colony 9 (Military District) 18:00 - 06:00",
@@ -513,7 +460,6 @@ export default [
         uid: "q_colony9MonsterQuest1Pt2"
     },
     {
-        id: 52,
         name: "Monster Quest 1 - Part 3",
         giver: "A Defence Force Soilder",
         area: "Colony 9 (Military District) 18:00 - 06:00",
@@ -523,7 +469,6 @@ export default [
         uid: "q_colony9MonsterQuest1Pt3"
     },
     {
-        id: 53,
         name: "Monster Quest 2 - Part 1",
         giver: "A Defence Force Soilder",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -533,7 +478,6 @@ export default [
         uid: "q_colony9MonsterQuest2Pt1"
     },
     {
-        id: 54,
         name: "Monster Quest 2 - Part 2",
         giver: "A Defence Force Soilder",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -543,7 +487,6 @@ export default [
         uid: "q_colony9MonsterQuest2Pt2"
     },
     {
-        id: 55,
         name: "Monster Quest 2 - Part 3",
         giver: "A Defence Force Soilder",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -553,7 +496,6 @@ export default [
         uid: "q_colony9MonsterQuest2Pt3"
     },
     {
-        id: 56,
         name: "Monster Quest 3 - Part 1",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -563,7 +505,6 @@ export default [
         uid: "q_colony9MonsterQuest3Pt1"
     },
     {
-        id: 57,
         name: "Monster Quest 3 - Part 2",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -573,7 +514,6 @@ export default [
         uid: "q_colony9MonsterQuest3Pt2"
     },
     {
-        id: 58,
         name: "Monster Quest 3 - Part 3",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -583,7 +523,6 @@ export default [
         uid: "q_colony9MonsterQuest3Pt3"
     },
     {
-        id: 59,
         name: "Monster Quest 3 - Part 4",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -593,7 +532,6 @@ export default [
         uid: "q_colony9MonsterQuest3Pt4"
     },
     {
-        id: 60,
         name: "Monster Quest 4 - Part 1",
         giver: "A Defense Force Soldier",
         area: "Colony 9 (Tephra Cave) Anytime",
@@ -603,7 +541,6 @@ export default [
         uid: "q_colony9MonsterQuest4Pt1"
     },
     {
-        id: 61,
         name: "Monster Quest 4 - Part 2",
         giver: "A Defense Force Soldier",
         area: "Colony 9 (Tephra Cave) Anytime",
@@ -613,7 +550,6 @@ export default [
         uid: "q_colony9MonsterQuest4Pt2"
     },
     {
-        id: 62,
         name: "Monster Quest 4 - Part 3",
         giver: "A Defense Force Soldier",
         area: "Colony 9 (Tephra Cave) Anytime",
@@ -623,7 +559,6 @@ export default [
         uid: "q_colony9MonsterQuest4Pt3"
     },
     {
-        id: 63,
         name: "Challenge 1",
         giver: "A Defense Force Soldier",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -633,7 +568,6 @@ export default [
         uid: "q_colony9Challenge1"
     },
     {
-        id: 64,
         name: "Challenge 2",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -643,7 +577,6 @@ export default [
         uid: "q_colony9Challenge2"
     },
     {
-        id: 65,
         name: "Challenge 3",
         giver: "A Defense Force Soldier",
         area: "Colony 9 (Military District) 18:00 - 06:00",
@@ -653,7 +586,6 @@ export default [
         uid: "q_colony9Challenge3"
     },
     {
-        id: 66,
         name: "Challenge 4",
         giver: "A Nopon Resident",
         area: "Colony 9 (Commercital District) 06:00 - 18:00",
@@ -663,7 +595,6 @@ export default [
         uid: "q_colony9Challenge4"
     },
     {
-        id: 67,
         name: "Material Quest 1",
         giver: "A Nopon Resident",
         area: "Colony 9 (Military District) 06:00 - 18:00",
@@ -673,7 +604,6 @@ export default [
         uid: "q_colony9MaterialQuest1"
     },
     {
-        id: 68,
         name: "Material Quest 2",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 18:00 - 06:00",
@@ -683,7 +613,6 @@ export default [
         uid: "q_colony9MaterialQuest2"
     },
     {
-        id: 69,
         name: "Material Quest 3",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -693,7 +622,6 @@ export default [
         uid: "q_colony9MaterialQuest3"
     },
     {
-        id: 70,
         name: "Material Quest 4",
         giver: "A Homs Resident",
         area: "Colony 9 (Residential District) 18:00 - 06:00",
@@ -703,7 +631,6 @@ export default [
         uid: "q_colony9MaterialQuest4"
     },
     {
-        id: 71,
         name: "Collection Quest 1",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -713,7 +640,6 @@ export default [
         uid: "q_colony9CollectionQuest1"
     },
     {
-        id: 72,
         name: "Collection Quest 2",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 18:00 - 06:00",
@@ -723,7 +649,6 @@ export default [
         uid: "q_colony9CollectionQuest2"
     },
     {
-        id: 73,
         name: "Collection Quest 3",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -733,7 +658,6 @@ export default [
         uid: "q_colony9CollectionQuest3"
     },
     {
-        id: 74,
         name: "Collection Quest 4",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -743,7 +667,6 @@ export default [
         uid: "q_colony9CollectionQuest4"
     },
     {
-        id: 75,
         name: "Search Quest 1",
         giver: "A Homs Resident",
         area: "Colony 9 (Central Plaza) 18:00 - 06:00",
@@ -753,7 +676,6 @@ export default [
         uid: "q_colony9SearchQuest1"
     },
     {
-        id: 76,
         name: "Search Quest 2",
         giver: "A Nopon Resident",
         area: "Colony 9 (Residential District) 06:00 - 18:00",
@@ -763,7 +685,6 @@ export default [
         uid: "q_colony9SearchQuest2"
     },
     {
-        id: 77,
         name: "Search Quest 3",
         giver: "A Homs Resident",
         area: "Colony 9 (Commercial District) 06:00 - 18:00",
@@ -773,7 +694,6 @@ export default [
         uid: "q_colony9SearchQuest3"
     },
     {
-        id: 78,
         name: "Search Quest 4",
         giver: "A Homs Resident",
         area: "Colony 9 (Residential District) 18:00 - 06:00",
@@ -783,7 +703,6 @@ export default [
         uid: "q_colony9SearchQuest4"
     },
     {
-        id: 79,
         name: "A Token of Friendship",
         giver: "Shulk",
         area: "Colony 9 (Weapon Development Lab) Anytime",
@@ -793,7 +712,6 @@ export default [
         uid: "q_aTokenOfFriendship"
     },
     {
-        id: 80,
         name: "The Gem Man's Invention",
         giver: "Gem Man",
         area: "Colony 9 (Gem Man's Stall) Anytime",
@@ -803,7 +721,6 @@ export default [
         uid: "q_theGemMansInvention"
     },
     {
-        id: 81,
         name: "Delivering Food",
         giver: "Story Quest",
         area: "Colony 9 (Dunban's House) Automatic",
@@ -813,7 +730,6 @@ export default [
         uid: "q_deliveringFood"
     },
     {
-        id: 82,
         name: "Missing in Action",
         giver: "Defense Force Soldier",
         area: "Tephra Cave (Warehouse 2) Anytime",
@@ -823,7 +739,6 @@ export default [
         uid: "q_missingInAction"
     },
     {
-       id: 83,
        name: "Arachno Silk Fundraising",
        giver: "Defense Force Soldier",
        area: "Tephra Cave (Warehouse 2) Anytime",
@@ -833,7 +748,6 @@ export default [
        uid: "q_arachnoSilkFundraising"
     },
     {
-        id: 84,
         name: "A Thank you",
         giver: "Defense Force Soldier",
         area: "Tephra Cave (Warehouse 2) Anytime",
@@ -843,7 +757,6 @@ export default [
         uid: "q_aThankYou"
     },
     {
-        id: 85,
         name: "Clearing Obstructions",
         giver: "Defense Force Soldier",
         area: "Tephra Cave (Warehouse 2) Anytime",
@@ -853,7 +766,6 @@ export default [
         uid: "q_clearing Obstructions"
     },
     {
-        id: 86,
         name: "The Book of Bafalgar",
         giver: "Shura",
         area: "Tephra Cave (Bafalgar Tomb) Anytime",
@@ -863,7 +775,6 @@ export default [
         uid: "q_theBookOfBagalagar"
     },
     {
-        id: 87,
         name: "The Blood of Bafalgar",
         giver: "Shura",
         area: "Tephra Cave (Bafalgar Tomb) Anytime",
@@ -873,7 +784,6 @@ export default [
         uid: "q_theBloodOfBafalgar"
     },
     {
-        id: 88,
         name: "The Path of Bafalgar",
         giver: "Shura",
         area: "Tephra Cave (Bafalgar Tomb) Anytime",
@@ -883,7 +793,6 @@ export default [
         uid: "q_thePathOfBafalgar"
     },
     {
-        id: 89,
         name: "The Coffin of Bafalgar",
         giver: "Shura",
         area: "Tephra Cave (Bafalgar Tomb) Anytime",
@@ -893,7 +802,6 @@ export default [
         uid: "q_theCoffinOfBafalgar"
     },
     {
-       id: 90,
        name: "The Gratitude of Bafalgar",
        giver: "Shura",
        area: "Tephra Cave (Bafalgar Tomb) Anytime",
@@ -903,7 +811,6 @@ export default [
        uid: "q_theGratitudeOfBafalgar" 
     },
     {
-        id: 91,
         name: "Collection Quest 1",
         giver: "Defense Force Soldier",
         area: "Tephra Cave (Escape Pod Bay) Anytime",
@@ -913,7 +820,6 @@ export default [
         uid: "q_tephraCaveCollectionQuest1"
     },
     {
-        id: 92,
         name: "Collection Quest 2",
         giver: "Defense Force Soldier",
         area: "Tephra Cave (Escape Pod Bay) Anytime",
@@ -923,7 +829,6 @@ export default [
         uid: "q_tephraCaveCollectionQuest2" 
     },
     {
-        id: 93,
         name: "Meterial Quest 1",
         giver: "Defense Force Soldier",
         area: "Tephra Cave (Escape Pod Bay) Anytime",
@@ -933,7 +838,6 @@ export default [
         uid: "q_tephraCaveMaterialQuest1" 
     },
     {
-        id: 94,
         name: "Meterial Quest 2",
         giver: "Defense Force Soldier",
         area: "Tephra Cave (Escape Pod Bay) Anytime",
@@ -943,7 +847,6 @@ export default [
         uid: "q_tephraCaveMaterialQuest2" 
     },
     {
-        id: 95,
         name: "Emergency Treatment",
         giver: "Olga",
         area: "Bionis' Leg (Refugee Camp) 06:00 - 15:00",
@@ -953,7 +856,6 @@ export default [
         uid: "q_emergencyTreatment"
     },
     {
-        id: 96,
         name: "Being a Good Grandfather",
         giver: "Satata",
         area: "Bionis' Leg (Refugee Camp) 06:00 - 15:00",
@@ -963,7 +865,6 @@ export default [
         uid: "q_goodGrandfather"
     },
     {
-        id: 97,
         name: "A Thoughtful Idea",
         giver: "Matryona",
         area: "Bionis' Leg (Refugee Camp) 09:00 - 18:00",
@@ -973,7 +874,6 @@ export default [
         uid: "q_thoughfulIdea"
     },
     {
-        id: 98,
         name: "A Dash of Colour",
         giver: "Ewan",
         area: "Bionis' Leg (Refugee Camp) 06:00 - 18:00",
@@ -983,7 +883,6 @@ export default [
         uid: "q_dashOfColour"
     },
     {
-        id: 99,
         name: "Imaginations Tempered",
         giver: "Matryona",
         area: "Bionis' Leg (Refugee Camp) 09:00 - 18:00",
@@ -993,7 +892,6 @@ export default [
         uid: "q_imaginationsTempered"
     },
     {
-        id: 100,
         name: "Spirits Raised",
         giver: "Arda",
         area: "Bionis' Leg (Refugee Camp) Anytime",
@@ -1003,7 +901,6 @@ export default [
         uid: "q_spiritsRaised"
     },
     {
-        id: 101,
         name: "Thieving Monsters",
         giver: "Gorman",
         area: "Bionis' Leg (Refugee Camp) 21:00 - 06:00",
@@ -1013,7 +910,6 @@ export default [
         uid: "q_thievingMonsters"
     },
     {
-        id: 102,
         name: "The Greedy Monster",
         giver: "Satata",
         area: "Bionis' Leg (Refugee Camp) 06:00 - 15:00",
@@ -1023,7 +919,6 @@ export default [
         uid: "q_greedyMonster"
     },
     {
-        id: 103,
         name: "Save the Girl!",
         giver: "Surprise Quest",
         area: "Bionis' Leg (near waterfall in southeast Gaur Plain) Automatic",
@@ -1033,7 +928,6 @@ export default [
         uid: "q_saveTheGirl"
     },
     {
-        id: 104,
         name: "Earnest's Fibs",
         giver: "Earnest",
         area: "Bionis' Leg (Refugee Camp) Anytime",
@@ -1043,7 +937,6 @@ export default [
         uid: "q_earnestFibs"
     },
     {
-        id: 105,
         name: "Earnest's Mischief",
         giver: "Earnest",
         area: "Bionis' Leg (Refugee Camp) Anytime",
@@ -1053,7 +946,6 @@ export default [
         uid: "q_earnestMischief"
     },
     {
-        id: 106,
         name: "Earnest's Solitude",
         giver: "Earnest",
         area: "Bionis' Leg (Refugee Camp) Anytime",
@@ -1063,7 +955,6 @@ export default [
         uid: "q_earnestSolitude"
     },
     {
-        id: 107,
         name: "The Lost Nopon",
         giver: "Gerugu",
         area: "Bionis' Leg (Traveller's Rest) Anytime",
@@ -1073,7 +964,6 @@ export default [
         uid: "q_lostNopon"
     },
     {
-        id: 108,
         name: "With Much Gratitude",
         giver: "Batubatu",
         area: "Bionis' Leg (Traveller's Rest) Anytime",
@@ -1083,7 +973,6 @@ export default [
         uid: "q_withMuchGratitude"
     },
     {
-        id: 109,
         name: "With Even More Gratitude",
         giver: "Gerugu",
         area: "Bionis' Leg (Traveller's Rest) Anytime",
@@ -1093,7 +982,6 @@ export default [
         uid: "q_withEvenMoreGratitude"
     },
     {
-        id: 110,
         name: "Legend of Mythical Empress",
         giver: "Gergu",
         area: "Bionis' Leg (Traveller's Rest) Anytime",
@@ -1103,7 +991,6 @@ export default [
         uid: "q_legendOfMythicalEmpress"
     },
     {
-        id: 111,
         name: "A Flower for a Rose",
         giver: "Dulland",
         area: "Bionis' Leg (Refugee Camp) Anytime",
@@ -1113,7 +1000,6 @@ export default [
         uid: "q_flowerForARose"
     },
     {
-        id: 112,
         name: "Battling Brutes",
         giver: "Dulland",
         area: "Bionis' Leg (Refugee Camp) Anytime",
@@ -1123,7 +1009,6 @@ export default [
         uid: "q__battlingBrutes"
     },
     {
-        id: 113,
         name: "Supplies for Satorl",
         giver: "Elior",
         area: "Bionis' Leg (Refugee Camp) 18:00 - 06:00",
@@ -1133,7 +1018,6 @@ export default [
         uid: "q_suppliesForSatorl"
     },
     {
-        id: 114,
         name: "Monster Quest 1 - Part 1",
         giver: "A Homs Traveller",
         area: "Bionis' Leg (Ragrinar Canyon Path) Anytime",
@@ -1143,7 +1027,6 @@ export default [
         uid: "q_bionisLegMonsterQuest1Part1"
     },
     {
-        id: 115,
         name: "Monster Quest 1 - Part 2",
         giver: "A Homs Traveller",
         area: "Bionis' Leg (Ragrinar Canyon Path) Anytime",
@@ -1153,7 +1036,6 @@ export default [
         uid: "q_bionisLegMonsterQuest1Part2"
     },
     {
-        id: 116,
         name: "Monster Quest 1 - Part 3",
         giver: "A Homs Traveller",
         area: "Bionis' Leg (Ragrinar Canyon Path) Anytime",
@@ -1163,7 +1045,6 @@ export default [
         uid: "q_bionisLegMonsterQuest1Part3"
     },
     {
-        id: 117,
         name: "Monster Quest 1 - Part 4",
         giver: "A Homs Traveller",
         area: "Bionis' Leg (Ragrinar Canyon Path) Anytime",
@@ -1173,7 +1054,6 @@ export default [
         uid: "q_bionisLegMonsterQuest1Part4"
     },
     {
-        id: 118,
         name: "Monster Quest 2",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 06:00 - 18:00",
@@ -1183,7 +1063,6 @@ export default [
         uid: "q_bionisLegMonsterQuest2"
     },
     {
-        id: 119,
         name: "Monster Quest 3 - Part 1",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 18:00 - 06:00",
@@ -1193,7 +1072,6 @@ export default [
         uid: "q_bionisLegMonsterQuest3Part1"
     },
     {
-        id: 120,
         name: "Monster Quest 3 - Part 2",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 18:00 - 06:00",
@@ -1203,7 +1081,6 @@ export default [
         uid: "q_bionisLegMonsterQuest3Part2"
     },
     {
-        id: 121,
         name: "Challenge 1 - Part 1",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) Anytime",
@@ -1213,7 +1090,6 @@ export default [
         uid: "q_bionisLegChallenge1Part1"
     },
     {
-        id: 122,
         name: "Challenge 1 - Part 2",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) Anytime",
@@ -1223,7 +1099,6 @@ export default [
         uid: "q_bionisLegChallenge1Part2"
     },
     {
-        id: 123,
         name: "Challenge 2 - Part 1",
         giver: "A Nopon Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 06:00 - 18:00",
@@ -1233,7 +1108,6 @@ export default [
         uid: "q_bionisLegChallenge2Part1"
     },
     {
-        id: 124,
         name: "Challenge 2 - Part 2",
         giver: "A Nopon Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 06:00 - 18:00",
@@ -1243,7 +1117,6 @@ export default [
         uid: "q_bionisLegChallenge2Part2"
     },
     {
-        id: 125,
         name: "Material Quest 1",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 18:00 - 06:00",
@@ -1253,7 +1126,6 @@ export default [
         uid: "q_bionisLegMaterialQuest1"
     },
     {
-        id: 126,
         name: "Material Quest 2",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 18:00 - 06:00",
@@ -1263,7 +1135,6 @@ export default [
         uid: "q_bionisLegMaterialQuest2"
     },
     {
-        id: 127,
         name: "Material Quest 3",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 18:00 - 06:00",
@@ -1273,7 +1144,6 @@ export default [
         uid: "q_bionisLegMaterialQuest3"
     },
     {
-        id: 128,
         name: "Material Quest 4",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 18:00 - 06:00",
@@ -1283,7 +1153,6 @@ export default [
         uid: "q_bionisLegMaterialQuest4"
     },
     {
-        id: 129,
         name: "Collection Quest 1",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 18:00 - 06:00",
@@ -1293,7 +1162,6 @@ export default [
         uid: "q_bionisLegCollectionQuest1"
     },
     {
-        id: 130,
         name: "Collection Quest 2",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 06:00 - 18:00",
@@ -1303,7 +1171,6 @@ export default [
         uid: "q_bionisLegCollectionQuest2"
     },
     {
-        id: 131,
         name: "Search Quest 1",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 06:00 - 18:00",
@@ -1313,7 +1180,6 @@ export default [
         uid: "q_bionisLegSearchQuest1"
     },
     {
-        id: 132,
         name: "Search Quest 2",
         giver: "A Homs Camp Resident",
         area: "Bionis' Leg (Refugee Camp) 18:00 - 06:00",
@@ -1323,7 +1189,6 @@ export default [
         uid: "q_bionisLegSearchQuest2"
     },
     {
-        id: 133,
         name: "The Road Home",
         giver: "Otharon",
         area: "Colony 6 (Main Entrance) Anytime",
@@ -1333,7 +1198,6 @@ export default [
         uid: "q_roadHome",
     },
     {
-        id: 134,
         name: "To Colony 6!",
         giver: "Dulland",
         area: "Colony 6 (Main Entrance) Anytime",
@@ -1343,7 +1207,6 @@ export default [
         uid: "q_toColony6",
     },
     {
-        id: 135,
         name: "Cook-Off Counter Attack!",
         giver: "Hoko",
         area: "Colony 6 (Reconstruction HQ) 09:00 - 18:00",
@@ -1353,7 +1216,6 @@ export default [
         uid: "q_cookOffCounterAttack",
     },
     {
-        id: 136,
         name: "Cook-Off Comeback?",
         giver: "Hoko",
         area: "Colony 6 (Reconstruction HQ) 09:00 - 18:00",
@@ -1363,7 +1225,6 @@ export default [
         uid: "q_cookOffComeback",
     },
     {
-        id: 137,
         name: "Cook-Off Final Blow?!",
         giver: "Talonyth",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1373,7 +1234,6 @@ export default [
         uid: "q_cookOffFinalBlow",
     },
     {
-        id: 138,
         name: "Cook-Off Showdown!",
         giver: "Ma'crish",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1383,7 +1243,6 @@ export default [
         uid: "q_cookOffShowdown",
     },
     {
-        id: 139,
         name: "A Delectable Delicacy",
         giver: "Pokapoka",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 15:00",
@@ -1393,7 +1252,6 @@ export default [
         uid: "q_delectableDelicacy",
     },
     {
-        id: 140,
         name: "A Tantalising Treat",
         giver: "Pokapoka",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 15:00",
@@ -1403,7 +1261,6 @@ export default [
         uid: "q_tantalisingTreat",
     },
     {
-        id: 141,
         name: "Missing Lodger",
         giver: "Ma'crish",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1413,7 +1270,6 @@ export default [
         uid: "q_missingLodger",
     },
     {
-        id: 142,
         name: "Looking for Freedom",
         giver: "Nopo'rikh",
         area: "Colony 6 (Reconstruction HQ) Anytime",
@@ -1423,7 +1279,6 @@ export default [
         uid: "q_lookingForFreedom",
     },
     {
-        id: 143,
         name: "Cursed Berryjammy",
         giver: "Norara",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1433,7 +1288,6 @@ export default [
         uid: "q_cursedBerryJammy",
     },
     {
-        id: 144,
         name: "Weak Berryjammy",
         giver: "Norara",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1443,7 +1297,6 @@ export default [
         uid: "q_weakBerryjammy",
     },
     {
-        id: 145,
         name: "Obstinate Berryjammy",
         giver: "Norara",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1453,7 +1306,6 @@ export default [
         uid: "q_obstinateBerryJammy",
     },
     {
-        id: 146,
         name: "Unstoppable Berryjammy",
         giver: "Berryjammy",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 03:00",
@@ -1463,7 +1315,6 @@ export default [
         uid: "q_unstoppable Berryjammy",
     },
     {
-        id: 147,
         name: "Miss Sweetness Showdown (Berryjammy)",
         giver: "Berryjammy",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 03:00",
@@ -1473,7 +1324,6 @@ export default [
         uid: "q_missSweetnessShowdownBerryjammy",
     },
     {
-        id: 148,
         name: "Miss Sweetness Showdown (Ma'crish)",
         giver: "Ma'crish",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1483,7 +1333,6 @@ export default [
         uid: "q_missSweetnessShowdownMaCrish",
     },
     {
-        id: 149,
         name: "The Most Transparent Thing",
         giver: "Miss Sweetness",
         area: "Colony 6 (Reconstruction HQ) Automatic",
@@ -1493,7 +1342,6 @@ export default [
         uid: "q_theMostTransparentThing",
     },
     {
-        id: 150,
         name: "Miss Sweetness' Gratitude (Berryjammy)",
         giver: "Berryjammy",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 03:00",
@@ -1502,8 +1350,7 @@ export default [
         exclusive: "Yes",
         uid: "q_missSweetnessGratitudeBerryjammy",
     },
-    {
-        id: 151,
+    {  
         name: "Miss Sweetness' Gratitude (Ma'crish)",
         giver: "Ma'crish",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1513,7 +1360,7 @@ export default [
         uid: "q_messSweetnessGratitudeMaCrish",
     },
     {
-        id: 152,
+
         name: "A Final Sweet Favour",
         giver: "Miss Sweetness",
         area: "Colony 6 (Reconstruction HQ) Automatic",
@@ -1523,7 +1370,6 @@ export default [
         uid: "q_finalSweetFavour",
     },
     {
-        id: 153,
         name: "In Pursuit of Love",
         giver: "Rosemary",
         area: "Colony 6 (Main Entrance) 18:00 - 06:00",
@@ -1533,7 +1379,6 @@ export default [
         uid: "q_pursuitOfLove",
     },
     {
-        id: 154,
         name: "The Melody of Happiness",
         giver: "Nic",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 6:00",
@@ -1543,7 +1388,6 @@ export default [
         uid: "q_melodyOfHappiness",
     },
     {
-        id: 155,
         name: "Dream of a Poet",
         giver: "Yura",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1553,7 +1397,6 @@ export default [
         uid: "q_dreamOfAPoet",
     },
     {
-        id: 156,
         name: "Family Secrets (Zel Argentis)",
         giver: "Zel Argentis",
         area: "Colony 6 (Reconstruction HQ) 15:00 - 03:00",
@@ -1563,7 +1406,6 @@ export default [
         uid: "q_familySecretsZelArgentis",
     },
     {
-        id: 157,
         name: "Family Secrets (En Argentis)",
         giver: "En Argentis",
         area: "Colony 6 (Reconstruction HQ) 15:00 - 03:00",
@@ -1573,7 +1415,6 @@ export default [
         uid: "q_familySecretsEnArgentis",
     },
     {
-        id: 158,
         name: "Betrothal Test (Zel Argentis)",
         giver: "Oleksiy",
         area: "Colony 6 (Reconstruction HQ) 15:00 - 03:00",
@@ -1583,7 +1424,6 @@ export default [
         uid: "q_betrothalTestZelArgentis",
     },
     {
-        id: 159,
         name: "Betrothal Test (En Argentis)",
         giver: "Peppino",
         area: "Colony 6 (Reconstruction HQ) 15:00 - 03:00",
@@ -1593,7 +1433,6 @@ export default [
         uid: "q_betrothalTestEnArgentis",
     },
     {
-        id: 160,
         name: "Stopping the Elopement (Zel Argentis)",
         giver: "Don Argentis",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1603,7 +1442,6 @@ export default [
         uid: "q_stoppingTheElopmentZelArgentis",
     },
     {
-        id: 161,
         name: "Stopping the Elopement (En Argentis)",
         giver: "Don Argentis",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1613,7 +1451,6 @@ export default [
         uid: "q_stoppingTheElopmentEnArgentis",
     },
     {
-        id: 162,
         name: "A Butler's Concerns",
         giver: "Gowago",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1623,7 +1460,6 @@ export default [
         uid: "q_butlersConcerns",
     },
     {
-        id: 163,
         name: "A Maid's Concerns",
         giver: "Minana",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1633,7 +1469,6 @@ export default [
         uid: "q_maidsConcerns",
     },
     {
-        id: 164,
         name: "Lifespan of a Machina",
         giver: "Neonik",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1643,7 +1478,6 @@ export default [
         uid: "q_lifespanOfAMachina",
     },
     {
-        id: 165,
         name: "A Poet's Concerns",
         giver: "Yura",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 18:00",
@@ -1653,7 +1487,6 @@ export default [
         uid: "q_poetsConcerns",
     },
     {
-        id: 166,
         name: "Delivering the Undeliverable",
         giver: "Shilx",
         area: "Colony 6 (Main Entrance) 03:00 - 21:00",
@@ -1663,7 +1496,6 @@ export default [
         uid: "q_deliveringTheUndeliverable",
     },
     {
-        id: 167,
         name: "Finding the Unfindable",
         giver: "Shilx",
         area: "Colony 6 (Main Entrance) 03:00 - 21:00",
@@ -1673,7 +1505,6 @@ export default [
         uid: "q_findingTheUnfindable",
     },
     {
-        id: 168,
         name: "Odd Smoke - Investigation",
         giver: "Arda",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 15:00",
@@ -1683,7 +1514,6 @@ export default [
         uid: "q_oddSmokeInvestigation",
     },
     {
-        id: 169,
         name: "Odd Smoke - Resolution",
         giver: "Jer'ell",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 06:00",
@@ -1693,7 +1523,6 @@ export default [
         uid: "q_oddSmokeResolution",
     },
     {
-        id: 170,
         name: "Homs Determination",
         giver: "Perrine",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 06:00",
@@ -1703,7 +1532,6 @@ export default [
         uid: "q_homsDetermination",
     },
     {
-        id: 171,
         name: "Nopon Determination",
         giver: "Mefimefi",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 06:00",
@@ -1713,7 +1541,6 @@ export default [
         uid: "q_noponDetermination",
     },
     {
-        id: 172,
         name: "A Gutsy Trader",
         giver: "Werner",
         area: "Colony 6 (Reconstruction HQ) 03:00 - 15:00",
@@ -1723,7 +1550,6 @@ export default [
         uid: "q_gustyTrader",
     },
     {
-        id: 173,
         name: "A Dauntless Trader",
         giver: "Werner",
         area: "Colony 6 (Reconstruction HQ) 03:00 - 15:00",
@@ -1733,7 +1559,6 @@ export default [
         uid: "q_dauntlessTrader",
     },
     {
-        id: 174,
         name: "Nic's Training",
         giver: "Nopo'rikh",
         area: "Colony 6 (Reconstruction HQ) 03:00 - 15:00 (lodger) Anytime (free)",
@@ -1743,7 +1568,6 @@ export default [
         uid: "q_nicsTraining",
     },
     {
-        id: 175,
         name: "Nic's Final Test",
         giver: "Nopo'rikh",
         area: "Colony 6 (Reconstruction HQ) 03:00 - 15:00 (lodger) Anytime (free)",
@@ -1753,7 +1577,6 @@ export default [
         uid: "q_nicsFinalTest",
     },
     {
-        id: 176,
         name: "What is Love?!",
         giver: "Ewan",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 06:00",
@@ -1763,7 +1586,6 @@ export default [
         uid: "q_whatIsLove",
     },
     {
-        id: 177,
         name: "What is Courage?! ",
         giver: "Ewan",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 06:00",
@@ -1773,7 +1595,6 @@ export default [
         uid: "q_whatIsCourage",
     },
     {
-        id: 178,
         name: "Matryona's Answer",
         giver: "Matryona",
         area: "Colony 6 (Reconstruction HQ) 21:00 - 06:00",
@@ -1783,7 +1604,6 @@ export default [
         uid: "q_matryonasAnswer",
     },
     {
-        id: 179,
         name: "A Selfish Girl's Mistake",
         giver: "Anna",
         area: "Colony 6 (Reconstruction HQ) 09:00 - 18:00",
@@ -1793,7 +1613,6 @@ export default [
         uid: "q_selfishGirlsMistake",
     },
     {
-        id: 180,
         name: "Chemist's Reopening",
         giver: "Olga",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 03:00",
@@ -1803,7 +1622,6 @@ export default [
         uid: "q_chemistsReopening",
     },
     {
-        id: 181,
         name: "Satata's Younger Brother",
         giver: "Satata",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 15:00",
@@ -1813,7 +1631,6 @@ export default [
         uid: "q_statasYoungerBrother",
     },
     {
-        id: 182,
         name: "Rest in Peace",
         giver: "Satata",
         area: "Colony 6 (Reconstruction HQ) 06:00 - 15:00",
@@ -1823,7 +1640,6 @@ export default [
         uid: "q_restInPeace",
     },
     {
-        id: 183,
         name: "For the Restoration",
         giver: "Gorman",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 06:00",
@@ -1833,7 +1649,6 @@ export default [
         uid: "q_forTheRestoration",
     },
     {
-        id: 184,
         name: "Making a New Path",
         giver: "Gorman",
         area: "Colony 6 (Reconstruction HQ) 18:00 - 06:00",
@@ -1843,7 +1658,6 @@ export default [
         uid: "q_makingANewPath",
     },
     {
-        id: 185,
         name: "Securing Provisions",
         giver: "Dulland",
         area: "Colony 6 (Reconstruction HQ) Anytime",
@@ -1853,7 +1667,6 @@ export default [
         uid: "q_securingProvisions",
     },
     {
-        id: 186,
         name: "Proof of Status",
         giver: "Daza",
         area: "Colony 6 (Watchpoint Junction or Hope Farm Shop) Anytime",
@@ -1863,7 +1676,6 @@ export default [
         uid: "q_proofOfStatus",
     },
     {
-        id: 187,
         name: "Safety First",
         giver: "Daza",
         area: "Colony 6 (Watchpoint Junction or Hope Farm Shop) Anytime",
@@ -1873,7 +1685,6 @@ export default [
         uid: "q_safetyFirst",
     },
     {
-        id: 188,
         name: "Secret Mission",
         giver: "Daza",
         area: "Colony 6 (Watchpoint Junction or Hope Farm Shop) Anytime",
@@ -1883,7 +1694,6 @@ export default [
         uid: "q_secretMission",
     },
     {
-        id: 189,
         name: "Replica Monado 1",
         giver: "Vanea",
         area: "Colony 6 (Junks) Anytime",
@@ -1893,7 +1703,6 @@ export default [
         uid: "q_replicaMonado1",
     },
     {
-        id: 190,
         name: "Replica Monado 2",
         giver: "Vanea",
         area: "Colony 6 (Junks) Anytime",
@@ -1903,7 +1712,6 @@ export default [
         uid: "q_replicaMonado2",
     },
     {
-        id: 191,
         name: "Replica Monado 3",
         giver: "Vanea",
         area: "Colony 6 (Junks) Anytime",
@@ -1913,7 +1721,6 @@ export default [
         uid: "q_replicaMonado3",
     },
     {
-        id: 192,
         name: "Replica Monado 4",
         giver: "Vanea",
         area: "Colony 6 (Junks) Anytime",
@@ -1923,7 +1730,6 @@ export default [
         uid: "q_replicaMonado4",
     },
     {
-        id: 193,
         name: "Replica Monado 5",
         giver: "Vanea",
         area: "Colony 6 (Junks) Anytime",
@@ -1933,7 +1739,6 @@ export default [
         uid: "q_replicaMonado5",
     },
     {
-        id: 194,
         name: "Melancholy Tyrea",
         giver: "Surprise Quest",
         area: "Colony 6 (Watchpoint Junction) Automatic",
@@ -1943,7 +1748,6 @@ export default [
         uid: "q_MelancholyTyrea",
     },
     {
-        id: 195,
         name: "Defend Colony 6 - Mechon",
         giver: "Colony 6 Residents",
         area: "Colony 6 Automatic",
@@ -1953,7 +1757,6 @@ export default [
         uid: "q_defendColony6Mechon",
     },
     {
-        id: 196,
         name: "Defend Colony 6 - Reptile",
         giver: "Colony 6 Residents",
         area: "Colony 6 Automatic",
@@ -1963,7 +1766,6 @@ export default [
         uid: "q_defendColony6Reptile",
     },
     {
-        id: 197,
         name: "Defend Colony 6 - Elite",
         giver: "Colony 6 Residents",
         area: "Colony 6 Automatic",
@@ -1973,7 +1775,6 @@ export default [
         uid: "q_defendColony6Elite",
     },
     {
-        id: 198,
         name: "Defend Colony 6 - Ancient",
         giver: "Colony 6 Residents",
         area: "Colony 6 Automatic",
@@ -1983,7 +1784,6 @@ export default [
         uid: "q_defendColony6Ancient",
     },
     {
-        id: 199,
         name: "Defend Colony 6 - Demon",
         giver: "Colony 6 Residents",
         area: "Colony 6 Automatic",
@@ -1993,7 +1793,6 @@ export default [
         uid: "q_defendColony6Demon",
     },
     {
-        id: 200,
         name: "Preventing Starvation",
         giver: "Zazadan",
         area: "Satorl Marsh (Nopon Refuge) Anytime",
@@ -2003,7 +1802,6 @@ export default [
         uid: "q_preventingStarvation"
     },
     {
-        id: 201,
         name: "Zazadan in Danger",
         giver: "Zazadan",
         area: "Satorl Marsh (Nopon Refuge) Anytime",
@@ -2013,7 +1811,6 @@ export default [
         uid: "q_zazadanInDanger"
     },
     {
-        id: 2,
         name: "Zazadan Still in Danger",
         giver: "Zazadan",
         area: "Satorl Marsh (Nopon Refuge) Anytime",
@@ -2023,7 +1820,6 @@ export default [
         uid: "q_zazadanStillDanger"
     },
     {
-        id: 202,
         name: "It's All in the Mind",
         giver: "Zazadan",
         area: "Satorl Marsh (Nopon Refuge) Anytime",
@@ -2033,7 +1829,6 @@ export default [
         uid: "q_allInTheMind"
     },
     {
-        id: 203,
         name: "A Mysterious Delicacy",
         giver: "Zazadan",
         area: "Satorl Marsh (Nopon Refuge) Anytime",
@@ -2043,7 +1838,6 @@ export default [
         uid: "q_mysteriousDelicacy"
     },
     {
-        id: 204,
         name: "A Gift?",
         giver: "Zazadan",
         area: "Satorl Marsh (Nopon Refuge) Anytime",
@@ -2053,7 +1847,6 @@ export default [
         uid: "q_aGift"
     },
     {
-        id: 205,
         name: "Gather Information",
         giver: "Surprise Quest",
         area: "Satorl Marsh (Nopon Refuge) Automatic",
@@ -2063,7 +1856,6 @@ export default [
         uid: "q_gatherInformation"
     },
     {
-        id: 206,
         name: "Kacha's Kidnapping",
         giver: "Bokoko",
         area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
@@ -2073,7 +1865,6 @@ export default [
         uid: "q_kachasKidnapping"
     },
     {
-        id: 207,
         name: "The Giants' Key",
         giver: "Kacha",
         area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
@@ -2083,7 +1874,6 @@ export default [
         uid: "q_giantsKey"
     },
     {
-        id: 208,
         name: "The Giants' Treasure",
         giver: "Kacha",
         area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
@@ -2093,7 +1883,6 @@ export default [
         uid: "q_giantsTreasure"
     },
     {
-        id: 209,
         name: "Making Camp",
         giver: "Bokoko",
         area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
@@ -2103,7 +1892,6 @@ export default [
         uid: "q_makingCamp"
     },
     {
-        id: 210,
         name: "Monster Quest 1",
         giver: "A Nopon Merchant",
         area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
@@ -2113,7 +1901,6 @@ export default [
         uid: "q_satorlMarshMonsterQuest1"
     },
     {
-        id: 211,
         name: "Monster Quest 2",
         giver: "A Nopon Merchant",
         area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
@@ -2123,7 +1910,6 @@ export default [
         uid: "q_satorlMarshMonsterQuest2"
     },
     {
-        id: 212,
         name: "Monster Quest 3",
         giver: "A Nopon Merchant",
         area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
@@ -2133,7 +1919,6 @@ export default [
         uid: "q_satorlMarshMonsterQuest3"
     },
     {
-        id: 213,
         name: "Monster Quest 4",
         giver: "A Nopon Merchant",
         area: "Satorl Marsh (Nopon Merchant Camp) Anytime",
@@ -2143,7 +1928,6 @@ export default [
         uid: "q_satorlMarshMonsterQuest4"
     },
     {
-        id: 214,
         name: "Challenge",
         giver: "High Entia Refugee",
         area: "Satorl Marsh (Sororal Statues) 06:00 - 18:00",
@@ -2153,7 +1937,6 @@ export default [
         uid: "q_satorlMarshChallenge"
     },
     {
-        id: 215,
         name: "For a Friend",
         giver: "Rozeal",
         area: "Satorl Marsh (Sororal Statues) 06:00 - 18:00",
@@ -2163,7 +1946,6 @@ export default [
         uid: "q_forAFriend"
     },
     {
-        id: 216,
         name: "A Merciful End",
         giver: "Rozeal",
         area: "Satorl Marsh (Sororal Statues) 06:00 - 18:00",
@@ -2173,7 +1955,6 @@ export default [
         uid: "q_mercifulEnd"
     },
     {
-        id: 217,
         name: "A Release from Duty",
         giver: "Rozeal",
         area: "Satorl Marsh (Sororal Statues) 06:00 - 18:00",
@@ -2183,7 +1964,6 @@ export default [
         uid: "q_releaseFromDuty"
     },
     {
-        id: 218,
         name: "The Imperial Ceremony",
         giver: "Scarlen",
         area: "Satorl Marsh (Oath Sanctuary) Anytime",
@@ -2193,7 +1973,6 @@ export default [
         uid: "q_imperialCeremony"
     },
     {
-        id: 219,
         name: "Imperial Ceremony Offerings",
         giver: "Scarlen",
         area: "Satorl Marsh (Oath Sanctuary) Anytime",
@@ -2203,7 +1982,6 @@ export default [
         uid: "q_imperialCeremonyOfferings"
     },
     {
-        id: 220,
         name: "The Ancient Ceremony",
         giver: "Nopon Merchant (Story Quest)",
         area: "Satorl Marsh (Sororal Statues) Anytime",
@@ -2213,7 +1991,6 @@ export default [
         uid: "q_ancientCeremony"
     },
     {
-        id: 221,
         name: "Ancient Ceremony Offerings",
         giver: "Nopon Merchant (Story Quest)",
         area: "Satorl Marsh (Sororal Statues) Anytime",
@@ -2223,7 +2000,6 @@ export default [
         uid: "q_ancientCeremonyOfferings"
     },
     {
-        id: 222,
         name: "Legend of the Sage",
         giver: "Nopon Sage",
         area: "Makna Forest (Divine Sanctuary) 12:00 - 15:00",
@@ -2233,7 +2009,6 @@ export default [
         uid: "q_legendOfTheSage"
     },
     {
-        id: 223,
         name: "Challenge of the Sage",
         giver: "Nopon Sage",
         area: "Makna Forest (Divine Sanctuary) 12:00 - 15:00",
@@ -2243,7 +2018,6 @@ export default [
         uid: "q_challengeOfTheSea"
     },
     {
-        id: 224,
         name: "Final Challenge of the Sage",
         giver: "Nopon Sage",
         area: "Makna Forest (Divine Sanctuary) 12:00 - 15:00",
@@ -2253,7 +2027,6 @@ export default [
         uid: "q_finalChallengeOfTheSea"
     },
     {
-        id: 225,
         name: "Bridge Repair",
         giver: "Nopon Researcher",
         area: "Makna Forest (Pod Landing Site) Anytime",
@@ -2263,7 +2036,6 @@ export default [
         uid: "q_bridgeRepair"
     },
     {
-        id: 226,
         name: "Monster Quest 1",
         giver: "A Nopon Merchant",
         area: "Makna Forest (Agni Tablet) Anytime",
@@ -2273,7 +2045,6 @@ export default [
         uid: "q_maknaForestMonsterQuest1"
     },
     {
-        id: 227,
         name: "Monster Quest 2",
         giver: "A Nopon Merchant",
         area: "Makna Forest (Agni Tablet) Anytime",
@@ -2283,7 +2054,6 @@ export default [
         uid: "q_maknaForestMonsterQuest2"
     },
     {
-        id: 228,
         name: "Monster Quest 3",
         giver: "A Nopon Merchant",
         area: "Makna Forest (Agni Tablet) Anytime",
@@ -2293,7 +2063,6 @@ export default [
         uid: "q_maknaForestMonsterQuest3"
     },
     {
-        id: 229,
         name: "Monster Quest 4",
         giver: "A Nopon Merchant",
         area: "Makna Forest (Agni Tablet) Anytime",
@@ -2303,7 +2072,6 @@ export default [
         uid: "q_maknaForestMonsterQuest4"
     },
     {
-        id: 230,
         name: "Challenge",
         giver: "A Nopon Merchant",
         area: "Makna Forest (Agni Tablet) Anytime",
@@ -2313,7 +2081,6 @@ export default [
         uid: "q_maknaForestChallenge"
     },
     {
-        id: 231,
         name: "Mystery Girl Rescue ",
         giver: "Story Quest",
         area: "Makna Forest (Contaminated Area) Automatic",
@@ -2323,7 +2090,6 @@ export default [
         uid: "q_mysteryGirlRescue"
     },
     {
-        id: 232,
         name: "Leku's Food Crisis",
         giver: "Leku",
         area: "Frontier Village (Archaeology Level) 06:00 - 18:00",
@@ -2333,7 +2099,6 @@ export default [
         uid: "q_lekusFoodCrisis"
     },
     {
-        id: 233,
         name: "Hunt for a Patron",
         giver: "Leku",
         area: "Frontier Village (Archaeology Level) 06:00 - 18:00",
@@ -2343,7 +2108,6 @@ export default [
         uid: "q_huntForAPatron"
     },
     {
-        id: 234,
         name: "Heropon's Spirit",
         giver: "Kilaki",
         area: "Frontier Village (Archaeology Level) 06:00 - 15:00",
@@ -2353,7 +2117,6 @@ export default [
         uid: "q_heroponsSpirit"
     },
     {
-        id: 235,
         name: "Beat Kilaki to it!",
         giver: "Leku",
         area: "Frontier Village (Archaeology Level) 06:00 - 18:00",
@@ -2363,7 +2126,6 @@ export default [
         uid: "q_beatKilakiToIt"
     },
     {
-        id: 236,
         name: "Lousy Lizards",
         giver: "Modamo",
         area: "Frontier Village (Archaeology Level) 18:00 - 06:00",
@@ -2373,7 +2135,6 @@ export default [
         uid: "q_lousyLizards"
     },
     {
-        id: 237,
         name: "Popularity Premonition",
         giver: "Leku",
         area: "Frontier Village (Archaeology Level) 06:00 - 18:00",
@@ -2383,7 +2144,6 @@ export default [
         uid: "q_popularityPremonition"
     },
     {
-        id: 238,
         name: "Making a Mixer",
         giver: "Rono",
         area: "Frontier Village (Pollen Works) 18:00 - 06:00",
@@ -2393,7 +2153,6 @@ export default [
         uid: "q_makingMixer"
     },
     {
-        id: 239,
         name: "Materials for a Mixer",
         giver: "Rono",
         area: "Frontier Village (Pollen Works) 18:00 - 06:00",
@@ -2403,7 +2162,6 @@ export default [
         uid: "q_materialsMixer"
     },
     {
-        id: 240,
         name: "Decoration Makeover",
         giver: "Pepa",
         area: "Frontier Village (Chief's Residence) 06:00 - 15:00",
@@ -2413,7 +2171,6 @@ export default [
         uid: "q_decorationMakeover"
     },
     {
-        id: 241,
         name: "Hunt for Bug-Loving Friend",
         giver: "Kokora",
         area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
@@ -2423,7 +2180,6 @@ export default [
         uid: "q_huntBugLovingFriend"
     },
     {
-        id: 242,
         name: "A Worried Bug-Lover",
         giver: "Deki",
         area: "Frontier Village (Nopon Tower) 09:00 - 18:00",
@@ -2433,7 +2189,6 @@ export default [
         uid: "q_worriedBugLover"
     },
     {
-        id: 243,
         name: "A Tormented Bug-Lover",
         giver: "Deki",
         area: "Frontier Village (Nopon Tower) 09:00 - 18:00",
@@ -2443,7 +2198,6 @@ export default [
         uid: "q_tormentedBugLover"
     },
     {
-        id: 244,
         name: "Mushy Mushrooms",
         giver: "Kofuko",
         area: "Frontier Village (Central Plaza) 21:00 - 06:00",
@@ -2453,7 +2207,6 @@ export default [
         uid: "q_mushyMushrooms"
     },
     {
-        id: 245,
         name: "Medical Advancements",
         giver: "Medi",
         area: "Frontier Village (Kyn Shopping Street) 21:00 - 03:00",
@@ -2463,7 +2216,6 @@ export default [
         uid: "q_medicalAdvancements"
     },
     {
-        id: 246,
         name: "Let's Make Fillings!",
         giver: "Yusa",
         area: "Frontier Village (Underground Store) 06:00 - 15:00",
@@ -2473,7 +2225,6 @@ export default [
         uid: "q_makeFillings"
     },
     {
-        id: 247,
         name: "World's Strongest Flavour",
         giver: "Kofuko",
         area: "Frontier Village (Central Plaza) 21:00 - 06:00",
@@ -2483,7 +2234,6 @@ export default [
         uid: "q_worldsStrongest Flavour"
     },
     {
-        id: 248,
         name: "Reversed Tastes",
         giver: "Kofuko",
         area: "Frontier Village (Central Plaza) 21:00 - 06:00",
@@ -2493,7 +2243,6 @@ export default [
         uid: "q_reversedTastes"
     },
     {
-        id: 249,
         name: "Sweet Seduction",
         giver: "Migaga",
         area: "Frontier Village (Sacred Altar) 06:00 - 18:00",
@@ -2503,7 +2252,6 @@ export default [
         uid: "q_sweetSeduction"
     },
     {
-        id: 250,
         name: "Ingredients For A Brew",
         giver: "Kofuko",
         area: "Frontier Village (Central Plaza) 21:00 - 06:00",
@@ -2513,7 +2261,6 @@ export default [
         uid: "q_ingredientsForBrew"
     },
     {
-        id: 251,
         name: "Healing the Healer",
         giver: "Npa",
         area: "Frontier Village (Underground Store) 06:00 - 18:00",
@@ -2523,7 +2270,6 @@ export default [
         uid: "q_healingHealer"
     },
     {
-        id: 252,
         name: "Legendary Nopon Charm",
         giver: "Npa",
         area: "Frontier Village (Sacred Altar) Automatic",
@@ -2533,7 +2279,6 @@ export default [
         uid: "q_legendaryNoponCharm"
     },
     {
-        id: 253,
         name: "Mislabelling Problem",
         giver: "Medi",
         area: "Frontier Village (Kyn Shopping Street) 21:00 - 03:00",
@@ -2543,7 +2288,6 @@ export default [
         uid: "q_"
     },
     {
-        id: 254,
         name: "Getting Bigger!",
         giver: "Dabidabi",
         area: "Frontier Village (Chief's Residence) 18:00 - 03:00",
@@ -2553,7 +2297,6 @@ export default [
         uid: "q_gettingBigger"
     },
     {
-        id: 255,
         name: "Who is Bigger?",
         giver: "Dabidabi",
         area: "Frontier Village (Mysterious Sanctuary) 18:00 - 03:00",
@@ -2563,7 +2306,6 @@ export default [
         uid: "q_whoIsBigger"
     },
     {
-        id: 256,
         name: "Strange Noises from Below",
         giver: "Pipiki",
         area: "Frontier Village (Central Plaza) 06:00 - 18:00",
@@ -2573,7 +2315,6 @@ export default [
         uid: "q_strangeNoisesFromBelow"
     },
     {
-        id: 257,
         name: "Musical Genius",
         giver: "Tati",
         area: "Frontier Village (Nopon Kitchen) 18:00 - 06:00",
@@ -2583,7 +2324,6 @@ export default [
         uid: "q_musicalGenius"
     },
     {
-        id: 258,
         name: "Things that Hum",
         giver: "Tati",
         area: "Frontier Village (Nopon Kitchen) 18:00 - 06:00",
@@ -2593,7 +2333,6 @@ export default [
         uid: "q_thingsThatHum"
     },
     {
-        id: 259,
         name: "Things that Rumble",
         giver: "Tati",
         area: "Frontier Village (Nopon Kitchen) 18:00 - 06:00",
@@ -2603,7 +2342,6 @@ export default [
         uid: "q_thingsThatRumble"
     },
     {
-        id: 260,
         name: "Disinsectization",
         giver: "Rasha",
         area: "Frontier Village (Sacred Altar) 06:00 - 18:00",
@@ -2613,7 +2351,6 @@ export default [
         uid: "q_disinsectization"
     },
     {
-        id: 261,
         name: "Avenge a Mamapon's Death",
         giver: "Rasha",
         area: "Frontier Village (Central Plaza) 06:00 - 18:00",
@@ -2623,7 +2360,6 @@ export default [
         uid: "q_avengeMamaponsDeath"
     },
     {
-        id: 262,
         name: "Dadapon in Trouble",
         giver: "Pachipa",
         area: "Frontier Village (Archaeology Centre) 09:00 - 15:00",
@@ -2633,7 +2369,6 @@ export default [
         uid: "q_dadaponInTrouble"
     },
     {
-        id: 263,
         name: "It Definitely Exist!",
         giver: "Pachipa",
         area: "Frontier Village (Archaeology Centre) 09:00 - 15:00",
@@ -2643,7 +2378,6 @@ export default [
         uid: "q_itDefinitelyExist"
     },
     {
-        id: 264,
         name: "Even in the Chief's Absence",
         giver: "Miko",
         area: "Frontier Village (Prophecy Hut) 06:00 - 03:00",
@@ -2653,7 +2387,6 @@ export default [
         uid: "q_evenInTheChiefsAbsence"
     },
     {
-        id: 265,
         name: "Bored Pelupelu",
         giver: "Pelupelu",
         area: "Frontier Village (Prophecy Hut) 06:00 - 03:00",
@@ -2663,7 +2396,6 @@ export default [
         uid: "q_boredPelupelu"
     },
     {
-        id: 266,
         name: "A Gift for Miko",
         giver: "Pelupelu",
         area: "Frontier Village (Prophecy Hut) 06:00 - 03:00",
@@ -2673,7 +2405,6 @@ export default [
         uid: "q_giftForMiko"
     },
     {
-        id: 267,
         name: "Giant Attack!",
         giver: "Lalapa",
         area: "Frontier Village (Chief's Residence) 06:00 - 18:00",
@@ -2683,7 +2414,6 @@ export default [
         uid: "q_giantAttack"
     },
     {
-        id: 268,
         name: "Kind Lupa's Grampypon",
         giver: "Lupa",
         area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
@@ -2693,7 +2423,6 @@ export default [
         uid: "q_kindLupasGrampypon"
     },
     {
-        id: 269,
         name: "Secret Elixer Ingredients",
         giver: "Lupa",
         area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
@@ -2703,7 +2432,6 @@ export default [
         uid: "q_secretElixerIngredients"
     },
     {
-        id: 270,
         name: "Mystery of Makna Ruins 1",
         giver: "Lupa",
         area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
@@ -2713,7 +2441,6 @@ export default [
         uid: "q_mysteryOfMaknaRuins1"
     },
     {
-        id: 271,
         name: "Mystery of Makna Ruins 2",
         giver: "Lupa",
         area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
@@ -2723,7 +2450,6 @@ export default [
         uid: "q_mysteryOfMaknaRuins2"
     },
     {
-        id: 272,
         name: "Mystery of Makna Ruins 3",
         giver: "Lupa",
         area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
@@ -2733,7 +2459,6 @@ export default [
         uid: "q_mysteryOfMaknaRuins3"
     },
     {
-        id: 273,
         name: "Mystery of Makna Ruins 4",
         giver: "Lupa",
         area: "Frontier Village (Archaeology Centre) 18:00 - 03:00",
@@ -2743,7 +2468,6 @@ export default [
         uid: "q_mysteryOfMaknaRuins4"
     },
     {
-        id: 274,
         name: "Honouring the Nopon Sage",
         giver: "Pipiki",
         area: "Frontier Village (Central Plaza) 06:00 - 18:00",
@@ -2753,7 +2477,6 @@ export default [
         uid: "q_honouringTheNoponSage"
     },
     {
-        id: 275,
         name: "Meeting the Nopon Sage",
         giver: "Pipiki",
         area: "Frontier Village (Central Plaza) 06:00 - 18:00",
@@ -2763,7 +2486,6 @@ export default [
         uid: "q_meetingTheNoponSage"
     },
     {
-        id: 276,
         name: "Fixing Time Mushrooms",
         giver: "Migaga",
         area: "Frontier Village (Sacred Altar) 06:00 - 18:00",
@@ -2773,7 +2495,6 @@ export default [
         uid: "q_fixingTimeMushrooms"
     },
     {
-        id: 277,
         name: "Restoring the Capital",
         giver: "Nelo",
         area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
@@ -2783,7 +2504,6 @@ export default [
         uid: "q_restoringCapital"
     },
     {
-        id: 278,
         name: "Restoring the Capital 2",
         giver: "Nelo",
         area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
@@ -2793,7 +2513,6 @@ export default [
         uid: "q_restoringCapital2"
     },
     {
-        id: 279,
         name: "Broken Ether Furnace",
         giver: "Kaleka",
         area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
@@ -2803,7 +2522,6 @@ export default [
         uid: "q_brokenEtherFurnace"
     },
     {
-        id: 280,
         name: "Broken Ether Furnace 2",
         giver: "Kaleka",
         area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
@@ -2813,7 +2531,6 @@ export default [
         uid: "q_brokenEtherFurnace2"
     },
     {
-        id: 281,
         name: "A Memento of Daddy",
         giver: "Atael",
         area: "Frontier Village (Reservoir) 06:00 - 18:00",
@@ -2823,7 +2540,6 @@ export default [
         uid: "q_mementoOfDaddy"
     },
     {
-        id: 282,
         name: "Pollen Orb Ingredients",
         giver: "Dobadoba",
         area: "Frontier Village (Pollen Orb Storehouse) 03:00 - 21:00",
@@ -2833,7 +2549,6 @@ export default [
         uid: "q_pollenOrbIngredients"
     },
     {
-        id: 283,
         name: "Secret Ingredient Hunt",
         giver: "Bana",
         area: "Frontier Village (Central Plaza) 18:00 - 06:00",
@@ -2843,7 +2558,6 @@ export default [
         uid: "q_secretIngredientHunt"
     },
     {
-        id: 284,
         name: "Secret Innovation",
         giver: "Rasha",
         area: "Frontier Village (Central Plaza) 06:00 - 18:00",
@@ -2853,7 +2567,6 @@ export default [
         uid: "q_secretInnovation"
     },
     {
-        id: 285,
         name: "The Master's Successor",
         giver: "Dobadoba",
         area: "Frontier Village (Pollen Orb Storehouse) 03:00 - 21:00",
@@ -2863,7 +2576,6 @@ export default [
         uid: "q_mastersSuccessor"
     },
     {
-        id: 286,
         name: "Dangerous Ambition",
         giver: "Cherri",
         area: "Frontier Village (Pollen Orb Storehouse) 06:00 - 18:00",
@@ -2873,7 +2585,6 @@ export default [
         uid: "q_dangerousAmibition"
     },
     {
-        id: 287,
         name: "Find the Kingpin",
         giver: "Gadada",
         area: "Frontier Village (Pollen Works) 06:00 - 18:00",
@@ -2883,7 +2594,6 @@ export default [
         uid: "q_findKingpin"
     },
     {
-        id: 288,
         name: "Adviser Hunt",
         giver: "Gadada",
         area: "Frontier Village (Pollen Works) 06:00 - 18:00",
@@ -2893,7 +2603,6 @@ export default [
         uid: "q_adviserHunt"
     },
     {
-        id: 289,
         name: "Evidence Collection",
         giver: "Gadada",
         area: "Frontier Village (Pollen Works) 06:00 - 18:00",
@@ -2903,7 +2612,6 @@ export default [
         uid: "q_evidenceCollection"
     },
     {
-        id: 290,
         name: "Destroying the City Trade",
         giver: "Gadada",
         area: "Frontier Village (Pollen Works) 06:00 - 18:00",
@@ -2913,7 +2621,6 @@ export default [
         uid: "q_destroyingCityTrades"
     },
     {
-        id: 291,
         name: "Bana the Betrayer",
         giver: "Gadada",
         area: "Frontier Village (Pollen Works) 06:00 - 18:00",
@@ -2923,7 +2630,6 @@ export default [
         uid: "q_banaBetrayer"
     },
     {
-        id: 292,
         name: "Presents for Priceless Pupils",
         giver: "Dobadoba",
         area: "Frontier VIllage (Pollen Orb Storehouse) 06:00 - 18:00",
@@ -2933,7 +2639,6 @@ export default [
         uid: "q_presentsPricelessPupils"
     },
     {
-        id: 293,
         name: "Safer Energy",
         giver: "Gadada",
         area: "Frontier Village (Pollen Works) 06:00 - 18:00",
@@ -2943,7 +2648,6 @@ export default [
         uid: "q_saferEnergy"
     },
     {
-        id: 294,
         name: "Distilling Active Ingredients",
         giver: "Cherri",
         area: "Frontier VIllage (Pollen Orb Storehouse) 06:00 - 18:00",
@@ -2953,7 +2657,6 @@ export default [
         uid: "q_distillingActiveIngredients"
     },
     {
-        id: 295,
         name: "Monster Quest 1 - Part 1",
         giver: "Nopon Villager",
         area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
@@ -2963,7 +2666,6 @@ export default [
         uid: "q_frontierVillageMonsterQuest1Part1"
     },
     {
-        id: 296,
         name: "Monster Quest 1 - Part 2",
         giver: "Nopon Villager",
         area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
@@ -2973,7 +2675,6 @@ export default [
         uid: "q_frontierVillageMonsterQuest1Part2"
     },
     {
-        id: 297,
         name: "Monster Quest 1 - Part 3",
         giver: "Nopon Villager",
         area: "Frontier Village (Nopon Tower) 18:00 - 06:00",
@@ -2983,7 +2684,6 @@ export default [
         uid: "q_frontierVillageMonsterQuest1Part3"
     },
     {
-        id: 298,
         name: "Monster Quest 2 - Part 1",
         giver: "Nopon Villager",
         area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
@@ -2993,7 +2693,6 @@ export default [
         uid: "q_frontierVillageMonsterQuest2Part1"
     },
     {
-        id: 299,
         name: "Monster Quest 2 - Part 2",
         giver: "Nopon Villager",
         area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
@@ -3003,7 +2702,6 @@ export default [
         uid: "q_frontierVillageMonsterQuest2Part2"
     },
     {
-        id: 300,
         name: "Monster Quest 2 - Part 3",
         giver: "Nopon Villager",
         area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
@@ -3013,7 +2711,6 @@ export default [
         uid: "q_frontierVillageMonsterQuest2Part3"
     },
     {
-        id: 301,
         name: "Challenge 1",
         giver: "Nopon Villager",
         area: "Frontier Village (Reservoir) 06:00 - 18:00",
@@ -3023,7 +2720,6 @@ export default [
         uid: "q_frontierVillageChallenge1"
     },
     {
-        id: 302,
         name: "Challenge 2",
         giver: "Nopon Villager",
         area: "Frontier Village (Kyn Shopping Street) 06:00 - 18:00",
@@ -3033,7 +2729,6 @@ export default [
         uid: "q_frontierVillageChallenge2"
     },
     {
-        id: 303,
         name: "Challenge 3",
         giver: "Nopon Villager",
         area: "Frontier Village (Archaeology Centre) 18:00 - 06:00",
@@ -3043,7 +2738,6 @@ export default [
         uid: "q_frontierVillageChallenge3"
     },
     {
-        id: 304,
         name: "Material Quest 1",
         giver: "Nopon Villager",
         area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
@@ -3053,7 +2747,6 @@ export default [
         uid: "q_frontierVillageMaterialQuest1"
     },
     {
-        id: 305,
         name: "Material Quest 2",
         giver: "Nopon Villager",
         area: "Frontier Village (Sacred Altar) 18:00 - 06:00",
@@ -3063,7 +2756,6 @@ export default [
         uid: "q_frontierVillageMaterialQuest2"
     },
     {
-        id: 306,
         name: "Material Quest 3",
         giver: "Nopon Villager",
         area: "Frontier Village (Archaeology Centre) 06:00 - 18:00",
@@ -3073,7 +2765,6 @@ export default [
         uid: "q_frontierVillageMaterialQuest3"
     },
     {
-        id: 307,
         name: "Material Quest 4",
         giver: "Nopon Villager",
         area: "Frontier Village (Prophecy Hut) 18:00 - 06:00",
@@ -3083,7 +2774,6 @@ export default [
         uid: "q_frontierVillageMaterialQuest4"
     },
     {
-        id: 308,
         name: "Collection Quest 1",
         giver: "Nopon Villager",
         area: "Frontier Village (Kyn Shopping Street) 18:00 - 06:00",
@@ -3093,7 +2783,6 @@ export default [
         uid: "q_frontierVillageCollectionQuest1"
     },
     {
-        id: 309,
         name: "Collection Quest 2",
         giver: "Nopon Villager",
         area: "Frontier Village (Nopon Tower) 06:00 - 18:00",
@@ -3103,7 +2792,6 @@ export default [
         uid: "q_frontierVillageCollectionQuest2"
     },
     {
-        id: 310,
         name: "Collection Quest 3",
         giver: "Nopon Villager",
         area: "Frontier Village (Chief's Residence) 18:00 - 06:00",
@@ -3113,7 +2801,6 @@ export default [
         uid: "q_frontierVillageCollectionQuest3"
     },
     {
-        id: 311,
         name: "Collection Quest 4",
         giver: "Nopon Villager",
         area: "Frontier Village (Apex Lake) 06:00 - 18:00",
@@ -3123,7 +2810,6 @@ export default [
         uid: "q_frontierVillageCollectionQuest4"
     },
     {
-        id: 312,
         name: "Search Quest 1",
         giver: "Nopon Villager",
         area: "Frontier Village (Middle Housing Level) 06:00 - 18:00",
@@ -3133,7 +2819,6 @@ export default [
         uid: "q_frontierVillageSearchQuest1"
     },
     {
-        id: 313,
         name: "Search Quest 2",
         giver: "Nopon Villager",
         area: "Frontier Village (Archaeology Level) 18:00 - 06:00",
@@ -3143,7 +2828,6 @@ export default [
         uid: "q_frontierVillageSearchQuest2"
     },
     {
-        id: 314,
         name: "Search Quest 3",
         giver: "Nopon Villager",
         area: "Frontier Village (Underground Store) 18:00 - 06:00",
@@ -3153,7 +2837,6 @@ export default [
         uid: "q_frontierVillageSearchQuest3"
     },
     {
-        id: 315,
         name: "An Errand for the Heropon",
         giver: "Story Quest",
         area: "Frontier Village Automatic",
@@ -3163,7 +2846,6 @@ export default [
         uid: "q_errandForTheHeropon"
     },
     {
-        id: 316,
         name: "Trouble at the Plant",
         giver: "Jarack",
         area: "Eryth Sea (Ether Plant) Anytime",
@@ -3173,7 +2855,6 @@ export default [
         uid: "q_troubleAtPlant"
     },
     {
-        id: 317,
         name: "Punish the Hodes",
         giver: "Jarack",
         area: "Eryth Sea (Ether Plant) Anytime",
@@ -3183,7 +2864,6 @@ export default [
         uid: "q_punishHodes"
     },
     {
-        id: 318,
         name: "Mend the Plant",
         giver: "Jarack",
         area: "Eryth Sea (Ether Plant) Anytime",
@@ -3193,7 +2873,6 @@ export default [
         uid: "q_mendPlant"
     },
     {
-        id: 319,
         name: "Hode Attack",
         giver: "Jarack",
         area: "Eryth Sea (Ether Plant) Anytime",
@@ -3203,7 +2882,6 @@ export default [
         uid: "q_hodeAttack"
     },
     {
-        id: 320,
         name: "Trouble at the Lighthouse",
         giver: "Shalen",
         area: "Eryth Sea (Syrath Lighthouse) Anytime",
@@ -3213,7 +2891,6 @@ export default [
         uid: "q_troubleAtLighthouse"
     },
     {
-        id: 321,
         name: "Investigating Satorl",
         giver: "Miriall",
         area: "Eryth Sea (Ether Plant) 18:00 - 06:00",
@@ -3223,7 +2900,6 @@ export default [
         uid: "q_investigatingSatorl"
     },
     {
-        id: 322,
         name: "Ancient High Entia Mystery",
         giver: "Talia",
         area: "Eryth Sea (Ether Plant) 18:00 - 06:00",
@@ -3233,7 +2909,6 @@ export default [
         uid: "q_ancientHighEntiaMystery"
     },
     {
-        id: 323,
         name: "The Missing Boy",
         giver: "Miriall",
         area: "Eryth Sea (Ether Plant) 18:00 - 06:00",
@@ -3243,7 +2918,6 @@ export default [
         uid: "q_missingBoy"
     },
     {
-        id: 324,
         name: "The Only Thing I Can Do",
         giver: "Vidian",
         area: "Eryth Sea (Ether Plant) 06:00 - 18:00",
@@ -3253,7 +2927,6 @@ export default [
         uid: "q_theOnlyThingICanDo"
     },
     {
-        id: 325,
         name: "I Will Never Forget You",
         giver: "Vidian",
         area: "Eryth Sea (Ether Plant) 06:00 - 18:00",
@@ -3263,7 +2936,6 @@ export default [
         uid: "q_iWillNeverForgetYou"
     },
     {
-        id: 326,
         name: "Secret Research",
         giver: "Teelan",
         area: "Eryth Sea (Ether Plant) 06:00 - 18:00",
@@ -3273,7 +2945,6 @@ export default [
         uid: "q_secretResearch"
     },
     {
-        id: 327,
         name: "Monster Quest 1",
         giver: "Lighthouse Keeper",
         area: "Eryth Sea (Syrath Lighthouse) Anytime",
@@ -3283,7 +2954,6 @@ export default [
         uid: "q_erythSeaMonsterQuest1"
     },
     {
-        id: 328,
         name: "Monster Quest 2",
         giver: "Lighthouse Keeper",
         area: "Eryth Sea (Syrath Lighthouse) Anytime",
@@ -3293,7 +2963,6 @@ export default [
         uid: "q_erythSeaMonsterQuest2"
     },
     {
-        id: 329,
         name: "Challenge",
         giver: "Lighthouse Keeper",
         area: "Eryth Sea (Syrath Lighthouse) Anytime",
@@ -3303,7 +2972,6 @@ export default [
         uid: "q_erythSeaChallenge"
     },
     {
-        id: 330,
         name: "Collection Quest 1",
         giver: "Alcamoth Citizen",
         area: "Eryth Sea (Syrath Lighthouse) Anytime",
@@ -3313,7 +2981,6 @@ export default [
         uid: "q_erythSeaCollectionQuest1"
     },
     {
-        id: 331,
         name: "Collection Quest 2",
         giver: "Alcamoth Citizen",
         area: "Eryth Sea (Syrath Lighthouse) Anytime",
@@ -3323,7 +2990,6 @@ export default [
         uid: "q_erythSeaCollectionQuest2"
     },
     {
-        id: 332,
         name: "Save the Worker",
         giver: "Story Quest",
         area: "Alcamoth (Whitewing Palace) Automatic",
@@ -3333,7 +2999,6 @@ export default [
         uid: "q_saveWorker"
     },
     {
-        id: 333,
         name: "Path to Prison Island",
         giver: "Story Quest",
         area: "Eryth Sea Automatic",
@@ -3343,7 +3008,6 @@ export default [
         uid: "q_pathToPrisonIsland"
     },
     {
-        id: 334,
         name: "Sister Seals",
         giver: "Story Quest",
         area: "Eryth Sea Automatic",
@@ -3353,7 +3017,6 @@ export default [
         uid: "q_sisterSeals"
     },
     {
-        id: 335,
         name: "The Deciphering Machine",
         giver: "Ruthan",
         area: "Alcamoth (Imperial Palance) 18:00 - 06:00",
@@ -3363,7 +3026,6 @@ export default [
         uid: "q_decipheringMachine"
     },
     {
-        id: 336,
         name: "A Necessary Upgrade",
         giver: "Naroth",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3373,7 +3035,6 @@ export default [
         uid: "q_necessaryUpgrade"
     },
     {
-        id: 337,
         name: "Talia's Research",
         giver: "Talia",
         area: "Alcamoth (Imperial Palace) 18:00 - 06:00",
@@ -3383,7 +3044,6 @@ export default [
         uid: "q_taliasResearch"
     },
     {
-        id: 338,
         name: "Bring Back My Son!",
         giver: "Merisa",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3393,7 +3053,6 @@ export default [
         uid: "q_bringBackMySon"
     },
     {
-        id: 339,
         name: "Teaching Materials",
         giver: "Mir'leiz",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3403,7 +3062,6 @@ export default [
         uid: "q_teachingMaterials"
     },
     {
-        id: 340,
         name: "Brave Actions",
         giver: "Mir'leiz",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3413,7 +3071,6 @@ export default [
         uid: "q_braveActions"
     },
     {
-        id: 341,
         name: "Protect the Capital!",
         giver: "Lecrough",
         area: "Alcamoth (Great Hall) 06:00 - 18:00",
@@ -3423,7 +3080,6 @@ export default [
         uid: "q_protectTheCapital"
     },
     {
-        id: 342,
         name: "How Do They Feel?",
         giver: "Scarlen",
         area: "Alcamoth (Main Entrance) 18:00 - 06:00",
@@ -3433,7 +3089,6 @@ export default [
         uid: "q_howDoTheyFeel"
     },
     {
-        id: 343,
         name: "How Do I Feel?",
         giver: "Scarlen",
         area: "Alcamoth (Main Entrance) 18:00 - 06:00",
@@ -3443,7 +3098,6 @@ export default [
         uid: "q_howDoIFeel"
     },
     {
-        id: 344,
         name: "I Love You No Matter What",
         giver: "Scarlen",
         area: "Alcamoth (Main Entrance) 18:00 - 06:00",
@@ -3453,7 +3107,6 @@ export default [
         uid: "q_iLoveYouNoMatterWhat"
     },
     {
-        id: 345,
         name: "Together Forever",
         giver: "Scarlen",
         area: "Alcamoth (Main Entrance) 18:00 - 06:00",
@@ -3463,7 +3116,6 @@ export default [
         uid: "q_togetherForever"
     },
     {
-        id: 346,
         name: "A Friend in Need",
         giver: "Lecrough",
         area: "Alcamoth (Great Hall) 06:00 - 18:00",
@@ -3473,7 +3125,6 @@ export default [
         uid: "q_friendInNeed"
     },
     {
-        id: 347,
         name: "Preparing for Adventure",
         giver: "Zain",
         area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
@@ -3483,7 +3134,6 @@ export default [
         uid: "q_preparingForAdventure"
     },
     {
-        id: 348,
         name: "Preparing for Adventure 2",
         giver: "Zain",
         area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
@@ -3493,7 +3143,6 @@ export default [
         uid: "q_preparingForAdventure2"
     },
     {
-        id: 349,
         name: "Preparing for Adventure 3",
         giver: "Zain",
         area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
@@ -3503,7 +3152,6 @@ export default [
         uid: "q_preparingForAdventure3"
     },
     {
-        id: 350,
         name: "Adventureres in Peril",
         giver: "Miriall",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3513,7 +3161,6 @@ export default [
         uid: "q_adventuresInPeril"
     },
     {
-        id: 351,
         name: "Building Bridges",
         giver: "Arielle",
         area: "Alcamoth (Fountain of Eternity) 18:00 - 06:00",
@@ -3523,7 +3170,6 @@ export default [
         uid: "q_buildingBridges"
     },
     {
-        id: 352,
         name: "Believing Again",
         giver: "Vidian",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3533,7 +3179,6 @@ export default [
         uid: "q_believingAgain"
     },
     {
-        id: 352,
         name: "Starlight Seeker",
         giver: "Elior",
         area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
@@ -3543,7 +3188,6 @@ export default [
         uid: "q_starlightSeeker"
     },
     {
-        id: 353,
         name: "Starlight Gazer",
         giver: "Elior",
         area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
@@ -3553,7 +3197,6 @@ export default [
         uid: "q_starlightGazer"
     },
     {
-        id: 354,
         name: "Back Pain",
         giver: "Galdo",
         area: "Alcamoth (Great Hall) 18:00 - 06:00",
@@ -3563,7 +3206,6 @@ export default [
         uid: "q_backPain"
     },
     {
-        id: 355,
         name: "Looking for Gold Bugs",
         giver: "Teelan",
         area: "Alcamoth (Imperial Palace) 06:00 - 15:00",
@@ -3573,7 +3215,6 @@ export default [
         uid: "q_lookingForGoldBugs"
     },
     {
-        id: 356,
         name: "Losing the Taste for Alcohol",
         giver: "Nelo",
         area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
@@ -3583,7 +3224,6 @@ export default [
         uid: "q_losingTheTasteForAlcohol"
     },
     {
-        id: 357,
         name: "Looking for a Lost Son",
         giver: "Vol'aren",
         area: "Alcamoth (Fountain of Hope) 06:00 - 18:00",
@@ -3593,7 +3233,6 @@ export default [
         uid: "q_lookingForALostSon"
     },
     {
-        id: 358,
         name: "Looking for a Lost Daughter",
         giver: "Vol'aren",
         area: "Alcamoth (Fountain of Hope) 06:00 - 18:00",
@@ -3603,7 +3242,6 @@ export default [
         uid: "q_lookingForALostDaughter"
     },
     {
-        id: 359,
         name: "Going Out to Play",
         giver: "Popipo",
         area: "Alcamoth (Main Entrance) 06:00 - 18:00",
@@ -3613,7 +3251,6 @@ export default [
         uid: "q_goingOutToPlay"
     },
     {
-        id: 360,
         name: "Getting a Member's Card",
         giver: "Surprise Quest",
         area: "Automatic",
@@ -3623,7 +3260,6 @@ export default [
         uid: "q_gettingAMembersCard"
     },
     {
-        id: 361,
         name: "Vidian Rescue Mission",
         giver: "Surprise Quest",
         area: "Automatic",
@@ -3633,7 +3269,6 @@ export default [
         uid: "q_vidianRescueMission"
     },
     {
-        id: 362,
         name: "Monster Quest 1 - Part 1",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3643,7 +3278,6 @@ export default [
         uid: "q_alcamothMonsterQuest1Part1"
     },
     {
-        id: 362,
         name: "Monster Quest 1 - Part 2",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3653,7 +3287,6 @@ export default [
         uid: "q_alcamothMonsterQuest1Part2"
     },
     {
-        id: 363,
         name: "Monster Quest 1 - Part 3",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3663,7 +3296,6 @@ export default [
         uid: "q_alcamothMonsterQuest1Part3"
     },
     {
-        id: 364,
         name: "Monster Quest 2 - Part 1",
         giver: "Alcamoth Imperial Guard",
         area: "Alcamoth (Imperial Palace) 18:00 - 06:00",
@@ -3673,7 +3305,6 @@ export default [
         uid: "q_alcamothMonsterQuest2Part1"
     },
     {
-        id: 365,
         name: "Monster Quest 2 - Part 2",
         giver: "Alcamoth Imperial Guard",
         area: "Alcamoth (Imperial Palace) 18:00 - 06:00",
@@ -3683,7 +3314,6 @@ export default [
         uid: "q_alcamothMonsterQuest2Part2"
     },
     {
-        id: 366,
         name: "Monster Quest 2 - Part 3",
         giver: "Alcamoth Imperial Guard",
         area: "Alcamoth (Imperial Palace) 18:00 - 06:00",
@@ -3693,7 +3323,6 @@ export default [
         uid: "q_alcamothMonsterQuest2Part3"
     },
     {
-        id: 367,
         name: "Monster Quest 3 - Part 1",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Melfica Road) 06:00 - 18:00",
@@ -3703,7 +3332,6 @@ export default [
         uid: "q_alcamothMonsterQuest3Part1"
     },
     {
-        id: 368,
         name: "Monster Quest 3 - Part 2",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Melfica Road) 06:00 - 18:00",
@@ -3713,7 +3341,6 @@ export default [
         uid: "q_alcamothMonsterQuest3Part2"
     },
     {
-        id: 369,
         name: "Monster Quest 3 - Part 3",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Melfica Road) 06:00 - 18:00",
@@ -3723,7 +3350,6 @@ export default [
         uid: "q_alcamothMonsterQuest3Part3"
     },
     {
-        id: 370,
         name: "Monster Quest 4 - Part 1",
         giver: "Alcamoth Imperial Guard",
         area: "Alcamoth (Ascension Hall) 18:00 - 06:00",
@@ -3733,7 +3359,6 @@ export default [
         uid: "q_alcamothMonsterQuest4Part1"
     },
     {
-        id: 371,
         name: "Monster Quest 4 - Part 2",
         giver: "Alcamoth Imperial Guard",
         area: "Alcamoth (Ascension Hall) 18:00 - 06:00",
@@ -3743,7 +3368,6 @@ export default [
         uid: "q_alcamothMonsterQuest4Part2"
     },
     {
-        id: 372,
         name: "Monster Quest 4 - Part 3",
         giver: "Alcamoth Imperial Guard",
         area: "Alcamoth (Ascension Hall) 18:00 - 06:00",
@@ -3753,7 +3377,6 @@ export default [
         uid: "q_alcamothMonsterQuest4Part3"
     },
     {
-        id: 373,
         name: "Challenge 1",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
@@ -3763,7 +3386,6 @@ export default [
         uid: "q_alcamothChallenge1"
     },
     {
-        id: 374,
         name: "Challenge 2",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Fountain of Eternity) 18:00 - 06:00",
@@ -3773,7 +3395,6 @@ export default [
         uid: "q_alcamothChallenge2"
     },
     {
-        id: 375,
         name: "Challenge 3",
         giver: "Alcamoth Imperial Guard",
         area: "Alcamoth (Ascension Hall) 06:00 - 18:00",
@@ -3783,7 +3404,6 @@ export default [
         uid: "q_alcamothChallenge3"
     },
     {
-        id: 376,
         name: "Challenge 4",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
@@ -3793,7 +3413,6 @@ export default [
         uid: "q_alcamothChallenge4"
     },
     {
-        id: 377,
         name: "Material Quest 1",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Main Entrance) 06:00 - 18:00",
@@ -3803,7 +3422,6 @@ export default [
         uid: "q_alcamothMaterialQuest1"
     },
     {
-        id: 378,
         name: "Material Quest 2",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3813,7 +3431,6 @@ export default [
         uid: "q_alcamothMaterialQuest2"
     },
     {
-        id: 379,
         name: "Material Quest 3",
         giver: "Alcamoth Imperial Guard",
         area: "Alcamoth (Main Entrance) 06:00 - 18:00",
@@ -3823,7 +3440,6 @@ export default [
         uid: "q_alcamothMaterialQuest3"
     },
     {
-        id: 380,
         name: "Material Quest 4",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Imperial Palace) 06:00 - 18:00",
@@ -3833,7 +3449,6 @@ export default [
         uid: "q_alcamothMaterialQuest4"
     },
     {
-        id: 381,
         name: "Collection Quest 1",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Melfica Road) 06:00 - 18:00",
@@ -3843,7 +3458,6 @@ export default [
         uid: "q_alcamothCollectionQuest1"
     },
     {
-        id: 382,
         name: "Collection Quest 2",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Main Entrance) 06:00 - 18:00",
@@ -3853,7 +3467,6 @@ export default [
         uid: "q_alcamothCollectionQuest2"
     },
     {
-        id: 383,
         name: "Collection Quest 3",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Fountain of Hope) 06:00 - 18:00",
@@ -3863,7 +3476,6 @@ export default [
         uid: "q_alcamothCollectionQuest3"
     },
     {
-        id: 384,
         name: "Collection Quest 4",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Melfica Road) 18:00 - 06:00",
@@ -3873,7 +3485,6 @@ export default [
         uid: "q_alcamothCollectionQuest4"
     },
     {
-        id: 385,
         name: "Search Quest 1",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
@@ -3883,7 +3494,6 @@ export default [
         uid: "q_alcamothSearchQuest1"
     },
     {
-        id: 386,
         name: "Search Quest 2",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
@@ -3893,7 +3503,6 @@ export default [
         uid: "q_alcamothSearchQuest2"
     },
     {
-        id: 387,
         name: "Search Quest 3",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Fountain of Eternity) 06:00 - 18:00",
@@ -3903,7 +3512,6 @@ export default [
         uid: "q_alcamothSearchQuest3"
     },
     {
-        id: 388,
         name: "Search Quest 4",
         giver: "Alcamoth Citizen",
         area: "Alcamoth (Fountain of Hope) 18:00 - 06:00",
@@ -3913,7 +3521,6 @@ export default [
         uid: "q_alcamothSearchQuest4"
     },
     {
-        id: 389,
         name: "Chilkins and Antols",
         giver: "A Nopon Researcher",
         area: "Valak Mountain (Nopon Camp) Anytime",
@@ -3923,7 +3530,6 @@ export default [
         uid: "q_chilkinsAntols"
     },
     {
-        id: 390,
         name: "Valak Mountain Research",
         giver: "A Nopon Researcher",
         area: "Valak Mountain (Nopon Camp) Anytime",
@@ -3933,7 +3539,6 @@ export default [
         uid: "q_valakMountainResearch"
     },
     {
-        id: 391,
         name: "The Freezing Nopon",
         giver: "A Nopon Researcher",
         area: "Valak Mountain (Hollow Bone) Anytime",
@@ -3943,7 +3548,6 @@ export default [
         uid: "q_freezingNopon"
     },
     {
-        id: 392,
         name: "Bad Timing",
         giver: "A Nopon Researcher",
         area: "Valak Mountain (Great Glacier) Anytime",
@@ -3953,7 +3557,6 @@ export default [
         uid: "q_badTiming"
     },
     {
-        id: 393,
         name: "Chilkin Changes",
         giver: "Dakuku",
         area: "Valak Mountain (Nopon Camp) Anytime",
@@ -3963,7 +3566,6 @@ export default [
         uid: "q_chilkinChanges"
     },
     {
-        id: 394,
         name: "The Balance of Power",
         giver: "Dakuku",
         area: "Valak Mountain (Nopon Camp) Anytime",
@@ -3973,7 +3575,6 @@ export default [
         uid: "q_balanceOfPower"
     },
     {
-        id: 395,
         name: "The Missing Partner",
         giver: "Kurralth",
         area: "Valak Mountain (Harict Chapel) Anytime",
@@ -3983,7 +3584,6 @@ export default [
         uid: "q_missingPower"
     },
     {
-        id: 396,
         name: "The Final Giants' Ruins",
         giver: "Zain",
         area: "Valak Mountain (Harict Chapel) Anytime",
@@ -3993,7 +3593,6 @@ export default [
         uid: "q_finalGiantsRuins"
     },
     {
-        id: 397,
         name: "The Giants' Treasures",
         giver: "Zain",
         area: "Valak Mountain (Harict Chapel) Anytime",
@@ -4003,7 +3602,6 @@ export default [
         uid: "q_giantsTreasures"
     },
     {
-        id: 398,
         name: "Monster Quest 1",
         giver: "A Nopon Researcher",
         area: "Valak Mountain (Zokhed Pass) Anytime",
@@ -4013,7 +3611,6 @@ export default [
         uid: "q_valakMountainMonsterQuest1"
     },
     {
-        id: 399,
         name: "Monster Quest 2",
         giver: "A Nopon Researcher",
         area: "Valak Mountain (Zokhed Pass) Anytime",
@@ -4023,7 +3620,6 @@ export default [
         uid: "q_valakMountainMonsterQuest2"
     },
     {
-        id: 400,
         name: "Monster Quest 3",
         giver: "A Nopon Researcher",
         area: "Valak Mountain (Zokhed Pass) Anytime",
@@ -4033,7 +3629,6 @@ export default [
         uid: "q_valakMountainMonsterQuest3"
     },
     {
-        id: 401,
         name: "Monster Quest 4",
         giver: "A Nopon Researcher",
         area: "Valak Mountain (Zokhed Pass) Anytime",
@@ -4043,7 +3638,6 @@ export default [
         uid: "q_valakMountainMonsterQuest4"
     },
     {
-        id: 402,
         name: "The Magma Rock",
         giver: "Story Quest",
         area: "Valak Mountain (Sealed Tower)",
@@ -4053,7 +3647,6 @@ export default [
         uid: "q_magmaRock"
     },
     {
-        id: 403,
         name: "Secure Dolgan Outpost",
         giver: "Surprise Quest",
         area: "Sword Valley (Dolgan Outpost) Automatic",
@@ -4063,7 +3656,6 @@ export default [
         uid: "q_secureDolganOutpost"
     },
     {
-        id: 404,
         name: "Secure Enalda Control Base",
         giver: "Surprise Quest",
         area: "Sword Valley (Enalda Control Base) Automatic",
@@ -4073,7 +3665,6 @@ export default [
         uid: "q_secureEnaldaControlBase"
     },
     {
-        id: 405,
         name: "3rd Gate Front Line",
         giver: "Surprise Quest",
         area: "Sword Valley (3rd Gate) Automatic",
@@ -4083,7 +3674,6 @@ export default [
         uid: "q_3rdGateFrontLine"
     },
     {
-        id: 406,
         name: "Secure the Radio Tower",
         giver: "Surprise Quest",
         area: "Sword Valley (Radio Tower) Automatic",
@@ -4093,7 +3683,6 @@ export default [
         uid: "q_secureTheRadioTower"
     },
     {
-        id: 407,
         name: "Lift Battle",
         giver: "Story Quest",
         area: "Galahad Fortress (Main Maintenance Bay) Automatic",
@@ -4103,7 +3692,6 @@ export default [
         uid: "q_liftBattle"
     },
     {
-        id: 408,
         name: "Supply Station Battle",
         giver: "Story Quest",
         area: "Galahad Fortress (Main Control Room) Automatic",
@@ -4113,7 +3701,6 @@ export default [
         uid: "q_supplyStationBattle"
     },
     {
-        id: 409,
         name: "Turbine Battle",
         giver: "Story Quest",
         area: "Galahad Fortress (Main Control Room) Automatic",
@@ -4123,7 +3710,6 @@ export default [
         uid: "q_turbineBattle"
     },
     {
-        id: 408,
         name: "Fiora's Conviction",
         giver: "Story Quest",
         area: "Galahad Fortress (Face Maintenance Bay) Automatic",
@@ -4133,7 +3719,6 @@ export default [
         uid: "q_fiorasConviction"
     },
     {
-        id: 409,
         name: "Chase Dickson",
         giver: "Story Quest",
         area: "Prison Island (Behemoth Nest) Automatic",
@@ -4143,7 +3728,6 @@ export default [
         uid: "q_chaseDickson"
     },
     {
-        id: 410,
         name: "Path to the Top",
         giver: "Story Quest",
         area: "Prison Island (Corridor of Silence) Automatic",
@@ -4153,7 +3737,6 @@ export default [
         uid: "q_pathToTheTop"
     },
     {
-        id: 411,
         name: "Save the Machina!",
         giver: "Voltak",
         area: "Fallen Arm (Junks) Anytime",
@@ -4163,7 +3746,6 @@ export default [
         uid: "q_saveTheMachina"
     },
     {
-        id: 412,
         name: "Eliminate the Threat",
         giver: "Voltak",
         area: "Fallen Arm (Junks) Anytime",
@@ -4173,7 +3755,6 @@ export default [
         uid: "q_eliminateTheThreat"
     },
     {
-        id: 413,
         name: "Mysterious Noises",
         giver: "Prox",
         area: "Fallen Arm (Ether Light) 18:00 - 06:00",
@@ -4183,7 +3764,6 @@ export default [
         uid: "q_mysteriousNoises"
     },
     {
-        id: 414,
         name: "Protect the Village",
         giver: "Eleqa",
         area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
@@ -4193,7 +3773,6 @@ export default [
         uid: "q_protectTheVillage"
     },
     {
-        id: 415,
         name: "Stop the Mechon Rampage!",
         giver: "Eleqa",
         area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
@@ -4203,7 +3782,6 @@ export default [
         uid: "q_stopTheMechonRampage"
     },
     {
-        id: 416,
         name: "Stunted Growth",
         giver: "Orkatix",
         area: "Fallen Arm (Junks) Anytime",
@@ -4213,7 +3791,6 @@ export default [
         uid: "q_stuntedGrowth"
     },
     {
-        id: 417,
         name: "Transmission Bypass",
         giver: "Orkatix",
         area: "Fallen Arm (Junks) Anytime",
@@ -4223,7 +3800,6 @@ export default [
         uid: "q_transmissionBypass"
     },
     {
-        id: 418,
         name: "The Exhaust Pump",
         giver: "Orkatix",
         area: "Fallen Arm (Junks) Anytime",
@@ -4233,7 +3809,6 @@ export default [
         uid: "q_theExhaustPump"
     },
     {
-        id: 419,
         name: "The Mini Reactor",
         giver: "Orkatix",
         area: "Fallen Arm (Junks) Anytime",
@@ -4243,7 +3818,6 @@ export default [
         uid: "q_miniReactor"
     },
     {
-        id: 420,
         name: "The History of Mechonis",
         giver: "Zilex",
         area: "Fallen Arm (Junks) Anytime",
@@ -4253,7 +3827,6 @@ export default [
         uid: "q_historyOfMechonis"
     },
     {
-        id: 421,
         name: "The History of the Capital",
         giver: "Zilex",
         area: "Fallen Arm (Junks) Anytime",
@@ -4263,7 +3836,6 @@ export default [
         uid: "q_historyOfTheCapital"
     },
     {
-        id: 422,
         name: "I Want to be a Homs!",
         giver: "Rakzet",
         area: "Fallen Arm (Junks) 00:00 - 21:00",
@@ -4273,7 +3845,6 @@ export default [
         uid: "q_iWantToBeAHoms"
     },
     {
-        id: 423,
         name: "Powerless",
         giver: "Rakzet",
         area: "Fallen Arm (Junks) 00:00 - 21:00",
@@ -4283,7 +3854,6 @@ export default [
         uid: "q_powerless"
     },
     {
-        id: 424,
         name: "Power up!",
         giver: "Rakzet",
         area: "Fallen Arm (Junks) 00:00 - 21:00",
@@ -4293,7 +3863,6 @@ export default [
         uid: "q_powerUp"
     },
     {
-        id: 425,
         name: "Fixing a Broken Door",
         giver: "Rizaka",
         area: "Fallen Arm (Hidden Machina Village) 06:00 - 15:00",
@@ -4303,7 +3872,6 @@ export default [
         uid: "q_fixingABrokenDoor"
     },
     {
-        id: 426,
         name: "The Wilted Flower",
         giver: "Rizaka",
         area: "Fallen Arm (Hidden Machina Village) 06:00 - 15:00",
@@ -4313,7 +3881,6 @@ export default [
         uid: "q_wiltedFlower"
     },
     {
-        id: 427,
         name: "The Oath Sword",
         giver: "Karlos",
         area: "Fallen Arm (Hidden Machina Village) 18:00 - 06:00",
@@ -4323,7 +3890,6 @@ export default [
         uid: "q_oathSword"
     },
     {
-        id: 428,
         name: "Scheduled Inspection",
         giver: "Xekit",
         area: "Fallen Arm (Ether Light) 18:00 - 06:00",
@@ -4333,7 +3899,6 @@ export default [
         uid: "q_schesuledInspection"
     },
     {
-        id: 429,
         name: "A Tough Battle",
         giver: "Kazat",
         area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
@@ -4343,7 +3908,6 @@ export default [
         uid: "q_toughBattle"
     },
     {
-        id: 430,
         name: "A Weapon Just For Me",
         giver: "Kazat",
         area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
@@ -4353,7 +3917,6 @@ export default [
         uid: "q_weaponJustForMe"
     },
     {
-        id: 431,
         name: "Therapy",
         giver: "Eleqa",
         area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
@@ -4363,7 +3926,6 @@ export default [
         uid: "q_therapy"
     },
     {
-        id: 432,
         name: "Mending Memories",
         giver: "Mixik",
         area: "Fallen Arm (Junks) 21:00 - 03:00",
@@ -4373,7 +3935,6 @@ export default [
         uid: "q_mendingMemories"
     },
     {
-        id: 433,
         name: "Resolution - Father",
         giver: "Kazat",
         area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
@@ -4383,7 +3944,6 @@ export default [
         uid: "q_resolutionFather"
     },
     {
-        id: 434,
         name: "Resolution - Mother",
         giver: "Qofaria",
         area: "Fallen Arm (Hidden Machina Village) 06:00 - 18:00",
@@ -4393,7 +3953,6 @@ export default [
         uid: "q_resolutionMother"
     },
     {
-        id: 435,
         name: "Food Delivery",
         giver: "Natalia",
         area: "Fallen Arm (Junks) 18:00 - 06:00",
@@ -4403,7 +3962,6 @@ export default [
         uid: "q_foodDelivery"
     },
     {
-        id: 436,
         name: "For my Loved One...",
         giver: "Zarkort",
         area: "Fallen Arm (Digit 2) Anytime",
@@ -4413,7 +3971,6 @@ export default [
         uid: "q_forMyLovedOne"
     },
     {
-        id: 437,
         name: "To My Loved One...",
         giver: "Zarkort",
         area: "Fallen Arm (Digit 2) Anytime",
@@ -4423,7 +3980,6 @@ export default [
         uid: "q_toMyLovedOne"
     },
     {
-        id: 438,
         name: "Reunion with Fiora",
         giver: "Story Quest",
         area: "Automatic",
@@ -4433,7 +3989,6 @@ export default [
         uid: "q_reuinionWithFiora"
     },
     {
-        id: 439,
         name: "We Made It",
         giver: "Story Quest",
         area: "Automatic",
@@ -4443,7 +3998,6 @@ export default [
         uid: "q_weMadeIt"
     },
     {
-        id: 440,
         name: "Fiora's Treatment",
         giver: "Linada (Story Quest)",
         area: "Automatic",
@@ -4453,7 +4007,6 @@ export default [
         uid: "q_fiorasTreatment"
     },
     {
-        id: 441,
         name: "Best Boots",
         giver: "Bozatrox",
         area: "Mechonis Field (Machina Refuge) Anytime",
@@ -4463,7 +4016,6 @@ export default [
         uid: "q_bestBoots"
     },
     {
-        id: 442,
         name: "Monster Quest",
         giver: "A Garrisoned Troop Machina",
         area: "Mechonis Field (Machina Refuge) Anytime",
@@ -4473,7 +4025,6 @@ export default [
         uid: "q_mechonisFieldMonsterQuest"
     },
     {
-        id: 443,
         name: "Challenge Quest 1",
         giver: "A Garrisoned Troop Machina",
         area: "Mechonis Field (Machina Refuge) Anytime",
@@ -4483,7 +4034,6 @@ export default [
         uid: "q_mechonisFieldChallengeQuest1"
     },
     {
-        id: 444,
         name: "Challenge Quest 2",
         giver: "A Garrisoned Troop Machina",
         area: "Mechonis Field (Machina Refuge) Anytime",
@@ -4493,7 +4043,6 @@ export default [
         uid: "q_mechonisFieldChallengeQuest2"
     },
     {
-        id: 445,
         name: "Aiming for the Top",
         giver: "Story Quest",
         area: "Mechonis Field (2nd Lift - GF) Automatic",
@@ -4503,7 +4052,6 @@ export default [
         uid: "q_aimingForTheTop"
     },
     {
-        id: 446,
         name: "Get the 3rd Lift Moving",
         giver: "Story Quest",
         area: "Mechonis Field (2nd Lift - 1F) Automatic",
@@ -4513,7 +4061,6 @@ export default [
         uid: "q_getThe3rdLiftMoving"
     },
     {
-        id: 447,
         name: "Opening the Bulkhead",
         giver: "Story Quest",
         area: "Mechonis Field (3rd Lift - 3F) Automatic",
@@ -4523,7 +4070,6 @@ export default [
         uid: "q_openingTheBulkhead"
     },
     {
-        id: 448,
         name: "The High-Velocity Lift",
         giver: "Story Quest",
         area: "Mechonis Field (Upper Bulkhead Bridge) Automatic",
@@ -4533,7 +4079,6 @@ export default [
         uid: "q_highVelocityLift"
     },
     {
-        id: 449,
         name: "Need Power!",
         giver: "Story Quest",
         area: "Mechonis Field (Upper Bulkhead Bridge) Automatic",
@@ -4543,7 +4088,6 @@ export default [
         uid: "q_needPower"
     },
     {
-        id: 450,
         name: "Eliminate the Backup!",
         giver: "Surprise Quest",
         area: "Central Factory (Storage Depot) Automatic",
@@ -4553,7 +4097,6 @@ export default [
         uid: "q_eliminateTheBackup"
     },
     {
-        id: 451,
         name: "Daring Assault",
         giver: "Surprise Quest",
         area: "Central Factory (Mechon Factory) Automatic",
@@ -4563,7 +4106,6 @@ export default [
         uid: "q_daringAssault"
     },
     {
-        id: 452,
         name: "Roof Battle",
         giver: "Surprise Quest",
         area: "Central Factory (Training Ground Roof) Automatic",
@@ -4573,7 +4115,6 @@ export default [
         uid: "q_roofBattle"
     },
     {
-        id: 453,
         name: "New Weapon for Fiora",
         giver: "Junks Staff",
         area: "Central Factory (Ventilation Conduit) Automatic",
@@ -4583,7 +4124,6 @@ export default [
         uid: "q_newWeaponForFiora"
     },
     {
-        id: 454,
         name: "To the Central Tower",
         giver: "Story Quest",
         area: "Central Factory (Central Gate) Automatic",
@@ -4593,7 +4133,6 @@ export default [
         uid: "q_toTheCentralTower"
     },
     {
-        id: 455,
         name: "Maintenance Wing Escape",
         giver: "Story Quest",
         area: "Central Factory (Maintenance Wing) Automatic",
@@ -4603,7 +4142,6 @@ export default [
         uid: "q_maintenanceWingEscape"
     },
     {
-        id: 456,
         name: "Find a Path to the Top",
         giver: "Story Quest",
         area: "Central Factory (Central Warehouse Lift) Automatic",
@@ -4613,7 +4151,6 @@ export default [
         uid: "q_findAPathToTheTop"
     },
     {
-        id: 457,
         name: "Materials for a Bomb",
         giver: "Story Quest",
         area: "Central Factory (Factory Vent) Automatic",
@@ -4623,7 +4160,6 @@ export default [
         uid: "q_materialsForABomb"
     },
     {
-        id: 458,
         name: "The Central Tower Barrier",
         giver: "Story Quest",
         area: "Central Factory (Tower Boarding Gate) Automatic",
@@ -4633,7 +4169,6 @@ export default [
         uid: "q_theCentralTowerBarrier"
     },
     {
-        id: 459,
         name: "Civil Protection 1 - 1",
         giver: "Civil Protection Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4643,7 +4178,6 @@ export default [
         uid: "q_civilProtection1-1"
     },
     {
-        id: 460,
         name: "Civil Protection 1 - 2",
         giver: "Civil Protection Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4653,7 +4187,6 @@ export default [
         uid: "q_civilProtection1-2"
     },
     {
-        id: 461,
         name: "Civil Protection 1 - 3",
         giver: "Civil Protection Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4663,7 +4196,6 @@ export default [
         uid: "q_civilProtection1-3"
     },
     {
-        id: 462,
         name: "Civil Protection 1 - 3",
         giver: "Civil Protection Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4673,7 +4205,6 @@ export default [
         uid: "q_civilProtection1-3"
     },
     {
-        id: 463,
         name: "Civil Protection 2 - 1",
         giver: "Civil Protection Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4683,7 +4214,6 @@ export default [
         uid: "q_civilProtection2-1"
     },
     {
-        id: 464,
         name: "Civil Protection 2 - 2",
         giver: "Civil Protection Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4693,7 +4223,6 @@ export default [
         uid: "q_civilProtection2-2"
     },
     {
-        id: 465,
         name: "Civil Protection 2 - 3",
         giver: "Civil Protection Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4703,7 +4232,6 @@ export default [
         uid: "q_civilProtection2-3"
     },
     {
-        id: 466,
         name: "Military Status 1 - 1",
         giver: "Military Status Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4713,7 +4241,6 @@ export default [
         uid: "q_militaryStatus1-1"
     },
     {
-        id: 467,
         name: "Military Status 1 - 2",
         giver: "Military Status Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4723,7 +4250,6 @@ export default [
         uid: "q_militaryStatus1-2"
     },
     {
-        id: 468,
         name: "Military Status 2 - 1",
         giver: "Military Status Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4733,7 +4259,6 @@ export default [
         uid: "q_militaryStatus2-1"
     },
     {
-        id: 469,
         name: "Military Status 2 - 2",
         giver: "Military Status Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4743,7 +4268,6 @@ export default [
         uid: "q_militaryStatus2-2"
     },
     {
-        id: 470,
         name: "Agniratha Beautification 1",
         giver: "City Planning Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4753,7 +4277,6 @@ export default [
         uid: "q_agnirathaBeautification1"
     },
     {
-        id: 471,
         name: "Agniratha Beautification 2",
         giver: "City Planning Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4763,7 +4286,6 @@ export default [
         uid: "q_agnirathaBeautification2"
     },
     {
-        id: 472,
         name: "Telethia Investigation 1",
         giver: "Strategic Intel Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4773,7 +4295,6 @@ export default [
         uid: "q_telethiaInvestigation1"
     },
     {
-        id: 473,
         name: "Telethia Investigation 2",
         giver: "Strategic Intel Terminal",
         area: "Agniratha (Central Tower) Anytime",
@@ -4783,7 +4304,6 @@ export default [
         uid: "q_telethiaInvestigation2"
     },
     {
-        id: 474,
         name: "Shrine Transport",
         giver: "Story Quest",
         area: "Automatic",
@@ -4793,7 +4313,6 @@ export default [
         uid: "q_shrineTransport"
     },
     {
-        id: 475,
         name: "Pillar Verification Devices",
         giver: "Story Quest",
         area: "Automatic",
@@ -4803,7 +4322,6 @@ export default [
         uid: "q_pillarVerificationDevices"
     },
     {
-        id: 476,
         name: "Save Bionis",
         giver: "Story Quest",
         area: "Automatic",
