@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './NavBar';
-import XCOneQData from "../../data/XCOneQData"
+import XCOneQData from "../../data/XCOne/XCOneQData"
 
 const {useState} = React;
 const {useEffect} = React;
@@ -56,7 +56,7 @@ const conditionalRowStyles = [
     }
 ];
 
-var store = JSON.parse(localStorage.getItem("XCOne-QuestList"));
+var store = JSON.parse(localStorage.getItem("XCOne-CompletionList"));
 
 if (store === null) {
     store = new Set();
@@ -65,7 +65,7 @@ if (store === null) {
 }
 
 function saveStore() {
-    localStorage.setItem("XCOne-QuestList", JSON.stringify([...store]));
+    localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
 }
 
 
@@ -80,11 +80,11 @@ export default function XCOne() {
             }
             x++;
         }
-  }, [])
+    }, [])
 
     const handleRowClicked = row => {
         const updatedData = data.map(item => {
-            if (row.id !== item.id) {
+            if (row.uid !== item.uid) {
                 return item;
             }
 
@@ -107,15 +107,15 @@ export default function XCOne() {
 
     return (
         <>
-        <NavBar />
-        <DataTable
-            title="Xenoblade Chronicles One Quests"
-            columns={columns}
-            data={data}
-            defaultSortFieldId="title"
-            onRowClicked={handleRowClicked}
-            conditionalRowStyles={conditionalRowStyles}
-        />
+            <NavBar />
+            <DataTable
+                title="Xenoblade Chronicles One Quests"
+                columns={columns}
+                data={data}
+                defaultSortFieldId="title"
+                onRowClicked={handleRowClicked}
+                conditionalRowStyles={conditionalRowStyles}
+            />
         </>
     );
 }
