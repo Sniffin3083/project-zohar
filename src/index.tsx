@@ -18,8 +18,9 @@ import XCOneCollection from './routes/XC1/XCOneCollection';
 import XCOneAchievements from './routes/XC1/XCOneAchievements';
 import XCOneHeart from './routes/XC1/XCOneHeart';
 
-import XCTwo from './routes/XCtwo.jsx';
-import XCThree from './routes/XCthree.jsx';
+import XCTwo from './routes/XC2/XCtwo.jsx';
+
+import XCThree from './routes/XC3/XCthree.jsx';
 
 const router = createBrowserRouter([
     {
