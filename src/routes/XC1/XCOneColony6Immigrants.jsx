@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from 'react-data-table-component';
 
 import NavBar from "./NavBar";
-import XCOneCImmigrantData from '../../data/XC1/XCOneCImmigrantData';
+import XCOneCSixIData from '../../data/XC1/XCOneCSixIData';
 
 const {useStata} = React;
 const {useEffect} = React;
@@ -57,13 +57,13 @@ function saveStore() {
 }
 
 export default function XCOneColony6Immigrants() {
-    const [data, setData] = React.useState(XCOneCImmigrantData);
+    const [data, setData] = React.useState(XCOneCSixIData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneCImmigrantData) {
-            if(store.has(XCOneCImmigrantData[x]["uid"])) {
-                XCOneCImmigrantData[x].toggleSelected = true;
+        for (let i of XCOneCSixIData) {
+            if(store.has(XCOneCSixIData[x]["uid"])) {
+                XCOneCSixIData[x].toggleSelected = true;
             }
             x++;
         }
