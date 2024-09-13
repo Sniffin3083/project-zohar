@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from 'react-data-table-component';
 
 import NavBar from "./NavBar";
-import XCOneUData from '../../data/XCOne/XCOneUData';
+import XCOneUData from '../../data/XC1/XCOneUData';
 
 const {useStata} = React;
 const {useEffect} = React;
