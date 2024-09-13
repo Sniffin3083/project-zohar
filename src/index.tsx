@@ -13,7 +13,8 @@ import ErrorPage from './error-page';
 import XCOneHome from './routes/XC1/XCOneHome.jsx'
 import XCOneQuests from './routes/XC1/XCOneQuests.jsx';
 import XCOneUMonster from './routes/XC1/XCOneUMonster';
-import XCOneColony6 from './routes/XC1/XCOneColony6';
+import XCOneColony6Immigrants from './routes/XC1/XCOneColony6Immigrants';
+import XCOneColony6Reconstruction from './routes/XC1/XCOneColony6Reconstruction';
 import XCOneCollection from './routes/XC1/XCOneCollection';
 import XCOneAchievements from './routes/XC1/XCOneAchievements';
 import XCOneHeart from './routes/XC1/XCOneHeart';
@@ -41,8 +42,12 @@ const router = createBrowserRouter([
         element: <XCOneUMonster />
     },
     {
-        path: "xeno1/colony6",
-        element: <XCOneColony6 />
+        path: "xeno1/colony6immigrants",
+        element: <XCOneColony6Immigrants />
+    },
+    {
+        path: "xeno1/colony6reconstruction",
+        element: <XCOneColony6Reconstruction />
     },
     {
         path: "xeno1/collection",
