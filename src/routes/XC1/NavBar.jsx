@@ -16,12 +16,6 @@ export default function NavBar() {
                     <Link to="/xeno1/umonster">Unique Monsters</Link>
                 </li>
                 <li className="px-12 hover:font-bold hover:underline">
-                    {/* <select>
-                        <option><Link to="/colony6immigrants">Immigrants</Link></option>
-                        <option><Link to="/colony6reconstruction">Reconstruction</Link></option>
-                    </select>
-                    <Link to="/xeno1/colony6">Colony 6</Link> */}
-
                     <Dropdown title="Colony 6">
                         <Dropdown.Item as="a" href="/xeno1/colony6immigrants">
                             Colony 6 Immigrants
