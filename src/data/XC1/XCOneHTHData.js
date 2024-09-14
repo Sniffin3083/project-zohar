@@ -502,13 +502,3 @@ export default [
         uid: "hth_journeysEnd"
     },
 ]
-/*
-{
-    title: "",
-    area: "",
-    characters: "",
-    affinity: <img src={heartAffinity} alt="Heart" />,
-    prerequisites: "None",
-    uid: "hth_"
-},
-*/
