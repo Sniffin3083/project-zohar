@@ -17,16 +17,16 @@ export default function NavBar() {
                 </li>
                 <li className="px-12 hover:font-bold hover:underline">
                     <Dropdown title="Colony 6">
-                        <Dropdown.Item as="a" href="/xeno1/colony6immigrants">
+                        <Dropdown.Item as="a" href="/xeno1/colony6/immigrants">
                             Colony 6 Immigrants
                         </Dropdown.Item>
-                        <Dropdown.Item as="a" href="/xeno1/colony6reconstruction">
+                        <Dropdown.Item as="a" href="/xeno1/colony6/reconstruction">
                             Colony 6 Reconstruction
                         </Dropdown.Item>
                     </Dropdown>
                 </li>
                 <li className="hover:font-bold hover:underline">
-                    <Link to="/xeno1/collection">Collection</Link>
+                    <Link to="/xeno1/collectopedia">Collectopedia</Link>
                 </li>
                 <li className="px-12 hover:font-bold hover:underline">
                     <Link to="/xeno1/achievements">Achievements</Link>
