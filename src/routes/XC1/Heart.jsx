@@ -1,49 +1,43 @@
 import React from 'react';
-import DataTable from 'react-data-table-component';
+import DataTable from "react-data-table-component";
 
-import NavBar from "./NavBar";
-import XCOneUData from '../../data/XC1/XCOneUData';
+import NavBar from './NavBar';
+import XCOneHTHData from "../../data/XC1/HTHData"
 
-const {useStata} = React;
+const {useState} = React;
 const {useEffect} = React;
 
 const columns = [
     {
-        name: "Name",
-        selector: row => row.name,
+        name: "Title",
+        selector: row => row.title,
         sortable: true,
-        width: "200px"
+        width: "150px"
     },
     {
-        name: "Level",
-        selector: row => row.level,
-        sortable: true,
-        width: "100px"
-    },
-    {
-        name: "Time and Location",
+        name: "Location",
         selector: row => row.area,
         sortable: true,
         width: "300px",
         wrap: true
     },
     {
-        name: "Mechon?",
-        selector: row => row.mechon,
+        name: "Characters",
+        selector: row => row.characters,
         sortable: true,
-        width: "95px"
+        width: "120px"
     },
     {
-        name: "Quest Monster?",
-        selector: row => row.quest,
+        name: "Affinity",
+        selector: row => row.affinity,
         sortable: true,
-        width: "130px"
+        width: "120px"
     },
     {
-        name: "Quest Name",
-        selector: row => row.questName,
+        name: "Prerequisites",
+        selector: row => row.prerequisites,
         sortable: true,
-        width: "200px"
+        width: "300px"
     }
 ];
 
@@ -69,14 +63,14 @@ function saveStore() {
     localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
 }
 
-export default function XCOneUMonster() {
-    const [data, setData] = React.useState(XCOneUData);
+export default function XCOneHeart() {
+    const [data, setData] = React.useState(XCOneHTHData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneUData) {
-            if(store.has(XCOneUData[x]["uid"])) {
-                XCOneUData[x].toggleSelected = true;
+        for (let i of XCOneHTHData) {
+            if(store.has(XCOneHTHData[x]["uid"])) {
+                XCOneHTHData[x].toggleSelected = true;
             }
             x++;
         }
@@ -103,19 +97,19 @@ export default function XCOneUMonster() {
         });
 
         setData(updatedData);
-  };
+    };
 
-    return (
+    return(
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles One Unique Monsters"
+                title="Xenoblade Chronicles One Heart to Hearts"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"
                 onRowClicked={handleRowClicked}
                 conditionalRowStyles={conditionalRowStyles}
             />
-        </>
+        </> 
     )
 }

@@ -1,31 +1,48 @@
 import React from 'react';
-import DataTable from 'react-data-table-component';
+import DataTable from "react-data-table-component";
 
-import NavBar from "./NavBar";
-import XCOneCSixRData from '../../data/XC1/XCOneCSixRData';
+import NavBar from './NavBar';
+import XCOneQData from "../../data/XC1/QData"
 
-const {useStata} = React;
+const {useState} = React;
 const {useEffect} = React;
 
 const columns = [
     {
-        name: "Name",
+        name: "Quest Name",
         selector: row => row.name,
         sortable: true,
         width: "200px"
     },
     {
-        name: "Items Needed",
-        selector: row => row.item,
-        sortable: true,
-        width: "400px",
-        wrap: true
-    },
-    {
-        name: "Funds Needed",
-        selector: row => row.funds,
+        name: "Giver",
+        selector: row => row.giver,
         sortable: true,
         width: "100px"
+    },
+    {
+        name: "Time and Location",
+        selector: row => row.area,
+        sortable: true,
+        width: "300px"
+    },
+    {
+        name: "Prerequisites",
+        selector: row => row.prerequisites,
+        sortable: true,
+        width: "400px",
+        wrap: true,
+    },
+    {
+        name: "Timed?",
+        selector: row => row.timed,
+        sortable: true,
+        width: "80px"
+    },
+    {
+        name: "Mutually Exclusive?",
+        selector: row => row.exclusive,
+        sortable: true
     }
 ];
 
@@ -51,14 +68,15 @@ function saveStore() {
     localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
 }
 
-export default function XCOneColony6Reconstruction() {
-    const [data, setData] = React.useState(XCOneCSixRData);
+
+export default function XCOne() {
+    const [data, setData] = React.useState(XCOneQData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneCSixRData) {
-            if(store.has(XCOneCSixRData[x]["uid"])) {
-                XCOneCSixRData[x].toggleSelected = true;
+        for (let i of XCOneQData) {
+            if(store.has(XCOneQData[x]["uid"])) {
+                XCOneQData[x].toggleSelected = true;
             }
             x++;
         }
@@ -86,11 +104,12 @@ export default function XCOneColony6Reconstruction() {
 
         setData(updatedData);
   };
+
     return (
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles One Colony 6 Reconstruction"
+                title="Xenoblade Chronicles One Quests"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"
@@ -98,5 +117,5 @@ export default function XCOneColony6Reconstruction() {
                 conditionalRowStyles={conditionalRowStyles}
             />
         </>
-    )
+    );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import DataTable from "react-data-table-component";
+import DataTable from 'react-data-table-component';
 
-import NavBar from './NavBar';
-import XCOneAData from "../../data/XC1/XCOneAData"
+import NavBar from "./NavBar";
+import XCOneUData from '../../data/XC1/UMData';
 
-const {useState} = React;
+const {useStata} = React;
 const {useEffect} = React;
 
 const columns = [
@@ -12,24 +12,38 @@ const columns = [
         name: "Name",
         selector: row => row.name,
         sortable: true,
-        wdith: "200px"
+        width: "200px"
     },
     {
-        name: "Objective",
-        selector: row => row.objective,
+        name: "Level",
+        selector: row => row.level,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Time and Location",
+        selector: row => row.area,
         sortable: true,
         width: "300px",
         wrap: true
     },
     {
-       name: "Trial",
-       selector: row => row.trial,
-       width: "80px" 
+        name: "Mechon?",
+        selector: row => row.mechon,
+        sortable: true,
+        width: "95px"
     },
     {
-        name: "Record",
-        selector: row => row.record,
-        width: "90px"
+        name: "Quest Monster?",
+        selector: row => row.quest,
+        sortable: true,
+        width: "130px"
+    },
+    {
+        name: "Quest Name",
+        selector: row => row.questName,
+        sortable: true,
+        width: "200px"
     }
 ];
 
@@ -55,14 +69,14 @@ function saveStore() {
     localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
 }
 
-export default function XCOneAchievements() {
-    const [data, setData] = React.useState(XCOneAData);
+export default function XCOneUMonster() {
+    const [data, setData] = React.useState(XCOneUData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneAData) {
-            if(store.has(XCOneAData[x]["uid"])) {
-                XCOneAData[x].toggleSelected = true;
+        for (let i of XCOneUData) {
+            if(store.has(XCOneUData[x]["uid"])) {
+                XCOneUData[x].toggleSelected = true;
             }
             x++;
         }
@@ -89,12 +103,13 @@ export default function XCOneAchievements() {
         });
 
         setData(updatedData);
-    };
+  };
+
     return (
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles One Quests"
+                title="Xenoblade Chronicles One Unique Monsters"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"

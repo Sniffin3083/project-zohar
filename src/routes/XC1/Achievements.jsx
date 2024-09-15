@@ -2,47 +2,34 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './NavBar';
-import XCOneQData from "../../data/XC1/XCOneQData"
+import XCOneAData from "../../data/XC1/AData"
 
 const {useState} = React;
 const {useEffect} = React;
 
 const columns = [
     {
-        name: "Quest Name",
+        name: "Name",
         selector: row => row.name,
         sortable: true,
-        width: "200px"
+        wdith: "200px"
     },
     {
-        name: "Giver",
-        selector: row => row.giver,
+        name: "Objective",
+        selector: row => row.objective,
         sortable: true,
-        width: "100px"
+        width: "300px",
+        wrap: true
     },
     {
-        name: "Time and Location",
-        selector: row => row.area,
-        sortable: true,
-        width: "300px"
+       name: "Trial",
+       selector: row => row.trial,
+       width: "80px" 
     },
     {
-        name: "Prerequisites",
-        selector: row => row.prerequisites,
-        sortable: true,
-        width: "400px",
-        wrap: true,
-    },
-    {
-        name: "Timed?",
-        selector: row => row.timed,
-        sortable: true,
-        width: "80px"
-    },
-    {
-        name: "Mutually Exclusive?",
-        selector: row => row.exclusive,
-        sortable: true
+        name: "Record",
+        selector: row => row.record,
+        width: "90px"
     }
 ];
 
@@ -68,15 +55,14 @@ function saveStore() {
     localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
 }
 
-
-export default function XCOne() {
-    const [data, setData] = React.useState(XCOneQData);
+export default function XCOneAchievements() {
+    const [data, setData] = React.useState(XCOneAData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneQData) {
-            if(store.has(XCOneQData[x]["uid"])) {
-                XCOneQData[x].toggleSelected = true;
+        for (let i of XCOneAData) {
+            if(store.has(XCOneAData[x]["uid"])) {
+                XCOneAData[x].toggleSelected = true;
             }
             x++;
         }
@@ -103,8 +89,7 @@ export default function XCOne() {
         });
 
         setData(updatedData);
-  };
-
+    };
     return (
         <>
             <NavBar />
@@ -117,5 +102,5 @@ export default function XCOne() {
                 conditionalRowStyles={conditionalRowStyles}
             />
         </>
-    );
+    )
 }

@@ -1,43 +1,31 @@
 import React from 'react';
-import DataTable from "react-data-table-component";
+import DataTable from 'react-data-table-component';
 
-import NavBar from './NavBar';
-import XCOneHTHData from "../../data/XC1/XCOneHTHData"
+import NavBar from "./NavBar";
+import XCOneCSixRData from '../../data/XC1/CSixRData';
 
-const {useState} = React;
+const {useStata} = React;
 const {useEffect} = React;
 
 const columns = [
     {
-        name: "Title",
-        selector: row => row.title,
+        name: "Name",
+        selector: row => row.name,
         sortable: true,
-        width: "150px"
+        width: "200px"
     },
     {
-        name: "Location",
-        selector: row => row.area,
+        name: "Items Needed",
+        selector: row => row.item,
         sortable: true,
-        width: "300px",
+        width: "400px",
         wrap: true
     },
     {
-        name: "Characters",
-        selector: row => row.characters,
+        name: "Funds Needed",
+        selector: row => row.funds,
         sortable: true,
-        width: "120px"
-    },
-    {
-        name: "Affinity",
-        selector: row => row.affinity,
-        sortable: true,
-        width: "120px"
-    },
-    {
-        name: "Prerequisites",
-        selector: row => row.prerequisites,
-        sortable: true,
-        width: "300px"
+        width: "100px"
     }
 ];
 
@@ -63,14 +51,14 @@ function saveStore() {
     localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
 }
 
-export default function XCOneHeart() {
-    const [data, setData] = React.useState(XCOneHTHData);
+export default function XCOneColony6Reconstruction() {
+    const [data, setData] = React.useState(XCOneCSixRData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneHTHData) {
-            if(store.has(XCOneHTHData[x]["uid"])) {
-                XCOneHTHData[x].toggleSelected = true;
+        for (let i of XCOneCSixRData) {
+            if(store.has(XCOneCSixRData[x]["uid"])) {
+                XCOneCSixRData[x].toggleSelected = true;
             }
             x++;
         }
@@ -97,19 +85,18 @@ export default function XCOneHeart() {
         });
 
         setData(updatedData);
-    };
-
-    return(
+  };
+    return (
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles One Heart to Hearts"
+                title="Xenoblade Chronicles One Colony 6 Reconstruction"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"
                 onRowClicked={handleRowClicked}
                 conditionalRowStyles={conditionalRowStyles}
             />
-        </> 
+        </>
     )
 }

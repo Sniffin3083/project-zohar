@@ -1400,12 +1400,3 @@ export default [
         uid: "a_angelicImitation"
     },
 ]
-/*
-{
-    name: "",
-    objective: "",
-    trial: "No",
-    record: "Yes",
-    uid: "a_"
-},
-*/
