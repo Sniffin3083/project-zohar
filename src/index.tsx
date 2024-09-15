@@ -10,14 +10,14 @@ import {
 
 import ErrorPage from './error-page';
 
-import XCOneHome from './routes/XC1/XCOneHome.jsx'
-import XCOneQuests from './routes/XC1/XCOneQuests.jsx';
-import XCOneUMonster from './routes/XC1/XCOneUMonster';
-import XCOneColony6Immigrants from './routes/XC1/XCOneColony6Immigrants';
-import XCOneColony6Reconstruction from './routes/XC1/XCOneColony6Reconstruction';
-import XCOneCollection from './routes/XC1/XCOneCollection';
-import XCOneAchievements from './routes/XC1/XCOneAchievements';
-import XCOneHeart from './routes/XC1/XCOneHeart';
+import XCOneHome from './routes/XC1/Home.jsx'
+import XCOneQuests from './routes/XC1/Quests.jsx';
+import XCOneUMonster from './routes/XC1/UMonster';
+import XCOneColony6Immigrants from './routes/XC1/Colony6Immigrants';
+import XCOneColony6Reconstruction from './routes/XC1/Colony6Reconstruction';
+import XCOneCollectopedia from './routes/XC1/Collectopedia';
+import XCOneAchievements from './routes/XC1/Achievements';
+import XCOneHeart from './routes/XC1/Heart';
 
 import XCTwo from './routes/XC2/XCtwo.jsx';
 
@@ -42,16 +42,16 @@ const router = createBrowserRouter([
         element: <XCOneUMonster />
     },
     {
-        path: "xeno1/colony6immigrants",
+        path: "xeno1/colony6/immigrants",
         element: <XCOneColony6Immigrants />
     },
     {
-        path: "xeno1/colony6reconstruction",
+        path: "xeno1/colony6/reconstruction",
         element: <XCOneColony6Reconstruction />
     },
     {
-        path: "xeno1/collection",
-        element: <XCOneCollection />
+        path: "xeno1/collectopedia",
+        element: <XCOneCollectopedia />
     },
     {
         path: "xeno1/achievements",
