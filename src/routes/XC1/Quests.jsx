@@ -69,7 +69,7 @@ function saveStore() {
 }
 
 
-export default function XCOne() {
+export default function XCOneQuests() {
     const [data, setData] = React.useState(XCOneQData);
 
     useEffect(() => {
