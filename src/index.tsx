@@ -21,7 +21,7 @@ import XCOneTimeAttackRestricted from './routes/XC1/TimeAttackRestricted';
 import XCOneAchievements from './routes/XC1/Achievements';
 import XCOneHeart from './routes/XC1/Heart';
 
-import XCTwo from './routes/XC2/XCtwo.jsx';
+import XCTwoHome from './routes/XC2/Home.jsx';
 
 import XCThree from './routes/XC3/XCthree.jsx';
 
@@ -73,7 +73,7 @@ const router = createBrowserRouter([
     },
     {
         path: "xeno2",
-        element: <XCTwo />
+        element: <XCTwoHome />
     },
     {
         path: "xeno3",
