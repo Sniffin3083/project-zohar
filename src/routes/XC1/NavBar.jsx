@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Dropdown } from "rsuite"; 
-import "rsuite/dist/rsuite.min.css"; 
+
 
 export default function NavBar() {
     return (
