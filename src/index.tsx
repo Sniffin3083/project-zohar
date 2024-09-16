@@ -16,6 +16,8 @@ import XCOneUMonster from './routes/XC1/UMonster';
 import XCOneColony6Immigrants from './routes/XC1/Colony6Immigrants';
 import XCOneColony6Reconstruction from './routes/XC1/Colony6Reconstruction';
 import XCOneCollectopedia from './routes/XC1/Collectopedia';
+import XCOneTimeAttackFree from './routes/XC1/TimeAttackFree';
+import XCOneTimeAttackRestricted from './routes/XC1/TimeAttackRestricted';
 import XCOneAchievements from './routes/XC1/Achievements';
 import XCOneHeart from './routes/XC1/Heart';
 
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
     {
         path: "xeno1/collectopedia",
         element: <XCOneCollectopedia />
+    },
+    {
+        path: "xeno1/timeattack/free",
+        element: <XCOneTimeAttackFree />
+    },
+    {
+        path: "xeno1/timeattack/restricted",
+        element: <XCOneTimeAttackRestricted />
     },
     {
         path: "xeno1/achievements",

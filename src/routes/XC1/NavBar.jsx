@@ -9,13 +9,13 @@ export default function NavBar() {
                 <li className="hover:font-bold hover:underline">
                     <Link to="/xeno1">Intro</Link>
                 </li>
-                <li className="px-12 hover:font-bold hover:underline">
+                <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                     <Link to="/xeno1/quests">Quests</Link>
                 </li>
                 <li className="hover:font-bold hover:underline">
                     <Link to="/xeno1/umonster">Unique Monsters</Link>
                 </li>
-                <li className="px-12 hover:font-bold hover:underline">
+                <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                     <Dropdown title="Colony 6">
                         <Dropdown.Item as="a" href="/xeno1/colony6/immigrants">
                             Colony 6 Immigrants
@@ -25,10 +25,20 @@ export default function NavBar() {
                         </Dropdown.Item>
                     </Dropdown>
                 </li>
-                <li className="hover:font-bold hover:underline">
+                <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                     <Link to="/xeno1/collectopedia">Collectopedia</Link>
                 </li>
-                <li className="px-12 hover:font-bold hover:underline">
+                <li className="hover:font-bold hover:underline">
+                    <Dropdown title="Time Attack">
+                        <Dropdown.Item as="a" href="/xeno1/timeattack/free">
+                            Time Attack - Free
+                        </Dropdown.Item>
+                        <Dropdown.Item as="a" href="/xeno1/timeattack/restricted">
+                            Time Attack - Restricted
+                        </Dropdown.Item>
+                    </Dropdown>
+                </li>
+                <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                     <Link to="/xeno1/achievements">Achievements</Link>
                 </li>
                 <li className="hover:font-bold hover:underline">
