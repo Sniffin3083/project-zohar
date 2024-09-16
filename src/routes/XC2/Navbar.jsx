@@ -45,6 +45,9 @@ export default function NavBar() {
                     <Link to="/xeno2/mercm">Merc Missions</Link>
                 </li>
                 <li>
+                    <Link to="/xeno2/foorara">Foorara</Link>
+                </li>
+                <li className="px-4 lg:px-12">
                     <Link to="/xeno2/poppim">Poppi Manuals</Link>
                 </li>
                 <li>
