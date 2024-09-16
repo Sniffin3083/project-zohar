@@ -94,7 +94,7 @@ export default function XCOneAchievements() {
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles One Quests"
+                title="Xenoblade Chronicles One Achievements"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"
