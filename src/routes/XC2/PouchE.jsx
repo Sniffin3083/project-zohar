@@ -8,37 +8,6 @@ const {useState} = React;
 const {useEffect} = React;
 
 const columns = [
-    {
-        name: "Quest Name",
-        selector: row => row.name,
-        sortable: true,
-        width: "200px"
-    },
-    {
-        name: "Giver",
-        selector: row => row.giver,
-        sortable: true,
-        width: "100px"
-    },
-    {
-        name: "Area",
-        selector: row => row.area,
-        sortable: true,
-        width: "150px"
-    },
-    {
-        name: "Location",
-        selector: row => row.location,
-        sortable: true,
-        width: "200px"
-    },
-    {
-        name: "Prerequisites",
-        selector: row => row.prerequisites,
-        sortable: true,
-        width: "400px",
-        wrap: true,
-    },
 ];
 
 const conditionalRowStyles = [

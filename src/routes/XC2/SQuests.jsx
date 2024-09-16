@@ -27,12 +27,6 @@ const columns = [
         width: "150px"
     },
     {
-        name: "Location",
-        selector: row => row.location,
-        sortable: true,
-        width: "200px"
-    },
-    {
         name: "Prerequisites",
         selector: row => row.prerequisites,
         sortable: true,
