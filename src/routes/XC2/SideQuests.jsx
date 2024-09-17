@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './Navbar';
-import XCTwoSQuestsData from "../../data/XC2/SQuestsData"
+import XCTwoSideQuestsData from "../../data/XC2/SideQuestsData"
 
 const {useState} = React;
 const {useEffect} = React;
@@ -24,7 +24,8 @@ const columns = [
         name: "Area",
         selector: row => row.area,
         sortable: true,
-        width: "150px"
+        width: "300px",
+        wrap: true
     },
     {
         name: "Prerequisites",
@@ -58,14 +59,14 @@ function saveStore() {
 }
 
 
-export default function XCTwoSQuests() {
-    const [data, setData] = React.useState(XCTwoSQuestsData);
+export default function XCTwoSideQuests() {
+    const [data, setData] = React.useState(XCTwoSideQuestsData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoSQuestsData) {
-            if(store.has(XCTwoSQuestsData[x]["uid"])) {
-                XCTwoSQuestsData[x].toggleSelected = true;
+        for (let i of XCTwoSideQuestsData) {
+            if(store.has(XCTwoSideQuestsData[x]["uid"])) {
+                XCTwoSideQuestsData[x].toggleSelected = true;
             }
             x++;
         }
