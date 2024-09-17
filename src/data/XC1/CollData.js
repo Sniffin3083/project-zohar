@@ -1,11 +1,11 @@
-import animal from "./CollectableTypes/Animal.webp"
-import bug from "./CollectableTypes/Bug.webp"
-import flower from "./CollectableTypes/Flower.webp"
-import fruit from "./CollectableTypes/Fruit.webp"
-import nature from "./CollectableTypes/Nature.webp"
-import part from "./CollectableTypes/Part.webp"
-import strange from "./CollectableTypes/Strange.webp"
-import veg from "./CollectableTypes/Veg.webp"
+import animal from "../../images/XC1/CollectableTypes/Animal.webp"
+import bug from "../../images/XC1/CollectableTypes/Bug.webp"
+import flower from "../../images/XC1/CollectableTypes/Flower.webp"
+import fruit from "../../images/XC1/CollectableTypes/Fruit.webp"
+import nature from "../../images/XC1/CollectableTypes/Nature.webp"
+import part from "../../images/XC1/CollectableTypes/Part.webp"
+import strange from "../../images/XC1/CollectableTypes/Strange.webp"
+import veg from "../../images/XC1/CollectableTypes/Veg.webp"
 
 export default [
     {

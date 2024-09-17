@@ -1,8 +1,8 @@
-import blueAffinity from "./affinities/affinity-blue.webp";
-import cloudAffinity from "./affinities/affinity-cloud.webp";
-import greenAffinity from "./affinities/affinity-green.webp";
-import heartAffinity from "./affinities/affinity-heart.webp";
-import yellowAffinity from "./affinities/affinity-yellow.webp";
+import blueAffinity from "../../images/XC1/affinities/affinity-blue.webp";
+import cloudAffinity from "../../images/XC1/affinities/affinity-cloud.webp";
+import greenAffinity from "../../images/XC1/affinities/affinity-green.webp";
+import heartAffinity from "../../images/XC1/affinities/affinity-heart.webp";
+import yellowAffinity from "../../images/XC1/affinities/affinity-yellow.webp";
 
 export default [
     {
