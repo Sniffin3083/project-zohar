@@ -23,7 +23,8 @@ import XCOneAchievements from './routes/XC1/Achievements';
 import XCOneHeart from './routes/XC1/Heart';
 
 import XCTwoHome from './routes/XC2/Home.jsx';
-import XCTwoSQuests from './routes/XC2/SQuests';
+import XCTwoStoryQuests from './routes/XC2/StoryQuests';
+import XCTwoSideQuests from './routes/XC2/SideQuests';
 import XCTwoBladeQuests from './routes/XC2/BladeQuests';
 import XCTwoDLCQuests from './routes/XC2/DLCQuests';
 import XCTwoSBlades from './routes/XC2/SBlades';
@@ -95,8 +96,12 @@ const router = createBrowserRouter([
         element: <XCTwoHome />
     },
     {
+        path: "xeno2/quests/story",
+        element: <XCTwoStoryQuests />
+    },
+    {
         path: "xeno2/quests/standard",
-        element: <XCTwoSQuests />
+        element: <XCTwoSideQuests />
     },
     {
         path: "xeno2/quests/blades",
