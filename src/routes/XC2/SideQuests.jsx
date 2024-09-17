@@ -34,6 +34,12 @@ const columns = [
         width: "400px",
         wrap: true,
     },
+    {
+        name: "Fin Later Chapter?",
+        selector: row => row.chapter,
+        sortable: true,
+        width: "150px"
+    }
 ];
 
 const conditionalRowStyles = [
