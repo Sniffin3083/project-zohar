@@ -246,7 +246,7 @@ export default [
         name: "The Central Tower Barrier",
         giver: "Story Quest",
         area: "Central Factory (Tower Boarding Gate) Automatic",
-        prerequisites: "",
+        prerequisites: "None",
         timed: "No",
         exclusive: "No",
         uid: "q_theCentralTowerBarrier"
