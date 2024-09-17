@@ -721,15 +721,6 @@ export default [
         uid: "q_theGemMansInvention"
     },
     {
-        name: "Delivering Food",
-        giver: "Story Quest",
-        area: "Colony 9 (Dunban's House) Automatic",
-        prerequisites: "None",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_deliveringFood"
-    },
-    {
         name: "Missing in Action",
         giver: "Defense Force Soldier",
         area: "Tephra Cave (Warehouse 2) Anytime",
@@ -1982,24 +1973,6 @@ export default [
         uid: "q_imperialCeremonyOfferings"
     },
     {
-        name: "The Ancient Ceremony",
-        giver: "Nopon Merchant (Story Quest)",
-        area: "Satorl Marsh (Sororal Statues) Anytime",
-        prerequisites: "Sororal Statues reached",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_ancientCeremony"
-    },
-    {
-        name: "Ancient Ceremony Offerings",
-        giver: "Nopon Merchant (Story Quest)",
-        area: "Satorl Marsh (Sororal Statues) Anytime",
-        prerequisites: "Sororal Statues reached | The Ancient Ceremony accepted",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_ancientCeremonyOfferings"
-    },
-    {
         name: "Legend of the Sage",
         giver: "Nopon Sage",
         area: "Makna Forest (Divine Sanctuary) 12:00 - 15:00",
@@ -2079,15 +2052,6 @@ export default [
         timed: "No",
         exclusive: "No",
         uid: "q_maknaForestChallenge"
-    },
-    {
-        name: "Mystery Girl Rescue ",
-        giver: "Story Quest",
-        area: "Makna Forest (Contaminated Area) Automatic",
-        prerequisites: "Makna Forest area reached",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_mysteryGirlRescue"
     },
     {
         name: "Leku's Food Crisis",
@@ -2489,7 +2453,7 @@ export default [
         name: "Fixing Time Mushrooms",
         giver: "Migaga",
         area: "Frontier Village (Sacred Altar) 06:00 - 18:00",
-        prerequisites: "An Errand for the Heropon story quest accepted",
+        prerequisites: "An Errand for the Heropon Story Quest accepted",
         timed: "No",
         exclusive: "No",
         uid: "q_fixingTimeMushrooms"
@@ -2837,15 +2801,6 @@ export default [
         uid: "q_frontierVillageSearchQuest3"
     },
     {
-        name: "An Errand for the Heropon",
-        giver: "Story Quest",
-        area: "Frontier Village Automatic",
-        prerequisites: "Frontier Village area reached",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_errandForTheHeropon"
-    },
-    {
         name: "Trouble at the Plant",
         giver: "Jarack",
         area: "Eryth Sea (Ether Plant) Anytime",
@@ -2988,33 +2943,6 @@ export default [
         timed: "No",
         exclusive: "No",
         uid: "q_erythSeaCollectionQuest2"
-    },
-    {
-        name: "Save the Worker",
-        giver: "Story Quest",
-        area: "Alcamoth (Whitewing Palace) Automatic",
-        prerequisites: "Alcamoth reached.",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_saveWorker"
-    },
-    {
-        name: "Path to Prison Island",
-        giver: "Story Quest",
-        area: "Eryth Sea Automatic",
-        prerequisites: "In the course to Prison Island",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_pathToPrisonIsland"
-    },
-    {
-        name: "Sister Seals",
-        giver: "Story Quest",
-        area: "Eryth Sea Automatic",
-        prerequisites: "In the course to Prison Island | Path to Prison Island accepted",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_sisterSeals"
     },
     {
         name: "The Deciphering Machine",
@@ -3638,15 +3566,6 @@ export default [
         uid: "q_valakMountainMonsterQuest4"
     },
     {
-        name: "The Magma Rock",
-        giver: "Story Quest",
-        area: "Valak Mountain (Sealed Tower)",
-        prerequisites: "Automatic",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_magmaRock"
-    },
-    {
         name: "Secure Dolgan Outpost",
         giver: "Surprise Quest",
         area: "Sword Valley (Dolgan Outpost) Automatic",
@@ -3681,60 +3600,6 @@ export default [
         timed: "Yes",
         exclusive: "No",
         uid: "q_secureTheRadioTower"
-    },
-    {
-        name: "Lift Battle",
-        giver: "Story Quest",
-        area: "Galahad Fortress (Main Maintenance Bay) Automatic",
-        prerequisites: "None",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_liftBattle"
-    },
-    {
-        name: "Supply Station Battle",
-        giver: "Story Quest",
-        area: "Galahad Fortress (Main Control Room) Automatic",
-        prerequisites: "None",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_supplyStationBattle"
-    },
-    {
-        name: "Turbine Battle",
-        giver: "Story Quest",
-        area: "Galahad Fortress (Main Control Room) Automatic",
-        prerequisites: "Supply Station Battle accepted",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_turbineBattle"
-    },
-    {
-        name: "Fiora's Conviction",
-        giver: "Story Quest",
-        area: "Galahad Fortress (Face Maintenance Bay) Automatic",
-        prerequisites: "None",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_fiorasConviction"
-    },
-    {
-        name: "Chase Dickson",
-        giver: "Story Quest",
-        area: "Prison Island (Behemoth Nest) Automatic",
-        prerequisites: "Prison Island area reached for the second time",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_chaseDickson"
-    },
-    {
-        name: "Path to the Top",
-        giver: "Story Quest",
-        area: "Prison Island (Corridor of Silence) Automatic",
-        prerequisites: "Prison Island area reached for the second time | Chase Dickson complete",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_pathToTheTop"
     },
     {
         name: "Save the Machina!",
@@ -3980,33 +3845,6 @@ export default [
         uid: "q_toMyLovedOne"
     },
     {
-        name: "Reunion with Fiora",
-        giver: "Story Quest",
-        area: "Automatic",
-        prerequisites: "Fallen Arm area reached",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_reuinionWithFiora"
-    },
-    {
-        name: "We Made It",
-        giver: "Story Quest",
-        area: "Automatic",
-        prerequisites: "Fallen Arm area reached | Reunion with Fiora complete",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_weMadeIt"
-    },
-    {
-        name: "Fiora's Treatment",
-        giver: "Linada (Story Quest)",
-        area: "Automatic",
-        prerequisites: "Miqol met in the Hidden Machina Village",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_fiorasTreatment"
-    },
-    {
         name: "Best Boots",
         giver: "Bozatrox",
         area: "Mechonis Field (Machina Refuge) Anytime",
@@ -4043,51 +3881,6 @@ export default [
         uid: "q_mechonisFieldChallengeQuest2"
     },
     {
-        name: "Aiming for the Top",
-        giver: "Story Quest",
-        area: "Mechonis Field (2nd Lift - GF) Automatic",
-        prerequisites: "Mechonis Field area reached",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_aimingForTheTop"
-    },
-    {
-        name: "Get the 3rd Lift Moving",
-        giver: "Story Quest",
-        area: "Mechonis Field (2nd Lift - 1F) Automatic",
-        prerequisites: "Mechonis Field area reached | Aiming for the Top complete",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_getThe3rdLiftMoving"
-    },
-    {
-        name: "Opening the Bulkhead",
-        giver: "Story Quest",
-        area: "Mechonis Field (3rd Lift - 3F) Automatic",
-        prerequisites: "Mechonis Field area reached | Get the 3rd Lift Moving complete",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_openingTheBulkhead"
-    },
-    {
-        name: "The High-Velocity Lift",
-        giver: "Story Quest",
-        area: "Mechonis Field (Upper Bulkhead Bridge) Automatic",
-        prerequisites: "Mechonis Field area reached | Opening the Bulkhead complete",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_highVelocityLift"
-    },
-    {
-        name: "Need Power!",
-        giver: "Story Quest",
-        area: "Mechonis Field (Upper Bulkhead Bridge) Automatic",
-        prerequisites: "Mechonis Field area reached | Opening the Bulkhead complete | The High-Velocity Lift accepted",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_needPower"
-    },
-    {
         name: "Eliminate the Backup!",
         giver: "Surprise Quest",
         area: "Central Factory (Storage Depot) Automatic",
@@ -4122,51 +3915,6 @@ export default [
         timed: "Yes",
         exclusive: "No",
         uid: "q_newWeaponForFiora"
-    },
-    {
-        name: "To the Central Tower",
-        giver: "Story Quest",
-        area: "Central Factory (Central Gate) Automatic",
-        prerequisites: "Central Factory area reached",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_toTheCentralTower"
-    },
-    {
-        name: "Maintenance Wing Escape",
-        giver: "Story Quest",
-        area: "Central Factory (Maintenance Wing) Automatic",
-        prerequisites: "Central Factory area reached | To the Central Tower complete",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_maintenanceWingEscape"
-    },
-    {
-        name: "Find a Path to the Top",
-        giver: "Story Quest",
-        area: "Central Factory (Central Warehouse Lift) Automatic",
-        prerequisites: "Central Factory area reached | Maintenance Wing Escape complete",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_findAPathToTheTop"
-    },
-    {
-        name: "Materials for a Bomb",
-        giver: "Story Quest",
-        area: "Central Factory (Factory Vent) Automatic",
-        prerequisites: "Central Factory area reached | Maintenance Wing Escape complete | Find a Path to the Top accepted",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_materialsForABomb"
-    },
-    {
-        name: "The Central Tower Barrier",
-        giver: "Story Quest",
-        area: "Central Factory (Tower Boarding Gate) Automatic",
-        prerequisites: "",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_theCentralTowerBarrier"
     },
     {
         name: "Civil Protection 1 - 1",
@@ -4302,32 +4050,5 @@ export default [
         timed: "Yes",
         exclusive: "No",
         uid: "q_telethiaInvestigation2"
-    },
-    {
-        name: "Shrine Transport",
-        giver: "Story Quest",
-        area: "Automatic",
-        prerequisites: "None",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_shrineTransport"
-    },
-    {
-        name: "Pillar Verification Devices",
-        giver: "Story Quest",
-        area: "Automatic",
-        prerequisites: "None",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_pillarVerificationDevices"
-    },
-    {
-        name: "Save Bionis",
-        giver: "Story Quest",
-        area: "Automatic",
-        prerequisites: "Mechonis Core reached",
-        timed: "No",
-        exclusive: "No",
-        uid: "q_saveBionis"
     },
 ]
