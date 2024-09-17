@@ -10,7 +10,15 @@ export default function NavBar() {
                     <Link to="/xeno1">Intro</Link>
                 </li>
                 <li className="px-4 lg:px-12 hover:font-bold hover:underline">
-                    <Link to="/xeno1/quests">Quests</Link>
+                    {/* <Link to="/xeno1/quests/side">Quests</Link> */}
+                    <Dropdown title="Quests">
+                        <Dropdown.Item as="a" href="/xeno1/quests/story">
+                            Story Quests
+                        </Dropdown.Item>
+                        <Dropdown.Item as="a" href="/xeno1/quests/side">
+                            Side Quests
+                        </Dropdown.Item>
+                    </Dropdown>
                 </li>
                 <li className="hover:font-bold hover:underline">
                     <Link to="/xeno1/umonster">Unique Monsters</Link>
