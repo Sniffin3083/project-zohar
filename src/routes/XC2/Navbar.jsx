@@ -11,6 +11,9 @@ export default function NavBar() {
                 </li>
                 <li className="px-4 lg:px-12">
                     <Dropdown title="Quests">
+                        <Dropdown.Item as="a" href="/xeno2/quests/story">
+                            Story Quests
+                        </Dropdown.Item>
                         <Dropdown.Item as="a" href="/xeno2/quests/standard">
                             Side Quests
                         </Dropdown.Item>
