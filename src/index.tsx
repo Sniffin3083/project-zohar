@@ -11,7 +11,8 @@ import {
 import ErrorPage from './error-page';
 
 import XCOneHome from './routes/XC1/Home.jsx'
-import XCOneQuests from './routes/XC1/Quests.jsx';
+import XCOneSideQuests from './routes/XC1/SideQuests.jsx';
+import XCOneStoryQuests from './routes/XC1/StoryQuests';
 import XCOneUMonster from './routes/XC1/UMonster';
 import XCOneColony6Immigrants from './routes/XC1/Colony6Immigrants';
 import XCOneColony6Reconstruction from './routes/XC1/Colony6Reconstruction';
@@ -50,8 +51,12 @@ const router = createBrowserRouter([
         element: <XCOneHome />
     },
     {
-        path: "xeno1/quests",
-        element: <XCOneQuests />
+        path: "xeno1/quests/side",
+        element: <XCOneSideQuests />
+    },
+    {
+        path: "xeno1/quests/story",
+        element: <XCOneStoryQuests />
     },
     {
         path: "xeno1/umonster",
