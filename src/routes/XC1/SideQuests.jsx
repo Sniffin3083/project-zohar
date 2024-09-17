@@ -24,7 +24,8 @@ const columns = [
         name: "Time and Location",
         selector: row => row.area,
         sortable: true,
-        width: "300px"
+        width: "300px",
+        wrap: true
     },
     {
         name: "Prerequisites",
@@ -69,7 +70,7 @@ function saveStore() {
 }
 
 
-export default function XCOneQuests() {
+export default function XCOneSideQuests() {
     const [data, setData] = React.useState(XCOneQData);
 
     useEffect(() => {
@@ -109,7 +110,7 @@ export default function XCOneQuests() {
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles One Quests"
+                title="Xenoblade Chronicles One Side Quests"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"
