@@ -4,7 +4,6 @@ import DataTable from "react-data-table-component";
 import NavBar from './Navbar';
 import XCTwoDLCBladesData from "../../data/XC2/DLCBladesData"
 
-const {useState} = React;
 const {useEffect} = React;
 
 const columns = [

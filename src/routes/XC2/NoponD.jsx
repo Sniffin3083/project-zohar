@@ -4,7 +4,6 @@ import DataTable from "react-data-table-component";
 import NavBar from './Navbar';
 import XCTwoNoponDData from "../../data/XC2/NoponDData"
 
-const {useState} = React;
 const {useEffect} = React;
 
 const columns = [

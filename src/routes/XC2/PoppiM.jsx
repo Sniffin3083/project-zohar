@@ -4,7 +4,6 @@ import DataTable from "react-data-table-component";
 import NavBar from './Navbar';
 import XCTwoPoppiMData from "../../data/XC2/PoppiMData"
 
-const {useState} = React;
 const {useEffect} = React;
 
 const columns = [

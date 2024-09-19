@@ -4,7 +4,6 @@ import DataTable from "react-data-table-component";
 import NavBar from './NavBar';
 import XCOneTMRestrictedData from "../../data/XC1/TMRestrictedData"
 
-const {useState} = React;
 const {useEffect} = React;
 
 const columns = [
