@@ -48,19 +48,33 @@ export default function NavBar() {
                     <Link to="/xeno2/mercm">Merc Missions</Link>
                 </li>
                 <li>
-                    <Link to="/xeno2/foorara">Foorara</Link>
-                </li>
-                <li className="px-4 lg:px-12">
-                    <Link to="/xeno2/poppim">Poppi Manuals</Link>
-                </li>
-                <li>
-                    <Link to="/xeno2/pouche">Pouch Expansions</Link>
-                </li>
-                <li className="px-4 lg:px-12">
-                    <Link to="/xeno2/nopond">Nopon Doubloons</Link>
+                    <Dropdown title="Challenge Mode">
+                        <Dropdown.Item as="a" href="/xeno2/challenge/easy">
+                            Easy
+                        </Dropdown.Item>
+                        <Dropdown.Item as="a" href="/xeno2/challenge/hard">
+                            Hard
+                        </Dropdown.Item>
+                    </Dropdown>
                 </li>
                 <li>
-                    <Link to="/xeno2/deeds">Shop Deeds</Link>
+                    <Dropdown title="Others">
+                        <Dropdown.Item as="a" href="/xeno2/foorara">
+                            Foorara
+                        </Dropdown.Item>
+                        <Dropdown.Item as="a" href="/xeno2/poppim">
+                            Poppi Manuals
+                        </Dropdown.Item>
+                        <Dropdown.Item as="a" href="/xeno2/pouche">
+                            Pouch Expansions
+                        </Dropdown.Item>
+                        <Dropdown.Item as="a" href="/xeno2/nopond">
+                            Nopon Doubloons
+                        </Dropdown.Item>
+                        <Dropdown.Item as="a" href="/xeno2/deeds">
+                            Shop Deeds
+                        </Dropdown.Item>
+                    </Dropdown>
                 </li>
             </ul>
         </nav>
