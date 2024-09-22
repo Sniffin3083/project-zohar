@@ -7,6 +7,32 @@ import XCTwoUMonsterData from "../../data/XC2/UMonsterData"
 const {useEffect} = React;
 
 const columns = [
+    {
+        name: "Name",
+        selector: row => row.name,
+        sortable: true,
+        width: "200px",
+    },
+    {
+        name: "Level",
+        selector: row => row.level,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Location",
+        selector: row => row.area,
+        sortable: true,
+        width: "300px",
+        wrap: true
+    },
+    {
+        name: "Spawntime",
+        selector: row => row.time,
+        sortable: true,
+        width: "200px",
+        wrap: true
+    }
 ];
 
 const conditionalRowStyles = [
