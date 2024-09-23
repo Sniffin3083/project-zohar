@@ -286,25 +286,187 @@ export default [
         time: "Anytime",
         uid: "um_glamorousAlfred"
     },
-]
-/*
-{
-    name: "",
-    level: ,
-    area: "()",
-    time: "",
-    uid: "um_"
-},
-*/
-
-/*
-    
     {
-        name: "Antecedent Xiaxia",
-        level: 99,
-        area: "Empire of Mor Ardain (Old Factory)",
-        time: "After entering the First Low Orbit Station",
-        uid: "um_antecedentXiaxia"
+        name: "Dedicated Conroy",
+        level: 51,
+        area: "Kingdom of Tantal (Tirkinlandia)",
+        time: "Anytime",
+        uid: "um_dedicatedConroy"
+    },
+    {
+        name: "Holy Lancer Efrain",
+        level: 51,
+        area: "Spirit Crucible Elpys (Chamber of Pillars)",
+        time: "Anytime",
+        uid: "um_holyLancerEfrain"
+    },
+    {
+        name: "Machine-Gun Julio",
+        level: 53,
+        area: "Cliffs of Morytha (Morytha Falls)",
+        time: "Anytime",
+        uid: "um_machineGunJulio"
+    },
+    {
+        name: "Evileye Mambor",
+        level: "54+",
+        area: "Cliffs of Morytha (Path of the Believer)",
+        time: "Anytime",
+        uid: "um_evileyeMambor"
+    },
+    {
+        name: "Incandescent Marcus",
+        level: 54,
+        area: "Kingdom of Tantal (Pillar City Ruins)",
+        time: "Anytime",
+        uid: "um_incandescentMarcus"
+    },
+    {
+        name: "Runaway Train Bool",
+        level: 55,
+        area: "Temperantia (Ardainian Garrison)",
+        time: "Anytime",
+        uid: "um_runawayTrainBool"
+    },
+    {
+        name: "Soul-Eater Stanley",
+        level: 56,
+        area: "Land of Morytha (Collapsed Roadway)",
+        time: "Anytime",
+        uid: "um_soulEaterStanley"
+    },
+    {
+        name: "Malicious Dimitri",
+        level: 57,
+        area: "Temperantia (Bastion of Varrac)",
+        time: "Anytime",
+        uid: "um_maliciousDimitri"
+    },
+    {
+        name: "Crimson Derrick",
+        level: 58,
+        area: "Cliffs of Morytha (Cape O-uru)",
+        time: "Anytime",
+        uid: "um_crimsonDerrick"
+    },
+    {
+        name: "Haywire Radclyffe",
+        level: 58,
+        area: "World Tree (Sky Bridge)",
+        time: "Anytime",
+        uid: "um_haywireRadclyffe"
+    },
+    {
+        name: "Parasite Aplacus ",
+        level: 58,
+        area: "Land of Morytha (Decaying Titan)",
+        time: "Anytime",
+        uid: "um_parasiteAplacus"
+    },
+    {
+        name: "Haywire Kustal",
+        level: 60,
+        area: "World Tree (Nuclear Dump Facility)",
+        time: "Anytime",
+        uid: "um_haywireKustal"
+    },
+    {
+        name: "Impassable Edgar",
+        level: 60,
+        area: "Kingdom of Tantal (Declessa Altar Hill)",
+        time: "Anytime",
+        uid: "um_impassableEdagr"
+    },
+    {
+        name: "Mk. VI Familion",
+        level: 62,
+        area: "World Tree (Lv. 2, Mizar: Central Deck)",
+        time: "Anytime",
+        uid: "um_mkVIFamilion"
+    },
+    {
+        name: "Ravenwing Skull",
+        level: 62,
+        area: "Temperantia (Xataris Spring)",
+        time: "Anytime",
+        uid: "um_ravenwingSkull"
+    },
+    {
+        name: "Vagrant Baldr",
+        level: 62,
+        area: "Empire of Mor Ardain (Brionac Occupied Zone)",
+        time: "Anytime",
+        uid: "um_vagrantBaldr"
+    },
+    {
+        name: "Mk. VI Margot",
+        level: 64,
+        area: "World Tree (Data Processing Room)",
+        time: "Anytime",
+        uid: "um_mkVIMargot"
+    },
+    {
+        name: "Praetorian Argus",
+        level: 65,
+        area: "World Tree (7th Perimeter Skyport)",
+        time: "Anytime",
+        uid: "um_praetorianArgus"
+    },
+    {
+        name: "Vampire Bride Marion",
+        level: 65,
+        area: "Kingdom of Uraya (Dragon's Stomach)",
+        time: "Anytime",
+        uid: "um_vampireBrideMarion"
+    },
+    {
+        name: "Haywire Phoebus",
+        level: 66,
+        area: "World Tree (7th Perimeter Defense Post)",
+        time: "Anytime",
+        uid: "um_haywirePhoebus"
+    },
+    {
+        name: "Mk. VI Gerolf",
+        level: 66,
+        area: "World Tree (Alioth, Elevator #3)",
+        time: "Anytime",
+        uid: "um_mkVIGerolf"
+    },
+    {
+        name: "Praetorian Medea",
+        level: 66,
+        area: "World Tree (7th Perimeter Skyport)",
+        time: "Anytime",
+        uid: "um_praetorianMedea"
+    },
+    {
+        name: "Insectivore Malcom",
+        level: 75,
+        area: "Gormott Province (Coolley Lake)",
+        time: "Clear/Overcast",
+        uid: "um_insectivoreMalcom"
+    },
+    {
+        name: "Soothsayer Gerald",
+        level: 78,
+        area: "Kingdom of Uraya (Loska's Gap)",
+        time: "Night Incense (Night)",
+        uid: "um_soothsayerGerald"
+    },
+    {
+        name: "Demon King Gilbert",
+        level: 80,
+        area: "Kingdom of Uraya (Badfella's Cave Fort)",
+        time: "Anytime",
+        uid: "um_demonKingGilbert"
+    },
+    {
+        name: "Territorial Rotbart",
+        level: 81,
+        area: "Gormott Province (Plains of Evening Calm)",
+        time: "Anytime",
+        uid: "um_territorialRotbart"
     },
     {
         name: "Armored Brennan",
@@ -314,10 +476,117 @@ export default [
         uid: "um_armoredBrennan"
     },
     {
+        name: "Immovable Gonzalez",
+        level: 90,
+        area: "Gormott Province (Nocclia Woods)",
+        time: "Anytime",
+        uid: "um_immovableGonzalez"
+    },
+    {
+        name: "Grievous Clive",
+        level: 94,
+        area: "Temperantia (Jagron's Citadel)",
+        time: "Anytime",
+        uid: "um_grievousClive"
+    },
+    {
+        name: "Leonine Sadie",
+        level: 95,
+        area: "Temperantia (Titan Weapon Dig Site)",
+        time: "Anytime",
+        uid: "um_leonineSadine"
+    },
+    {
+        name: "Antecedent Xiaxia",
+        level: 99,
+        area: "Empire of Mor Ardain (Old Factory)",
+        time: "After entering the First Low Orbit Station",
+        uid: "um_antecedentXiaxia"
+    },
+    {
+        name: "Beast-Hunter William",
+        level: 99,
+        area: "Kingdom of Uraya (Olethro Playhouse)",
+        time: "Final Chapter, after Farewell, Good Friend",
+        uid: "um_beastHunterWilliam"
+    },
+    {
+        name: "Relentless Arduran ※",
+        level: 99,
+        area: "Gormott Province (Kloom Farm)",
+        time: "After raising Pekka's Ardun",
+        uid: "um_relentlessArduran"
+    },
+    {
+        name: "Unflinching Saxton",
+        level: 99,
+        area: "Empire of Mor Ardain (Work Observation Tower)",
+        time: "After entering the First Low Orbit Station",
+        uid: "um_unflinchingSaxton"
+    },
+    {
+        name: "Gladiator Orion",
+        level: 100,
+        area: "Cliffs of Morytha (Hallowed Godswood Shrine)",
+        time: "Anytime",
+        uid: "um_gladiatorOrion"
+    },
+    {
+        name: "Reeking Douglas",
+        level: 104,
+        area: "Gormott Province (Brigands' Hideout)",
+        time: "After entering the First Low Orbit Station",
+        uid: "um_reekingDouglas"
+    },
+    {
+        name: "Pernicious Benf",
+        level: 109,
+        area: "Temperantia (Aegishammer)",
+        time: "After entering the First Low Orbit Station",
+        uid: "um_perniciousBenf"
+    },
+    {
+        name: "Cloud Sea King Ken",
+        level: 110,
+        area: "Kingdom of Tantal (Genbu Drifts)",
+        time: "Cloud Sea Mist, After entering the First Low Orbit Station",
+        uid: "um_cloudSeaKingKen"
+    },
+    {
+        name: "Mk. VII Arek",
+        level: 114,
+        area: "World Tree (Lv. 4, Megrez)",
+        time: "After entering the First Low Orbit Station",
+        uid: "um_mkVIIArek"
+    },
+    {
         name: "Artifice Ophion",
         level: 117,
-        area: " ()",
-        time: "",
-        uid: "um_"
+        area: "Cliffs of Morytha (Gotrock Oracle Ruins)",
+        time: "After entering the First Low Orbit Station",
+        uid: "um_artificeOphion"
     },
+    {
+        name: "Chickenheart Dagmara",
+        level: 120,
+        area: "Empire of Mor Ardain (Industrial Zone, Upper Duct)",
+        time: "After entering the First Low Orbit Station",
+        uid: "um_chickenheartDagmara"
+    },
+    {
+        name: "Tyrannotitan Kurodil ",
+        level: 130,
+        area: "Temperantia (Profaned Place)",
+        time: "Anytime (Unsealed with Field Skills)",
+        uid: "um_tyrannotitanKurodil"
+    },
+]
+/*
+{
+    name: "",
+    level: ,
+    area: "()",
+    time: "",
+    uid: "um_"
+},
 */
