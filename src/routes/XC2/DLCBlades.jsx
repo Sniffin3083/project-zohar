@@ -7,6 +7,43 @@ import XCTwoDLCBladesData from "../../data/XC2/DLCBladesData"
 const {useEffect} = React;
 
 const columns = [
+    {
+        name: "Blade",
+        selector: row => row.blade,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Role",
+        selector: row => row.role,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Stat Modifier",
+        selector: row => row.stat,
+        sortable: false,
+        width: "150px"
+    },
+    {
+        name: "Given Weapon",
+        selector: row => row.weapon,
+        sortable: true,
+        width: "200px"
+    },
+    {
+        name: "Element",
+        selector: row => row.element,
+        sortable: true,
+        width: "50px"
+    },
+    {
+        name: "Acquisition",
+        selector: row => row.acquisition,
+        sortable: true,
+        width: "200px",
+        wrap: true
+    }
 ];
 
 const conditionalRowStyles = [
