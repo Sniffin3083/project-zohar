@@ -38,8 +38,7 @@ import XCTwoNoponD from './routes/XC2/NoponD';
 import XCTwoPoppiM from './routes/XC2/PoppiM';
 import XCTwoPouchE from './routes/XC2/PouchE';
 import XCTwoUMonster from './routes/XC2/UMonster';
-import XCTwoEasyChallenge from './routes/XC2/ChallengeEasy';
-import XCTwoHardChallenge from './routes/XC2/ChallengeHard';
+import XCTwoChallenge from './routes/XC2/Challenge';
 
 import XCThree from './routes/XC3/XCthree.jsx';
 
@@ -159,11 +158,7 @@ const router = createBrowserRouter([
     },
     {
         path: "xeno2/challenge/easy",
-        element: <XCTwoEasyChallenge />
-    },
-    {
-        path: "xeno2/challenge/hard",
-        element: <XCTwoHardChallenge />
+        element: <XCTwoChallenge />
     },
     {
         path: "xeno3",

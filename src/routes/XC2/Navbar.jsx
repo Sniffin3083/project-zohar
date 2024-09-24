@@ -48,14 +48,7 @@ export default function NavBar() {
                     <Link to="/xeno2/mercm">Merc Missions</Link>
                 </li>
                 <li className="px-4 lg:px-12">
-                    <Dropdown title="Challenge Mode">
-                        <Dropdown.Item as="a" href="/xeno2/challenge/easy">
-                            Easy
-                        </Dropdown.Item>
-                        <Dropdown.Item as="a" href="/xeno2/challenge/hard">
-                            Hard
-                        </Dropdown.Item>
-                    </Dropdown>
+                    <Link to="/xeno2/challenge">Challenge Mode</Link>
                 </li>
                 <li>
                     <Dropdown title="Others">
