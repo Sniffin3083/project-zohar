@@ -7,6 +7,24 @@ import XCTwoPoppiMData from "../../data/XC2/PoppiMData"
 const {useEffect} = React;
 
 const columns = [
+    {
+        name: "Manual",
+        selector: row => row.name,
+        sortable: false,
+        width: "200px"
+    },
+    {
+        name: "Region",
+        selector: row => row.region,
+        sortable: true,
+        width: "150px"
+    },
+    {
+        name: "Location",
+        selector: row => row.location,
+        sortable: false,
+        width: "500px"
+    }
 ];
 
 const conditionalRowStyles = [
