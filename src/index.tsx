@@ -34,7 +34,6 @@ import XCTwoDeeds from './routes/XC2/Deeds';
 import XCTwoFoorara from './routes/XC2/Foorara';
 import XCTwoHTH from './routes/XC2/Heart';
 import XCTwoMercM from './routes/XC2/MercM';
-import XCTwoNoponD from './routes/XC2/NoponD';
 import XCTwoPoppiM from './routes/XC2/PoppiM';
 import XCTwoPouchE from './routes/XC2/PouchE';
 import XCTwoUMonster from './routes/XC2/UMonster';
@@ -139,10 +138,6 @@ const router = createBrowserRouter([
     {
         path: "xeno2/mercm",
         element: <XCTwoMercM />
-    },
-    {
-        path: "xeno2/nopond",
-        element: <XCTwoNoponD />
     },
     {
         path: "xeno2/poppim",

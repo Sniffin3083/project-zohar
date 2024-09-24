@@ -61,9 +61,6 @@ export default function NavBar() {
                         <Dropdown.Item as="a" href="/xeno2/pouche">
                             Pouch Expansions
                         </Dropdown.Item>
-                        <Dropdown.Item as="a" href="/xeno2/nopond">
-                            Nopon Doubloons
-                        </Dropdown.Item>
                         <Dropdown.Item as="a" href="/xeno2/deeds">
                             Shop Deeds
                         </Dropdown.Item>
