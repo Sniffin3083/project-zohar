@@ -44,10 +44,10 @@ export default function NavBar() {
                 <li>
                     <Link to="/xeno2/hth">Heart to Hearts</Link>
                 </li>
-                <li className="px-4 lg:px-12">
+                <li className="pl-4 lg:pl-12">
                     <Link to="/xeno2/mercm">Merc Missions</Link>
                 </li>
-                <li>
+                <li className="px-4 lg:px-12">
                     <Dropdown title="Challenge Mode">
                         <Dropdown.Item as="a" href="/xeno2/challenge/easy">
                             Easy
