@@ -2,42 +2,53 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './Navbar';
-import XCTwoChallengeEasy from "../../data/XC2/ChallengeEasyData"
+import XCTwoChallenge from "../../data/XC2/ChallengeData"
 
 const {useEffect} = React;
 
 const columns = [
     {
-        name: "Quest Name",
+        name: "Challenge Name",
         selector: row => row.name,
         sortable: true,
-        width: "200px"
+        width: "300px"
     },
     {
-        name: "Giver",
-        selector: row => row.giver,
-        sortable: true,
-        width: "100px"
-    },
-    {
-        name: "Area",
-        selector: row => row.area,
+        name: "Difficulty",
+        selector: row => row.difficulty,
         sortable: true,
         width: "150px"
     },
     {
-        name: "Location",
-        selector: row => row.location,
+        name: "Time Limit",
+        selector: row => row.time,
         sortable: true,
-        width: "200px"
+        width: "100px"
     },
     {
-        name: "Prerequisites",
-        selector: row => row.prerequisites,
+        name: "Waves",
+        selector: row => row.waves,
         sortable: true,
-        width: "400px",
-        wrap: true,
+        width: "100px"
     },
+    {
+        name: "Max Level",
+        selector: row => row.level,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Blade Powers",
+        selector: row => row.blade,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Driver Restrictions",
+        selector: row => row.driver,
+        sortable: true,
+        width: "100px"
+    }
 ];
 
 const conditionalRowStyles = [
@@ -64,13 +75,13 @@ function saveStore() {
 
 
 export default function XCTwoEasyChallenge() {
-    const [data, setData] = React.useState(XCTwoChallengeEasy);
+    const [data, setData] = React.useState(XCTwoChallenge);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoChallengeEasy) {
-            if(store.has(XCTwoChallengeEasy[x]["uid"])) {
-                XCTwoChallengeEasy[x].toggleSelected = true;
+        for (let i of XCTwoChallenge) {
+            if(store.has(XCTwoChallenge[x]["uid"])) {
+                XCTwoChallenge[x].toggleSelected = true;
             }
             x++;
         }

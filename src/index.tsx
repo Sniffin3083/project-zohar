@@ -157,7 +157,7 @@ const router = createBrowserRouter([
         element: <XCTwoUMonster />
     },
     {
-        path: "xeno2/challenge/easy",
+        path: "xeno2/challenge",
         element: <XCTwoChallenge />
     },
     {
