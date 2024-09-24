@@ -7,6 +7,26 @@ import XCTwoFooraraData from "../../data/XC2/FooraraData"
 const {useEffect} = React;
 
 const columns = [
+    {
+        name: "#",
+        selector: row => row.number,
+        sortable: false,
+        width: "50px"
+    },
+    {
+        name: "Region",
+        selector: row => row.region,
+        sortable: true,
+        width: "200px",
+        wrap: true
+    },
+    {
+        name: "Location",
+        selector: row => row.location,
+        sortable: false,
+        width: "500px",
+        wrap: true
+    }
 ];
 
 const conditionalRowStyles = [
