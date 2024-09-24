@@ -9,7 +9,7 @@ const {useEffect} = React;
 const columns = [
     {
         name: "Title",
-        selector: row => row.title,
+        selector: row => row.name,
         sortable: true,
         width: "200px"
     },

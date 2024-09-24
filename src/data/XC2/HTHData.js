@@ -1,6 +1,6 @@
 export default [
     {
-        title: "Good Habits",
+        name: "Good Habits",
         area: "Argentum Trade Guild",
         location: "Lemour Inn",
         who: <ul>
