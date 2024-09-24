@@ -35,7 +35,7 @@ const columns = [
         name: "Element",
         selector: row => row.element,
         sortable: true,
-        width: "50px"
+        width: "100px"
     },
     {
         name: "Acquisition",
