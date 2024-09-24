@@ -511,7 +511,7 @@ export default [
         uid: "um_beastHunterWilliam"
     },
     {
-        name: "Relentless Arduran ※",
+        name: "Relentless Arduran",
         level: 99,
         area: "Gormott Province (Kloom Farm)",
         time: "After raising Pekka's Ardun",
