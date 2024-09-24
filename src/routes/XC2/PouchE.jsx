@@ -7,6 +7,24 @@ import XCTwoPouchEData from "../../data/XC2/PouchEData"
 const {useEffect} = React;
 
 const columns = [
+    {
+        name: "#",
+        selector: row => row.number,
+        sortable: false,
+        width: "50px"
+    },
+    {
+        name: "Region",
+        selector: row => row.region,
+        sortable: true,
+        width: "150px"
+    },
+    {
+        name: "Location",
+        selector: row => row.location,
+        sortable: false,
+        width: "300px"
+    }
 ];
 
 const conditionalRowStyles = [
