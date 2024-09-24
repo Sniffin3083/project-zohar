@@ -7,6 +7,39 @@ import XCTwoHTHData from "../../data/XC2/HTHData"
 const {useEffect} = React;
 
 const columns = [
+    {
+        name: "Title",
+        selector: row => row.title,
+        sortable: true,
+        width: "200px"
+    },
+    {
+        name: "Area",
+        selector: row => row.area,
+        sortable: true,
+        width: "200px",
+        wrap: true
+    },
+    {
+        name: "Location",
+        selector: row => row.location,
+        sortable: true,
+        width: "200px",
+        wrap: true
+    },
+    {
+        name: "Who",
+        selector: row => row.who,
+        sortable: true,
+        width: "200px",
+    },
+    {
+        name: "Prerequisites",
+        selector: row => row.prerequisites,
+        sortable: true,
+        width: "300px",
+        wrap: true,
+    }
 ];
 
 const conditionalRowStyles = [
