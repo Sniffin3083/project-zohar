@@ -14,6 +14,13 @@ const columns = [
         width: "200px"
     },
     {
+        name: "Region",
+        selector: row => row.region,
+        sortable: true,
+        width: "200px",
+        wrap: true
+    },
+    {
         name: "Giver",
         selector: row => row.giver,
         sortable: true,
