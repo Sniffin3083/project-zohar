@@ -3,10 +3,61 @@ import DataTable from "react-data-table-component";
 
 import NavBar from './Navbar';
 import XCTwoDeedsData from "../../data/XC2/DeedsData"
+import { isNamespaceExport } from 'typescript';
 
 const {useEffect} = React;
 
 const columns = [
+    {
+        name: "Name",
+        selector: row => row.name,
+        sortable: true,
+        width: "150px",
+        wrap: true
+    },
+    {
+        name: "City",
+        selector: row => row.city,
+        sortable: true,
+        width: "150px",
+        wrap: true
+    },
+    {
+        name: "Shop",
+        selector: row => row.shop,
+        sortable: false,
+        width: "150px",
+        wrap: true
+    },
+    {
+        name: "Benefit",
+        selector: row => row.benefit,
+        sortable: false,
+        width: "150px",
+        wrap: true
+    },
+    {
+        name: "# of Items Sold",
+        selector: row => row.sold,
+        sortable: true,
+        width: "150px",
+        wrap: true
+    },
+    {
+        name: "Item(s)",
+        selector: row => row.items,
+        sortable: false,
+        width: "150px",
+        wrap: true
+    },
+    {
+        name: "Prerequisites",
+        selector: row => row.prerequisites,
+        sortable: false,
+        width: "150px",
+        wrap: true
+    }
+
 ];
 
 const conditionalRowStyles = [
