@@ -7,6 +7,24 @@ import XCTwoMercMData from "../../data/XC2/MercMData"
 const {useEffect} = React;
 
 const columns = [
+    {
+        name: "Name",
+        selector: row => row.name,
+        sortable: true,
+        width: "200px"
+    },
+    {
+        name: "Giver",
+        selector: row => row.giver,
+        sortable: true,
+        width: "150px"
+    },
+    {
+        name: "Prerequisites",
+        selector: row => row.prerequisites,
+        sortable: true,
+        width: "300px"
+    },
 ];
 
 const conditionalRowStyles = [
