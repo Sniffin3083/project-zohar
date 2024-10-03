@@ -1,5 +1,3 @@
-import missableIcon from "../../images/XC2/missable_icon.webp"
-
 export default [
     {
         name: "Cargo Escort",

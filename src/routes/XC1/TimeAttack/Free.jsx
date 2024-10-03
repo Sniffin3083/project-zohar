@@ -1,8 +1,8 @@
 import React from 'react';
 import DataTable from "react-data-table-component";
 
-import NavBar from './NavBar';
-import XCOneTMFreeData from "../../data/XC1/TMFreeData"
+import NavBar from '../NavBar';
+import XCOneTMFreeData from "../../../data/XC1/TimeAttackData/Free"
 
 const {useEffect} = React;
 

@@ -1,42 +1,48 @@
 import React from 'react';
 import DataTable from "react-data-table-component";
 
-import NavBar from './NavBar';
-import XCOneTMRestrictedData from "../../data/XC1/TMRestrictedData"
+import NavBar from '../Navbar';
+import XCTwoNGPlusBladesData from "../../../data/XC2/BladeData/NGPlus"
 
 const {useEffect} = React;
 
 const columns = [
     {
-        name: "Challenge Name",
-        selector: row => row.name,
+        name: "Blade",
+        selector: row => row.blade,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Role",
+        selector: row => row.role,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Stat Modifier",
+        selector: row => row.stat,
+        sortable: false,
+        width: "150px"
+    },
+    {
+        name: "Given Weapon",
+        selector: row => row.weapon,
         sortable: true,
         width: "200px"
     },
     {
-        name: "Prerequisites",
-        selector: row => row.prerequisites,
+        name: "Element",
+        selector: row => row.element,
         sortable: true,
-        width: "300px",
+        width: "100px"
+    },
+    {
+        name: "Acquisition",
+        selector: row => row.acquisition,
+        sortable: true,
+        width: "200px",
         wrap: true
-    },
-    {
-        name: "Waves",
-        selector: row => row.waves,
-        sortable: true,
-        width: "90px"
-    },
-    {
-        name: "Difficulty",
-        selector: row => row.difficulty,
-        sortable: true,
-        width: "110px"
-    },
-    {
-        name: "Formation",
-        selector: row => row.formation,
-        sortable: true,
-        width: "200px"
     }
 ];
 
@@ -50,7 +56,7 @@ const conditionalRowStyles = [
     }
 ];
 
-var store = JSON.parse(localStorage.getItem("XCOne-CompletionList"));
+var store = JSON.parse(localStorage.getItem("XCTwo-CompletionList"));
 
 if (store === null) {
     store = new Set();
@@ -59,18 +65,18 @@ if (store === null) {
 }
 
 function saveStore() {
-    localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
+    localStorage.setItem("XCTwo-CompletionList", JSON.stringify([...store]));
 }
 
 
-export default function XCOneTimeAttackRestricted() {
-    const [data, setData] = React.useState(XCOneTMRestrictedData);
+export default function XCTwoNGPlusBlades() {
+    const [data, setData] = React.useState(XCTwoNGPlusBladesData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneTMRestrictedData) {
-            if(store.has(XCOneTMRestrictedData[x]["uid"])) {
-                XCOneTMRestrictedData[x].toggleSelected = true;
+        for (let i of XCTwoNGPlusBladesData) {
+            if(store.has(XCTwoNGPlusBladesData[x]["uid"])) {
+                XCTwoNGPlusBladesData[x].toggleSelected = true;
             }
             x++;
         }
@@ -103,7 +109,7 @@ export default function XCOneTimeAttackRestricted() {
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles One Time Attack Restricted"
+                title="Xenoblade Chronicles Two NG+ Blades"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"

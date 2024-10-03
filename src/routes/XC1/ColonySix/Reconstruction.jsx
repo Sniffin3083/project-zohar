@@ -1,8 +1,8 @@
 import React from 'react';
 import DataTable from 'react-data-table-component';
 
-import NavBar from "./NavBar";
-import XCOneCSixRData from '../../data/XC1/CSixRData';
+import NavBar from "../NavBar";
+import XCOneCSixRData from '../../../data/XC1/ColonySixData/Reconstruction';
 
 const {useEffect} = React;
 

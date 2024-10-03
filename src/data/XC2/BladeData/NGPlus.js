@@ -1,8 +1,8 @@
-import darkElement from "../../images/XC2/elements/element-dark.webp"
-import earthElement from "../../images/XC2/elements/element-earth.webp"
-import electricElement from "../../images/XC2/elements/element-electric.webp"
-import fireElement from "../../images/XC2/elements/element-fire.webp"
-import windElement from "../../images/XC2/elements/element-wind.webp"
+import darkElement from "../../../images/XC2/elements/element-dark.webp"
+import earthElement from "../../../images/XC2/elements/element-earth.webp"
+import electricElement from "../../../images/XC2/elements/element-electric.webp"
+import fireElement from "../../../images/XC2/elements/element-fire.webp"
+import windElement from "../../../images/XC2/elements/element-wind.webp"
 
 export default [
     {

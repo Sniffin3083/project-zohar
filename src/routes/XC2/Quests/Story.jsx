@@ -1,8 +1,8 @@
 import React from 'react';
 import DataTable from "react-data-table-component";
 
-import NavBar from './NavBar';
-import XCOneQData from "../../data/XC1/QData"
+import NavBar from '../Navbar';
+import XCTwoStoryQuestsData from "../../../data/XC2/QuestData/Story"
 
 const {useEffect} = React;
 
@@ -20,7 +20,7 @@ const columns = [
         width: "100px"
     },
     {
-        name: "Time and Location",
+        name: "Area",
         selector: row => row.area,
         sortable: true,
         width: "300px",
@@ -32,17 +32,6 @@ const columns = [
         sortable: true,
         width: "400px",
         wrap: true,
-    },
-    {
-        name: "Timed?",
-        selector: row => row.timed,
-        sortable: true,
-        width: "80px"
-    },
-    {
-        name: "Mutually Exclusive?",
-        selector: row => row.exclusive,
-        sortable: true
     }
 ];
 
@@ -56,7 +45,7 @@ const conditionalRowStyles = [
     }
 ];
 
-var store = JSON.parse(localStorage.getItem("XCOne-CompletionList"));
+var store = JSON.parse(localStorage.getItem("XCTwo-CompletionList"));
 
 if (store === null) {
     store = new Set();
@@ -65,18 +54,18 @@ if (store === null) {
 }
 
 function saveStore() {
-    localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
+    localStorage.setItem("XCTwo-CompletionList", JSON.stringify([...store]));
 }
 
 
-export default function XCOneSideQuests() {
-    const [data, setData] = React.useState(XCOneQData);
+export default function XCTwoStoryQuests() {
+    const [data, setData] = React.useState(XCTwoStoryQuestsData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneQData) {
-            if(store.has(XCOneQData[x]["uid"])) {
-                XCOneQData[x].toggleSelected = true;
+        for (let i of XCTwoStoryQuestsData) {
+            if(store.has(XCTwoStoryQuestsData[x]["uid"])) {
+                XCTwoStoryQuestsData[x].toggleSelected = true;
             }
             x++;
         }
@@ -109,7 +98,7 @@ export default function XCOneSideQuests() {
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles One Side Quests"
+                title="Xenoblade Chronicles Two Story Quests"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"

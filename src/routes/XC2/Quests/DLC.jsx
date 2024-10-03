@@ -1,8 +1,8 @@
 import React from 'react';
 import DataTable from "react-data-table-component";
 
-import NavBar from './NavBar';
-import XCOneSQData from "../../data/XC1/SQData"
+import NavBar from '../Navbar';
+import XCTwoDLCQuestsData from "../../../data/XC2/QuestData/DLC"
 
 const {useEffect} = React;
 
@@ -20,11 +20,16 @@ const columns = [
         width: "100px"
     },
     {
-        name: "Time and Location",
+        name: "Area",
         selector: row => row.area,
         sortable: true,
-        width: "300px",
-        wrap: true
+        width: "150px"
+    },
+    {
+        name: "Location",
+        selector: row => row.location,
+        sortable: true,
+        width: "200px"
     },
     {
         name: "Prerequisites",
@@ -33,17 +38,6 @@ const columns = [
         width: "400px",
         wrap: true,
     },
-    {
-        name: "Timed?",
-        selector: row => row.timed,
-        sortable: true,
-        width: "80px"
-    },
-    {
-        name: "Mutually Exclusive?",
-        selector: row => row.exclusive,
-        sortable: true
-    }
 ];
 
 const conditionalRowStyles = [
@@ -56,7 +50,7 @@ const conditionalRowStyles = [
     }
 ];
 
-var store = JSON.parse(localStorage.getItem("XCOne-CompletionList"));
+var store = JSON.parse(localStorage.getItem("XCTwo-CompletionList"));
 
 if (store === null) {
     store = new Set();
@@ -65,18 +59,18 @@ if (store === null) {
 }
 
 function saveStore() {
-    localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
+    localStorage.setItem("XCTwo-CompletionList", JSON.stringify([...store]));
 }
 
 
-export default function XCOneStoryQuests() {
-    const [data, setData] = React.useState(XCOneSQData);
+export default function XCTwoDLCQuests() {
+    const [data, setData] = React.useState(XCTwoDLCQuestsData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneSQData) {
-            if(store.has(XCOneSQData[x]["uid"])) {
-                XCOneSQData[x].toggleSelected = true;
+        for (let i of XCTwoDLCQuestsData) {
+            if(store.has(XCTwoDLCQuestsData[x]["uid"])) {
+                XCTwoDLCQuestsData[x].toggleSelected = true;
             }
             x++;
         }
@@ -109,7 +103,7 @@ export default function XCOneStoryQuests() {
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles One Story Quests"
+                title="Xenoblade Chronicles Two DLC Quests"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"

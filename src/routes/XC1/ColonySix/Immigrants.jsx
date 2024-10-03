@@ -1,48 +1,35 @@
 import React from 'react';
-import DataTable from "react-data-table-component";
+import DataTable from 'react-data-table-component';
 
-import NavBar from './Navbar';
-import XCTwoNGPlusBladesData from "../../data/XC2/NGPlusBladesData"
+import NavBar from "../NavBar";
+import XCOneCSixIData from '../../../data/XC1/ColonySixData/Immigrant';
 
 const {useEffect} = React;
 
 const columns = [
     {
-        name: "Blade",
-        selector: row => row.blade,
-        sortable: true,
-        width: "100px"
-    },
-    {
-        name: "Role",
-        selector: row => row.role,
-        sortable: true,
-        width: "100px"
-    },
-    {
-        name: "Stat Modifier",
-        selector: row => row.stat,
-        sortable: false,
-        width: "150px"
-    },
-    {
-        name: "Given Weapon",
-        selector: row => row.weapon,
+        name: "Name",
+        selector: row => row.name,
         sortable: true,
         width: "200px"
     },
     {
-        name: "Element",
-        selector: row => row.element,
+        name: "Location and Time",
+        selector: row => row.area,
         sortable: true,
-        width: "100px"
+        width: "300px"
     },
     {
-        name: "Acquisition",
-        selector: row => row.acquisition,
+        name: "Prerequisites",
+        selector: row => row.prerequisites,
         sortable: true,
-        width: "200px",
+        width: "400px",
         wrap: true
+    },
+    {
+        name: "Mutually Exclusive?",
+        selector: row => row.exclusive,
+        sortable: true,
     }
 ];
 
@@ -56,7 +43,7 @@ const conditionalRowStyles = [
     }
 ];
 
-var store = JSON.parse(localStorage.getItem("XCTwo-CompletionList"));
+var store = JSON.parse(localStorage.getItem("XCOne-CompletionList"));
 
 if (store === null) {
     store = new Set();
@@ -65,18 +52,17 @@ if (store === null) {
 }
 
 function saveStore() {
-    localStorage.setItem("XCTwo-CompletionList", JSON.stringify([...store]));
+    localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
 }
 
-
-export default function XCTwoNGPlusBlades() {
-    const [data, setData] = React.useState(XCTwoNGPlusBladesData);
+export default function XCOneColony6Immigrants() {
+    const [data, setData] = React.useState(XCOneCSixIData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoNGPlusBladesData) {
-            if(store.has(XCTwoNGPlusBladesData[x]["uid"])) {
-                XCTwoNGPlusBladesData[x].toggleSelected = true;
+        for (let i of XCOneCSixIData) {
+            if(store.has(XCOneCSixIData[x]["uid"])) {
+                XCOneCSixIData[x].toggleSelected = true;
             }
             x++;
         }
@@ -104,12 +90,11 @@ export default function XCTwoNGPlusBlades() {
 
         setData(updatedData);
   };
-
     return (
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles Two NG+ Blades"
+                title="Xenoblade Chronicles One Colony 6 Immigrants"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"
@@ -117,5 +102,5 @@ export default function XCTwoNGPlusBlades() {
                 conditionalRowStyles={conditionalRowStyles}
             />
         </>
-    );
+    )
 }

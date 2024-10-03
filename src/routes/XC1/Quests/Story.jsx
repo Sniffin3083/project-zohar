@@ -1,8 +1,8 @@
 import React from 'react';
 import DataTable from "react-data-table-component";
 
-import NavBar from './Navbar';
-import XCTwoSideQuestsData from "../../data/XC2/SideQuestsData"
+import NavBar from '../NavBar';
+import XCOneSQData from "../../../data/XC1/QuestData/Story"
 
 const {useEffect} = React;
 
@@ -20,7 +20,7 @@ const columns = [
         width: "100px"
     },
     {
-        name: "Area",
+        name: "Time and Location",
         selector: row => row.area,
         sortable: true,
         width: "300px",
@@ -34,10 +34,15 @@ const columns = [
         wrap: true,
     },
     {
-        name: "Fin Later Chapter?",
-        selector: row => row.chapter,
+        name: "Timed?",
+        selector: row => row.timed,
         sortable: true,
-        width: "150px"
+        width: "80px"
+    },
+    {
+        name: "Mutually Exclusive?",
+        selector: row => row.exclusive,
+        sortable: true
     }
 ];
 
@@ -51,7 +56,7 @@ const conditionalRowStyles = [
     }
 ];
 
-var store = JSON.parse(localStorage.getItem("XCTwo-CompletionList"));
+var store = JSON.parse(localStorage.getItem("XCOne-CompletionList"));
 
 if (store === null) {
     store = new Set();
@@ -60,18 +65,18 @@ if (store === null) {
 }
 
 function saveStore() {
-    localStorage.setItem("XCTwo-CompletionList", JSON.stringify([...store]));
+    localStorage.setItem("XCOne-CompletionList", JSON.stringify([...store]));
 }
 
 
-export default function XCTwoSideQuests() {
-    const [data, setData] = React.useState(XCTwoSideQuestsData);
+export default function XCOneStoryQuests() {
+    const [data, setData] = React.useState(XCOneSQData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoSideQuestsData) {
-            if(store.has(XCTwoSideQuestsData[x]["uid"])) {
-                XCTwoSideQuestsData[x].toggleSelected = true;
+        for (let i of XCOneSQData) {
+            if(store.has(XCOneSQData[x]["uid"])) {
+                XCOneSQData[x].toggleSelected = true;
             }
             x++;
         }
@@ -104,7 +109,7 @@ export default function XCTwoSideQuests() {
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles Two Side Quests"
+                title="Xenoblade Chronicles One Story Quests"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"

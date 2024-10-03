@@ -1,7 +1,7 @@
-import darkElement from "../../images/XC2/elements/element-dark.webp"
-import fireElement from "../../images/XC2/elements/element-fire.webp"
-import lightElement from "../../images/XC2/elements/element-light.webp"
-import windElement from "../../images/XC2/elements/element-wind.webp"
+import darkElement from "../../../images/XC2/elements/element-dark.webp"
+import fireElement from "../../../images/XC2/elements/element-fire.webp"
+import lightElement from "../../../images/XC2/elements/element-light.webp"
+import windElement from "../../../images/XC2/elements/element-wind.webp"
 
 export default [
     {

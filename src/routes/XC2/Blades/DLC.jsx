@@ -1,37 +1,48 @@
 import React from 'react';
 import DataTable from "react-data-table-component";
 
-import NavBar from './Navbar';
-import XCTwoStoryQuestsData from "../../data/XC2/StoryQuestsData"
+import NavBar from '../Navbar';
+import XCTwoDLCBladesData from "../../../data/XC2/BladeData/DLC"
 
 const {useEffect} = React;
 
 const columns = [
     {
-        name: "Quest Name",
-        selector: row => row.name,
-        sortable: true,
-        width: "200px"
-    },
-    {
-        name: "Giver",
-        selector: row => row.giver,
+        name: "Blade",
+        selector: row => row.blade,
         sortable: true,
         width: "100px"
     },
     {
-        name: "Area",
-        selector: row => row.area,
+        name: "Role",
+        selector: row => row.role,
         sortable: true,
-        width: "300px",
-        wrap: true
+        width: "100px"
     },
     {
-        name: "Prerequisites",
-        selector: row => row.prerequisites,
+        name: "Stat Modifier",
+        selector: row => row.stat,
+        sortable: false,
+        width: "150px"
+    },
+    {
+        name: "Given Weapon",
+        selector: row => row.weapon,
         sortable: true,
-        width: "400px",
-        wrap: true,
+        width: "200px"
+    },
+    {
+        name: "Element",
+        selector: row => row.element,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Acquisition",
+        selector: row => row.acquisition,
+        sortable: true,
+        width: "200px",
+        wrap: true
     }
 ];
 
@@ -58,14 +69,14 @@ function saveStore() {
 }
 
 
-export default function XCTwoStoryQuests() {
-    const [data, setData] = React.useState(XCTwoStoryQuestsData);
+export default function XCTwoDLCBlades() {
+    const [data, setData] = React.useState(XCTwoDLCBladesData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoStoryQuestsData) {
-            if(store.has(XCTwoStoryQuestsData[x]["uid"])) {
-                XCTwoStoryQuestsData[x].toggleSelected = true;
+        for (let i of XCTwoDLCBladesData) {
+            if(store.has(XCTwoDLCBladesData[x]["uid"])) {
+                XCTwoDLCBladesData[x].toggleSelected = true;
             }
             x++;
         }
@@ -98,7 +109,7 @@ export default function XCTwoStoryQuests() {
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles Two Story Quests"
+                title="Xenoblade Chronicles Two DLC Blades"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"

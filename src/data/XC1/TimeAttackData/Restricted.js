@@ -1,7 +1,7 @@
-import onePepper from "../../images/XC1/timeAttackPeppers/1_pepper.webp"
-import twoPepper from "../../images/XC1/timeAttackPeppers/2_pepper.webp"
-import threePepper from "../../images/XC1/timeAttackPeppers/3_pepper.webp"
-import fourPepper from "../../images/XC1/timeAttackPeppers/4_pepper.webp"
+import onePepper from "../../../images/XC1/timeAttackPeppers/1_pepper.webp"
+import twoPepper from "../../../images/XC1/timeAttackPeppers/2_pepper.webp"
+import threePepper from "../../../images/XC1/timeAttackPeppers/3_pepper.webp"
+import fourPepper from "../../../images/XC1/timeAttackPeppers/4_pepper.webp"
 
 export default [
     {

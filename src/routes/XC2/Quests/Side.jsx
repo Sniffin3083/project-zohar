@@ -1,8 +1,8 @@
 import React from 'react';
 import DataTable from "react-data-table-component";
 
-import NavBar from './Navbar';
-import XCTwoDLCQuestsData from "../../data/XC2/DLCQuestsData"
+import NavBar from '../Navbar';
+import XCTwoSideQuestsData from "../../../data/XC2/QuestData/Side"
 
 const {useEffect} = React;
 
@@ -23,13 +23,8 @@ const columns = [
         name: "Area",
         selector: row => row.area,
         sortable: true,
-        width: "150px"
-    },
-    {
-        name: "Location",
-        selector: row => row.location,
-        sortable: true,
-        width: "200px"
+        width: "300px",
+        wrap: true
     },
     {
         name: "Prerequisites",
@@ -38,6 +33,12 @@ const columns = [
         width: "400px",
         wrap: true,
     },
+    {
+        name: "Fin Later Chapter?",
+        selector: row => row.chapter,
+        sortable: true,
+        width: "150px"
+    }
 ];
 
 const conditionalRowStyles = [
@@ -63,14 +64,14 @@ function saveStore() {
 }
 
 
-export default function XCTwoDLCQuests() {
-    const [data, setData] = React.useState(XCTwoDLCQuestsData);
+export default function XCTwoSideQuests() {
+    const [data, setData] = React.useState(XCTwoSideQuestsData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoDLCQuestsData) {
-            if(store.has(XCTwoDLCQuestsData[x]["uid"])) {
-                XCTwoDLCQuestsData[x].toggleSelected = true;
+        for (let i of XCTwoSideQuestsData) {
+            if(store.has(XCTwoSideQuestsData[x]["uid"])) {
+                XCTwoSideQuestsData[x].toggleSelected = true;
             }
             x++;
         }
@@ -103,7 +104,7 @@ export default function XCTwoDLCQuests() {
         <>
             <NavBar />
             <DataTable
-                title="Xenoblade Chronicles Two DLC Quests"
+                title="Xenoblade Chronicles Two Side Quests"
                 columns={columns}
                 data={data}
                 defaultSortFieldId="title"
