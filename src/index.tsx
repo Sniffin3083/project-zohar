@@ -10,8 +10,8 @@ import {
 
 import ErrorPage from './error-page';
 
-import XCOneHome from './routes/XC1/Home.jsx'
-import XCOneSideQuests from './routes/XC1/SideQuests.jsx';
+import XCOneHome from './routes/XC1/Home'
+import XCOneSideQuests from './routes/XC1/SideQuests';
 import XCOneStoryQuests from './routes/XC1/StoryQuests';
 import XCOneUMonster from './routes/XC1/UMonster';
 import XCOneColony6Immigrants from './routes/XC1/Colony6Immigrants';
@@ -39,7 +39,28 @@ import XCTwoPouchE from './routes/XC2/PouchE';
 import XCTwoUMonster from './routes/XC2/UMonster';
 import XCTwoChallenge from './routes/XC2/Challenge';
 
-import XCThree from './routes/XC3/XCthree.jsx';
+import XCThreeHome from './routes/XC3/Home';
+import XCThreeChallenge from './routes/XC3/Challenge';
+import XCThreeClassNoah from './routes/XC3/Class/Noah';
+import XCThreeClassMio from './routes/XC3/Class/Mio';
+import XCThreeClassEunie from './routes/XC3/Class/Eunie';
+import XCThreeClassTaion from './routes/XC3/Class/Taion';
+import XCThreeClassLanz from './routes/XC3/Class/Lanz';
+import XCThreeClassSena from './routes/XC3/Class/Sena';
+import XCThreeGems from './routes/XC3/Gems';
+import XCThreeHero from './routes/XC3/Hero';
+import XCThreeQuestDLC from './routes/XC3/Quest/DLC';
+import XCThreeQuestHero from './routes/XC3/Quest/Hero';
+import XCThreeQuestSide from './routes/XC3/Quest/Side';
+import XCThreeQuestStory from './routes/XC3/Quest/Story';
+import XCThreeQuestUnmarked from './routes/XC3/Quest/Unmarked';
+import XCThreeSTNoah from './routes/XC3/SoulTree/Noah';
+import XCThreeSTMio from './routes/XC3/SoulTree/Mio';
+import XCThreeSTEunie from './routes/XC3/SoulTree/Eunie';
+import XCThreeSTTaion from './routes/XC3/SoulTree/Taion';
+import XCThreeSTLanz from './routes/XC3/SoulTree/Lanz';
+import XCThreeSTSena from './routes/XC3/SoulTree/Sena';
+import XCThreeUMonster from './routes/XC3/UMonster';
 
 const router = createBrowserRouter([
     {
@@ -157,7 +178,91 @@ const router = createBrowserRouter([
     },
     {
         path: "xeno3",
-        element: <XCThree />
+        element: <XCThreeHome />
+    },
+    {
+        path: "xeno3/challenge",
+        element: <XCThreeChallenge />
+    },
+    {
+        path: "xeno3/class/noah",
+        element: <XCThreeClassNoah />
+    },
+    {
+        path: "xeno3/class/mio",
+        element: <XCThreeClassMio />
+    },
+    {
+        path: "xeno3/class/eunie",
+        element: <XCThreeClassEunie />
+    },
+    {
+        path: "xeno3/class/taion",
+        element: <XCThreeClassTaion />
+    },
+    {
+        path: "xeno3/class/lanz",
+        element: <XCThreeClassLanz />
+    },
+    {
+        path: "xeno3/class/sena",
+        element: <XCThreeClassSena />
+    },
+    {
+        path: "xeno3/gems",
+        element: <XCThreeGems />
+    },
+    {
+        path: "xeno3/hero",
+        element: <XCThreeHero />
+    },
+    {
+        path: "xeno3/quests/dlc",
+        element: <XCThreeQuestDLC />
+    },
+    {
+        path: "xeno3/quests/hero",
+        element: <XCThreeQuestHero />
+    },
+    {
+        path: "xeno3/quests/side",
+        element: <XCThreeQuestSide />
+    },
+    {
+        path: "xeno3/quests/story",
+        element: <XCThreeQuestStory />
+    },
+    {
+        path: "xeno3/quests/unmarked",
+        element: <XCThreeQuestUnmarked />
+    },
+    {
+        path: "xeno3/soul/noah",
+        element: <XCThreeSTNoah />
+    },
+    {
+        path: "xeno3/soul/mio",
+        element: <XCThreeSTMio />
+    },
+    {
+        path: "xeno3/soul/eunie",
+        element: <XCThreeSTEunie />
+    },
+    {
+        path: "xeno3/soul/taion",
+        element: <XCThreeSTTaion />
+    },
+    {
+        path: "xeno3/soul/lanz",
+        element: <XCThreeSTLanz />
+    },
+    {
+        path: "xeno3/soul/sena",
+        element: <XCThreeSTSena />
+    },
+    {
+        path: "xeno3/umonster",
+        element: <XCThreeUMonster />
     }
 ]);
 
