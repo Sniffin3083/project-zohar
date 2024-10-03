@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './Navbar';
-import XCTwoPouchEData from "../../data/XC2/PouchEData"
+import tableData from "../../data/XC2/PouchEData"
 
 const {useEffect} = React;
 
@@ -51,13 +51,13 @@ function saveStore() {
 
 
 export default function XCTwoPouchE() {
-    const [data, setData] = React.useState(XCTwoPouchEData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoPouchEData) {
-            if(store.has(XCTwoPouchEData[x]["uid"])) {
-                XCTwoPouchEData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

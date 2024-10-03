@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './Navbar';
-import XCTwoPoppiMData from "../../data/XC2/PoppiMData"
+import tableData from "../../data/XC2/PoppiMData"
 
 const {useEffect} = React;
 
@@ -51,13 +51,13 @@ function saveStore() {
 
 
 export default function XCTwoPoppiM() {
-    const [data, setData] = React.useState(XCTwoPoppiMData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoPoppiMData) {
-            if(store.has(XCTwoPoppiMData[x]["uid"])) {
-                XCTwoPoppiMData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

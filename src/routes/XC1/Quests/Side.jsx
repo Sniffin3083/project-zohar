@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from '../NavBar';
-import XCOneQData from "../../../data/XC1/QuestData/Side"
+import tableData from "../../../data/XC1/QuestData/Side"
 
 const {useEffect} = React;
 
@@ -70,13 +70,13 @@ function saveStore() {
 
 
 export default function XCOneSideQuests() {
-    const [data, setData] = React.useState(XCOneQData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneQData) {
-            if(store.has(XCOneQData[x]["uid"])) {
-                XCOneQData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

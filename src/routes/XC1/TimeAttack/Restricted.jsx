@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from '../NavBar';
-import XCOneTMRestrictedData from "../../../data/XC1/TimeAttackData/Restricted"
+import tableData from "../../../data/XC1/TimeAttackData/Restricted"
 
 const {useEffect} = React;
 
@@ -64,13 +64,13 @@ function saveStore() {
 
 
 export default function XCOneTimeAttackRestricted() {
-    const [data, setData] = React.useState(XCOneTMRestrictedData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneTMRestrictedData) {
-            if(store.has(XCOneTMRestrictedData[x]["uid"])) {
-                XCOneTMRestrictedData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

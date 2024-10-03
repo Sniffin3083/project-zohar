@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './NavBar';
-import XCOneCollData from "../../data/XC1/CollData"
+import tableData from "../../data/XC1/CollData"
 
 const {useEffect} = React;
 
@@ -64,13 +64,13 @@ function saveStore() {
 
 
 export default function XCOneCollectopedia() {
-    const [data, setData] = React.useState(XCOneCollData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneCollData) {
-            if(store.has(XCOneCollData[x]["uid"])) {
-                XCOneCollData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

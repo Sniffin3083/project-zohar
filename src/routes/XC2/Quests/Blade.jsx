@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from '../Navbar';
-import XCTwoBladeQuestsData from "../../../data/XC2/QuestData/Blade"
+import tableData from "../../../data/XC2/QuestData/Blade"
 
 const {useEffect} = React;
 
@@ -64,13 +64,13 @@ function saveStore() {
 
 
 export default function XCTwoBladeQuests() {
-    const [data, setData] = React.useState(XCTwoBladeQuestsData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoBladeQuestsData) {
-            if(store.has(XCTwoBladeQuestsData[x]["uid"])) {
-                XCTwoBladeQuestsData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

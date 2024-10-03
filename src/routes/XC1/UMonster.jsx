@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from 'react-data-table-component';
 
 import NavBar from "./NavBar";
-import XCOneUData from '../../data/XC1/UMonsterData';
+import tableData from '../../data/XC1/UMonsterData';
 
 const {useEffect} = React;
 
@@ -69,13 +69,13 @@ function saveStore() {
 }
 
 export default function XCOneUMonster() {
-    const [data, setData] = React.useState(XCOneUData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneUData) {
-            if(store.has(XCOneUData[x]["uid"])) {
-                XCOneUData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

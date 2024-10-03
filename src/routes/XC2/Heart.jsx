@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './Navbar';
-import XCTwoHTHData from "../../data/XC2/HTHData"
+import tableData from "../../data/XC2/HTHData"
 
 const {useEffect} = React;
 
@@ -66,13 +66,13 @@ function saveStore() {
 
 
 export default function XCTwoHTH() {
-    const [data, setData] = React.useState(XCTwoHTHData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoHTHData) {
-            if(store.has(XCTwoHTHData[x]["uid"])) {
-                XCTwoHTHData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

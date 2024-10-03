@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from '../NavBar';
-import XCOneTMFreeData from "../../../data/XC1/TimeAttackData/Free"
+import tableData from "../../../data/XC1/TimeAttackData/Free"
 
 const {useEffect} = React;
 
@@ -58,13 +58,13 @@ function saveStore() {
 
 
 export default function XCOneTimeAttackFree() {
-    const [data, setData] = React.useState(XCOneTMFreeData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneTMFreeData) {
-            if(store.has(XCOneTMFreeData[x]["uid"])) {
-                XCOneTMFreeData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

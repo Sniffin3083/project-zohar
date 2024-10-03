@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './Navbar';
-import XCTwoMercMData from "../../data/XC2/MercMData"
+import tableData from "../../data/XC2/MercMData"
 
 const {useEffect} = React;
 
@@ -58,13 +58,13 @@ function saveStore() {
 
 
 export default function XCTwoMercM() {
-    const [data, setData] = React.useState(XCTwoMercMData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoMercMData) {
-            if(store.has(XCTwoMercMData[x]["uid"])) {
-                XCTwoMercMData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

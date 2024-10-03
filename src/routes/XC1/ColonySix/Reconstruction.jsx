@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from 'react-data-table-component';
 
 import NavBar from "../NavBar";
-import XCOneCSixRData from '../../../data/XC1/ColonySixData/Reconstruction';
+import tableData from '../../../data/XC1/ColonySixData/Reconstruction';
 
 const {useEffect} = React;
 
@@ -51,13 +51,13 @@ function saveStore() {
 }
 
 export default function XCOneColony6Reconstruction() {
-    const [data, setData] = React.useState(XCOneCSixRData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneCSixRData) {
-            if(store.has(XCOneCSixRData[x]["uid"])) {
-                XCOneCSixRData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

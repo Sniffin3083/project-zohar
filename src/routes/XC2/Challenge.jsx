@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './Navbar';
-import XCTwoChallenge from "../../data/XC2/ChallengeData"
+import tableData from "../../data/XC2/ChallengeData"
 
 const {useEffect} = React;
 
@@ -75,13 +75,13 @@ function saveStore() {
 
 
 export default function XCTwoEasyChallenge() {
-    const [data, setData] = React.useState(XCTwoChallenge);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCTwoChallenge) {
-            if(store.has(XCTwoChallenge[x]["uid"])) {
-                XCTwoChallenge[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }

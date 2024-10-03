@@ -2,7 +2,7 @@ import React from 'react';
 import DataTable from "react-data-table-component";
 
 import NavBar from './NavBar';
-import XCOneHTHData from "../../data/XC1/HTHData"
+import tableData from "../../data/XC1/HTHData"
 
 const {useEffect} = React;
 
@@ -63,13 +63,13 @@ function saveStore() {
 }
 
 export default function XCOneHeart() {
-    const [data, setData] = React.useState(XCOneHTHData);
+    const [data, setData] = React.useState(tableData);
 
     useEffect(() => {
         var x = 0;
-        for (let i of XCOneHTHData) {
-            if(store.has(XCOneHTHData[x]["uid"])) {
-                XCOneHTHData[x].toggleSelected = true;
+        for (let i of tableData) {
+            if(store.has(tableData[x]["uid"])) {
+                tableData[x].toggleSelected = true;
             }
             x++;
         }
