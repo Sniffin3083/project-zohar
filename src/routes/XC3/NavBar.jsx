@@ -23,7 +23,7 @@ export default function NavBar() {
                         <Dropdown.Item as="a" href="/xeno3/quests/dlc">
                             DLC Quests
                         </Dropdown.Item>
-                        <Dropdown.Item as="a" hreg="/xeno3/quests/unmarked">
+                        <Dropdown.Item as="a" href="/xeno3/quests/unmarked">
                             Unmarked Quests
                         </Dropdown.Item>
                     </Dropdown>
