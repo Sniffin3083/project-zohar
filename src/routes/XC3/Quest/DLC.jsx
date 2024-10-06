@@ -13,6 +13,37 @@ const columns = [
         sortable: true,
         width: "300px"
     },
+    {
+        name: "Giver",
+        selector: row => row.giver,
+        sortable: false,
+        width: "150px"
+    },
+    {
+        name: "Prerequisites",
+        selector: row => row.prerequisites,
+        sortable: false,
+        width: "300px",
+        wrap: true
+    },
+    {
+        name: "Req. Chapter",
+        selector: row => row.chapter,
+        sortable: true,
+        width: "150px"
+    },
+    {
+        name: "Region",
+        selector: row => row.region,
+        sortable: true,
+        width: "150px"
+    },
+    {
+        name: "Location",
+        selector: row => row.area,
+        sortable: false,
+        width: "300px"
+    }
 ];
 
 const conditionalRowStyles = [
