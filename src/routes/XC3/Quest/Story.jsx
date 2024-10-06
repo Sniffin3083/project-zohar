@@ -13,6 +13,19 @@ const columns = [
         sortable: true,
         width: "300px"
     },
+    {
+        name: "Prerequisites",
+        selector: row => row.prerequisites,
+        sortable: true,
+        width: "300px",
+        wrap: true
+    },
+    {
+        name: "Area",
+        selector: row => row.area,
+        sortable: true,
+        width: "200px"
+    }
 ];
 
 const conditionalRowStyles = [
