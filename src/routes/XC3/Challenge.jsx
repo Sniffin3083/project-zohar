@@ -13,6 +13,24 @@ const columns = [
         sortable: true,
         width: "300px"
     },
+    {
+        name: "Difficulty",
+        selector: row => row.diff,
+        sortable: true,
+        width: "150px"
+    },
+    {
+        name: "Waves",
+        selector: row => row.wave,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Lv. Restriction",
+        selector: row => row.level,
+        sortable: true,
+        width: "150px"
+    }
 ];
 
 const conditionalRowStyles = [
