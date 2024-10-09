@@ -13,6 +13,31 @@ const columns = [
         sortable: true,
         width: "300px"
     },
+    {
+        name: "Class",
+        selector: row => row.class,
+        sortable: false,
+        width: "200px"
+    },
+    {
+        name: "Role",
+        selector: row => row.role,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Nation",
+        selector: row => row.nation,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Acquisition Quest",
+        selector: row => row.quest,
+        sortable: false,
+        width: "200px",
+        wrap: true
+    }
 ];
 
 const conditionalRowStyles = [
