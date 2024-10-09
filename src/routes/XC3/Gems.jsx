@@ -13,6 +13,25 @@ const columns = [
         sortable: true,
         width: "300px"
     },
+    {
+        name: "Type",
+        selector: row => row.type,
+        sortable: true,
+        width: "100px"
+    },
+    {
+        name: "Range",
+        selector: row => row.range,
+        sortable: false,
+        width: "150px"
+    },
+    {
+        name: "Effect",
+        selector: row => row.effect,
+        sortable: false,
+        width: "300px",
+        wrap: true
+    }
 ];
 
 const conditionalRowStyles = [
