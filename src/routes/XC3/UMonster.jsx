@@ -13,6 +13,32 @@ const columns = [
         sortable: true,
         width: "300px"
     },
+    {
+        name: "Level",
+        selector: row => row.level,
+        sortable: true,
+        width: "150px"
+    },
+    {
+        name: "Area",
+        selector: row => row.area,
+        sortable: true,
+        width: "200px",
+        wrap: true
+    },
+    {
+        name: "Region",
+        selector: row => row.region,
+        sortable: false,
+        width: "200px",
+        wrap: true
+    },
+    {
+        name: "Spawntime",
+        selector: row => row.time,
+        sortable: false,
+        width: "200px"
+    }
 ];
 
 const conditionalRowStyles = [
