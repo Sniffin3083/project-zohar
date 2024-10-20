@@ -54,12 +54,6 @@ import XCThreeQuestHero from './routes/XC3/Quest/Hero';
 import XCThreeQuestSide from './routes/XC3/Quest/Side';
 import XCThreeQuestStory from './routes/XC3/Quest/Story';
 import XCThreeQuestUnmarked from './routes/XC3/Quest/Unmarked';
-import XCThreeSTNoah from './routes/XC3/SoulTree/Noah';
-import XCThreeSTMio from './routes/XC3/SoulTree/Mio';
-import XCThreeSTEunie from './routes/XC3/SoulTree/Eunie';
-import XCThreeSTTaion from './routes/XC3/SoulTree/Taion';
-import XCThreeSTLanz from './routes/XC3/SoulTree/Lanz';
-import XCThreeSTSena from './routes/XC3/SoulTree/Sena';
 import XCThreeUMonster from './routes/XC3/UMonster';
 
 const router = createBrowserRouter([
@@ -235,30 +229,6 @@ const router = createBrowserRouter([
     {
         path: "xeno3/quests/unmarked",
         element: <XCThreeQuestUnmarked />
-    },
-    {
-        path: "xeno3/soul/noah",
-        element: <XCThreeSTNoah />
-    },
-    {
-        path: "xeno3/soul/mio",
-        element: <XCThreeSTMio />
-    },
-    {
-        path: "xeno3/soul/eunie",
-        element: <XCThreeSTEunie />
-    },
-    {
-        path: "xeno3/soul/taion",
-        element: <XCThreeSTTaion />
-    },
-    {
-        path: "xeno3/soul/lanz",
-        element: <XCThreeSTLanz />
-    },
-    {
-        path: "xeno3/soul/sena",
-        element: <XCThreeSTSena />
     },
     {
         path: "xeno3/umonster",
