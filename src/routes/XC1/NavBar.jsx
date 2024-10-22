@@ -2,6 +2,9 @@ import { useState } from "react"
 import { Link } from 'react-router-dom';
 import { Dropdown } from "rsuite"; 
 
+function reset() {
+    localStorage.clear();
+}
 
 export default function NavBar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -42,7 +45,7 @@ export default function NavBar() {
                             <li className="hover:font-bold hover:underline">
                                 <Link to="/xeno1">Intro</Link>
                             </li>
-                            <li className="px-4 lg:px-12 hover:font-bold hover:underline">
+                            <li className="px-4 lg:px-12">
                                 <Dropdown title="Quests">
                                     <Dropdown.Item as="a" href="/xeno1/quests/story">
                                         Story Quests
@@ -52,7 +55,7 @@ export default function NavBar() {
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
-                            <li className="hover:font-bold hover:underline">
+                            <li className="">
                                 <Link to="/xeno1/umonster">Unique Monsters</Link>
                             </li>
                             <li className="px-4 lg:px-12 hover:font-bold hover:underline">
@@ -65,10 +68,10 @@ export default function NavBar() {
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
-                            <li className="px-4 lg:px-12 hover:font-bold hover:underline">
+                            <li className="px-4 lg:px-12">
                                 <Link to="/xeno1/collectopedia">Collectopedia</Link>
                             </li>
-                            <li className="hover:font-bold hover:underline">
+                            <li className="">
                                 <Dropdown title="Time Attack">
                                     <Dropdown.Item as="a" href="/xeno1/timeattack/free">
                                         Time Attack - Free
@@ -78,11 +81,16 @@ export default function NavBar() {
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
-                            <li className="px-4 lg:px-12 hover:font-bold hover:underline">
+                            <li className="px-4 lg:px-12">
                                 <Link to="/xeno1/achievements">Achievements</Link>
                             </li>
-                            <li className="hover:font-bold hover:underline">
+                            <li className="">
                                 <Link to="/xeno1/heart">Heart to Hearts</Link>
+                            </li>
+                            <li className="mx-8 p-2 bg-green-600 hover:bg-green-800 text-white border border-solid border-black">
+                                <button onClick={reset()}>
+                                    Reset All Progress
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -90,7 +98,7 @@ export default function NavBar() {
 
                 {/* Desktop NavBar */}
                 <ul className="hidden md:flex text-xl m-4 pt-6 flex items-center flex-row justify-center">
-                    <li className="hover:font-bold hover:underline">
+                    <li className="">
                         <Link to="/xeno1">Intro</Link>
                     </li>
                     <li className="px-4 lg:px-12 hover:font-bold hover:underline">
@@ -103,10 +111,10 @@ export default function NavBar() {
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
-                    <li className="hover:font-bold hover:underline">
+                    <li className="">
                         <Link to="/xeno1/umonster">Unique Monsters</Link>
                     </li>
-                    <li className="px-4 lg:px-12 hover:font-bold hover:underline">
+                    <li className="px-4 lg:px-12">
                         <Dropdown title="Colony 6">
                             <Dropdown.Item as="a" href="/xeno1/colony6/immigrants">
                                 Colony 6 Immigrants
@@ -116,10 +124,10 @@ export default function NavBar() {
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
-                    <li className="px-4 lg:px-12 hover:font-bold hover:underline">
+                    <li className="px-4 lg:px-12">
                         <Link to="/xeno1/collectopedia">Collectopedia</Link>
                     </li>
-                    <li className="hover:font-bold hover:underline">
+                    <li className="">
                         <Dropdown title="Time Attack">
                             <Dropdown.Item as="a" href="/xeno1/timeattack/free">
                                 Time Attack - Free
@@ -129,11 +137,16 @@ export default function NavBar() {
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
-                    <li className="px-4 lg:px-12 hover:font-bold hover:underline">
+                    <li className="px-4 lg:px-12">
                         <Link to="/xeno1/achievements">Achievements</Link>
                     </li>
-                    <li className="hover:font-bold hover:underline">
+                    <li className="">
                         <Link to="/xeno1/heart">Heart to Hearts</Link>
+                    </li>
+                    <li className="mx-8 p-2 bg-green-600 hover:bg-green-800 text-white border border-solid border-black">
+                        <button onClick={reset()}>
+                            Reset All Progress
+                        </button>
                     </li>
                 </ul>
             </nav>

@@ -2,6 +2,10 @@ import { useState } from "react"
 import { Link } from 'react-router-dom';
 import { Dropdown } from "rsuite"; 
 
+function reset() {
+    localStorage.clear();
+}
+
 
 export default function NavBar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -99,6 +103,11 @@ export default function NavBar() {
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
+                            <li className="mx-8 p-2 bg-green-600 hover:bg-green-800 text-white border border-solid border-black">
+                                <button onClick={reset()}>
+                                    Reset All Progress
+                                </button>
+                            </li>
                         </ul>
                     </div>
                 </section>
@@ -164,6 +173,11 @@ export default function NavBar() {
                                 Shop Deeds
                             </Dropdown.Item>
                         </Dropdown>
+                    </li>
+                    <li className="mx-8 p-2 bg-green-600 hover:bg-green-800 text-white border border-solid border-black">
+                        <button onClick={reset()}>
+                            Reset All Progress
+                        </button>
                     </li>
                 </ul>
             </nav>

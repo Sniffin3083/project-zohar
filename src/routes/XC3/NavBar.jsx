@@ -2,6 +2,9 @@ import { useState } from "react"
 import { Link } from 'react-router-dom';
 import { Dropdown } from "rsuite"; 
 
+function reset() {
+    localStorage.clear();
+}
 
 export default function NavBar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -95,6 +98,11 @@ export default function NavBar() {
                             <li className="px-4 lg:px-12">
                                 <Link to="/xeno3/challenge">Challenge Mode</Link>
                             </li>
+                            <li className="mx-8 p-2 bg-green-600 hover:bg-green-800 text-white border border-solid border-black">
+                                <button onClick={reset()}>
+                                    Reset All Progress
+                                </button>
+                            </li>
                         </ul>
                     </div>
                 </section>
@@ -156,6 +164,11 @@ export default function NavBar() {
                     </li>
                     <li className="px-4 lg:px-12">
                         <Link to="/xeno3/challenge">Challenge Mode</Link>
+                    </li>
+                    <li className="mx-8 p-2 bg-green-600 hover:bg-green-800 text-white border border-solid border-black">
+                        <button onClick={reset()}>
+                            Reset All Progress
+                        </button>
                     </li>
                 </ul>
             </nav>
