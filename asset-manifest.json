@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f6886cc8.css",
-    "main.js": "/static/js/main.e0a091ef.js",
+    "main.js": "/static/js/main.ffb3de32.js",
     "static/js/453.58a5a476.chunk.js": "/static/js/453.58a5a476.chunk.js",
     "static/media/XenobladeOneBoxArt.jpg": "/static/media/XenobladeOneBoxArt.1499bd1e19c3d25e385c.jpg",
     "static/media/XenobladeThreeBoxArt.jpg": "/static/media/XenobladeThreeBoxArt.fe9ab7e7bcc85aaae819.jpg",
@@ -59,11 +59,11 @@
     "static/media/affinity-yellow.webp": "/static/media/affinity-yellow.6c23664a43218ccba814.webp",
     "static/media/affinity-green.webp": "/static/media/affinity-green.15fb0232cc3cbf299d15.webp",
     "main.f6886cc8.css.map": "/static/css/main.f6886cc8.css.map",
-    "main.e0a091ef.js.map": "/static/js/main.e0a091ef.js.map",
+    "main.ffb3de32.js.map": "/static/js/main.ffb3de32.js.map",
     "453.58a5a476.chunk.js.map": "/static/js/453.58a5a476.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6886cc8.css",
-    "static/js/main.e0a091ef.js"
+    "static/js/main.ffb3de32.js"
   ]
 }
