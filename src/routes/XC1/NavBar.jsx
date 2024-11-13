@@ -53,11 +53,15 @@ export default function NavBar() {
                             </li>
                             <li className="px-4 lg:px-12">
                                 <Dropdown title="Quests">
-                                    <Dropdown.Item as="a" href="/xeno1/quests/story">
-                                        Story Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno1/quests/story">
+                                            Story Quests
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno1/quests/side">
-                                        Side Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno1/quests/side">
+                                            Side Quests
+                                        </Link>
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
@@ -66,11 +70,15 @@ export default function NavBar() {
                             </li>
                             <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                                 <Dropdown title="Colony 6">
-                                    <Dropdown.Item as="a" href="/xeno1/colony6/immigrants">
-                                        Colony 6 Immigrants
+                                    <Dropdown.Item>
+                                        <Link to="/xeno1/colony6/immigrants">
+                                            Colony 6 Immigrants
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno1/colony6/reconstruction">
-                                        Colony 6 Reconstruction
+                                    <Dropdown.Item>
+                                        <Link to="/xeno1/colony6/reconstruction">
+                                            Colony 6 Reconstruction
+                                        </Link>
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
@@ -79,11 +87,15 @@ export default function NavBar() {
                             </li>
                             <li className="">
                                 <Dropdown title="Time Attack">
-                                    <Dropdown.Item as="a" href="/xeno1/timeattack/free">
-                                        Time Attack - Free
+                                    <Dropdown.Item>
+                                        <Link to="/xeno1/timeattack/free">
+                                            Time Attack - Free
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno1/timeattack/restricted">
-                                        Time Attack - Restricted
+                                    <Dropdown.Item>
+                                        <Link to="/xeno1/timeattack/restricted">
+                                            Time Attack - Restricted
+                                        </Link>
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
@@ -112,11 +124,15 @@ export default function NavBar() {
                     </li>
                     <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                         <Dropdown title="Quests">
-                            <Dropdown.Item as="a" href="/xeno1/quests/story">
-                                Story Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno1/quests/story">
+                                    Story Quests
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno1/quests/side">
-                                Side Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno1/quests/side">
+                                    Side Quests
+                                </Link>
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
@@ -125,11 +141,15 @@ export default function NavBar() {
                     </li>
                     <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                         <Dropdown title="Colony 6">
-                            <Dropdown.Item as="a" href="/xeno1/colony6/immigrants">
-                                Colony 6 Immigrants
+                            <Dropdown.Item>
+                                <Link to="/xeno1/colony6/immigrants">
+                                    Colony 6 Immigrants
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno1/colony6/reconstruction">
-                                Colony 6 Reconstruction
+                            <Dropdown.Item>
+                                <Link to="/xeno1/colony6/reconstruction">
+                                    Colony 6 Reconstruction
+                                </Link>
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
@@ -138,11 +158,15 @@ export default function NavBar() {
                     </li>
                     <li className="hover:font-bold hover:underline">
                         <Dropdown title="Time Attack">
-                            <Dropdown.Item as="a" href="/xeno1/timeattack/free">
-                                Time Attack - Free
+                            <Dropdown.Item>
+                                <Link to="/xeno1/timeattack/free">
+                                    Time Attack - Free
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno1/timeattack/restricted">
-                                Time Attack - Restricted
+                            <Dropdown.Item>
+                                <Link to="/xeno1/timeattack/restricted">
+                                    Time Attack - Restricted
+                                </Link>
                             </Dropdown.Item>
                         </Dropdown>
                     </li>

@@ -53,42 +53,64 @@ export default function NavBar() {
                             </li>
                             <li className="px-4 lg:px-12">
                                 <Dropdown title="Quests">
-                                    <Dropdown.Item as="a" href="/xeno3/quests/story">
-                                        Story Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/quests/story">
+                                            Story Quests
+                                        </Link>                                
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno3/quests/side">
-                                        Side Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/quests/side">
+                                            Side Quests
+                                        </Link>                                
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno3/quests/hero">
-                                        Hero Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/quests/hero">
+                                            Hero Quests
+                                        </Link>                                
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno3/quests/dlc">
-                                        DLC Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/quests/dlc">
+                                            DLC Quests
+                                        </Link>                                
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno3/quests/unmarked">
-                                        Unmarked Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/quests/unmarked">
+                                            Unmarked Quests
+                                        </Link>                                
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
                             <li>
                                 <Dropdown title="Class">
-                                    <Dropdown.Item as="a" href="/xeno3/class/noah">
-                                        Noah's Classes
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/class/noah">
+                                            Noah's Classes
+                                        </Link>                                
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno3/class/mio">
-                                        Mio's Classes
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/class/mio">
+                                            Mio's Classes
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno3/class/eunie">
-                                        Eunie's Classes
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/class/eunie">
+                                            Eunie's Classes
+                                        </Link>                                
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno3/class/taion">
-                                        Taion's Classes
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/class/taion">
+                                            Taion's Classes
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno3/class/lanz">
-                                        Lanz's Classes
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/class/lanz">
+                                            Lanz's Classes
+                                        </Link>                                
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno3/class/sena">
-                                        Sena's Classes
+                                    <Dropdown.Item>
+                                        <Link to="/xeno3/class/sena">
+                                            Sena's Classes
+                                        </Link>                                
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
@@ -123,42 +145,64 @@ export default function NavBar() {
                     </li>
                     <li className="px-4 lg:px-12">
                         <Dropdown title="Quests">
-                            <Dropdown.Item as="a" href="/xeno3/quests/story">
-                                Story Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno3/quests/story">
+                                    Story Quests
+                                </Link>                                
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno3/quests/side">
-                                Side Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno3/quests/side">
+                                    Side Quests
+                                </Link>                                
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno3/quests/hero">
-                                Hero Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno3/quests/hero">
+                                    Hero Quests
+                                </Link>                                
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno3/quests/dlc">
-                                DLC Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno3/quests/dlc">
+                                    DLC Quests
+                                </Link>                                
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno3/quests/unmarked">
-                                Unmarked Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno3/quests/unmarked">
+                                    Unmarked Quests
+                                </Link>                                
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
                     <li>
                         <Dropdown title="Class">
-                            <Dropdown.Item as="a" href="/xeno3/class/noah">
-                                Noah's Classes
+                            <Dropdown.Item>
+                                <Link to="/xeno3/class/noah">
+                                    Noah's Classes
+                                </Link>                                
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno3/class/mio">
-                                Mio's Classes
+                            <Dropdown.Item>
+                                <Link to="/xeno3/class/mio">
+                                    Mio's Classes
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno3/class/eunie">
-                                Eunie's Classes
+                            <Dropdown.Item>
+                                <Link to="/xeno3/class/eunie">
+                                    Eunie's Classes
+                                </Link>                                
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno3/class/taion">
-                                Taion's Classes
+                            <Dropdown.Item>
+                                <Link to="/xeno3/class/taion">
+                                    Taion's Classes
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno3/class/lanz">
-                                Lanz's Classes
+                            <Dropdown.Item>
+                                <Link to="/xeno3/class/lanz">
+                                    Lanz's Classes
+                                </Link>                                
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno3/class/sena">
-                                Sena's Classes
+                            <Dropdown.Item>
+                                <Link to="/xeno3/class/sena">
+                                    Sena's Classes
+                                </Link>                                
                             </Dropdown.Item>
                         </Dropdown>
                     </li>

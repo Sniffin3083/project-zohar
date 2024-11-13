@@ -54,30 +54,44 @@ export default function NavBar() {
                             </li>
                             <li className="px-4 lg:px-12">
                                 <Dropdown title="Quests">
-                                    <Dropdown.Item as="a" href="/xeno2/quests/story">
-                                        Story Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/quests/story">
+                                            Story Quests
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno2/quests/standard">
-                                        Side Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/quests/standard">
+                                            Side Quests
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno2/quests/blades">
-                                        Blade Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/quests/blades">
+                                            Blade Quests
+                                        </Link>                               
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno2/quests/dlc">
-                                        DLC Quests
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/quests/dlc">
+                                            DLC Quests
+                                        </Link>
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
                             <li>
                                 <Dropdown title="Blades">
-                                    <Dropdown.Item as="a" href="/xeno2/blades/standard">
-                                        Standard Blades
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/blades/standard">
+                                            Standard Blades
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno2/blades/ngp">
-                                        NG+ Blades
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/blades/ngp">
+                                            NG+ Blades
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno2/blades/dlc">
-                                        DLC Blades
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/blades/dlc">
+                                            DLC Blades
+                                        </Link>
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
@@ -95,17 +109,25 @@ export default function NavBar() {
                             </li>
                             <li>
                                 <Dropdown title="Others">
-                                    <Dropdown.Item as="a" href="/xeno2/foorara">
-                                        Foorara
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/foorara">
+                                            Foorara
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno2/poppim">
-                                        Poppi Manuals
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/poppim">
+                                            Poppi Manuals
+                                        </Link>    
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno2/pouche">
-                                        Pouch Expansions
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/pouche">
+                                            Pouch Expansions
+                                        </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item as="a" href="/xeno2/deeds">
-                                        Shop Deeds
+                                    <Dropdown.Item>
+                                        <Link to="/xeno2/deeds">
+                                            Shop Deeds
+                                        </Link>
                                     </Dropdown.Item>
                                 </Dropdown>
                             </li>
@@ -128,30 +150,44 @@ export default function NavBar() {
                     </li>
                     <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                         <Dropdown title="Quests">
-                            <Dropdown.Item as="a" href="/xeno2/quests/story">
-                                Story Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno2/quests/story">
+                                    Story Quests
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno2/quests/standard">
-                                Side Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno2/quests/standard">
+                                    Side Quests
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno2/quests/blades">
-                                Blade Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno2/quests/blades">
+                                    Blade Quests
+                                </Link>                               
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno2/quests/dlc">
-                                DLC Quests
+                            <Dropdown.Item>
+                                <Link to="/xeno2/quests/dlc">
+                                    DLC Quests
+                                </Link>
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
                     <li className="hover:font-bold hover:underline">
                         <Dropdown title="Blades">
-                            <Dropdown.Item as="a" href="/xeno2/blades/standard">
-                                Standard Blades
+                            <Dropdown.Item>
+                                <Link to="/xeno2/blades/standard">
+                                    Standard Blades
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno2/blades/ngp">
-                                NG+ Blades
+                            <Dropdown.Item>
+                                <Link to="/xeno2/blades/ngp">
+                                    NG+ Blades
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno2/blades/dlc">
-                                DLC Blades
+                            <Dropdown.Item>
+                                <Link to="/xeno2/blades/dlc">
+                                    DLC Blades
+                                </Link>
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
@@ -169,17 +205,25 @@ export default function NavBar() {
                     </li>
                     <li className="hover:font-bold hover:underline">
                         <Dropdown title="Others">
-                            <Dropdown.Item as="a" href="/xeno2/foorara">
-                                Foorara
+                            <Dropdown.Item>
+                                <Link to="/xeno2/foorara">
+                                    Foorara
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno2/poppim">
-                                Poppi Manuals
+                            <Dropdown.Item>
+                                <Link to="/xeno2/poppim">
+                                    Poppi Manuals
+                                </Link>    
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno2/pouche">
-                                Pouch Expansions
+                            <Dropdown.Item>
+                                <Link to="/xeno2/pouche">
+                                    Pouch Expansions
+                                </Link>
                             </Dropdown.Item>
-                            <Dropdown.Item as="a" href="/xeno2/deeds">
-                                Shop Deeds
+                            <Dropdown.Item>
+                                <Link to="/xeno2/deeds">
+                                    Shop Deeds
+                                </Link>
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
