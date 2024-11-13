@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# Project Zohar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is for all Xenoblade Chronicles fans alike that will help them track their progress and provide help across all three mainline games. This project is named "Project Zohar" after the Zohar which is featured in the Xenosaga series and had several appearances across the Xenoblade Chonicles games. This is an easy to use webapp I have also put instructions on how to use it below.
 
-## Available Scripts
+## How to Access
 
-In the project directory, you can run:
+By simply going to www.project-zohar.com on any device you should be able to access the most up to date version of the webapp with ease.
 
-### `npm start`
+## How to Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You start on the home page and from there you can choose the game that you would like to start tracking.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![alt text](/src/images/README/homePage.png)
 
-### `npm test`
+For the sake of this tutorial I will be using Xenoblade Chronicles 1. After selecting your game you will be taken to the Introduction page for your game.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![alt text](/src/images/README/introPage.png)
 
-### `npm run build`
+From here, select your category and start checking off everything that you have done by clicking on the associated row. Everything is saved locally to your browser so don't be afraid to close the tab and continue later.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This app is developed using React and Javascipt to help distinguish from the different components. I also used the Node Package Manager to help with the frontend of the website. Finally, localstorage is used to store everything that the user has clicked on. It is a very simple app with very simple code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Conclusion
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+I hope that you enjoy using this I have some plans for updates in the future and I hope I can release them soon! :)
