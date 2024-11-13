@@ -4,7 +4,7 @@ export default [
         giver: "Kyrie",
         prerequisites: "No Want of Courage quest complete",
         chapter: "After leaving Colony 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Alfeto Valley",
         uid: "heroQ_goingBeyondPower"
     },
@@ -13,7 +13,7 @@ export default [
         giver: "None",
         prerequisites: "The Kind Right Hand quest complete",
         chapter: "After leaving Colony 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Millick Meadows",
         uid: "heroQ_aGrayMatter"
     },
@@ -22,7 +22,7 @@ export default [
         giver: "Kite",
         prerequisites: "For Colony 9 quest completed | Zeon in the party | Guardian Commander rank 10",
         chapter: "Chapter 5",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "heroQ_reasonsToEvolve"
     },
@@ -31,7 +31,7 @@ export default [
         giver: "Triton",
         prerequisites: "Manana's Battle Soup cooked | Soulhacker Rank 10 reached | \"Manana's Cooking\" discussed | Triton in the party",
         chapter: "Chapter 5",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Millick Meadows",
         uid: "heroQ_myMemories"
     },
@@ -40,7 +40,7 @@ export default [
         giver: "Mio",
         prerequisites: "None",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Captocorn Peak",
         uid: "heroQ_sideStoryMio"
     },
@@ -49,7 +49,7 @@ export default [
         giver: "Cammuravi",
         prerequisites: "Side Story: Mio completed",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Captocorn Peak",
         uid: "heroQ_aTwistOfFate"
     },
@@ -58,7 +58,7 @@ export default [
         giver: "Teach",
         prerequisites: "Extracurricular Lesson quest completed | Teach in the party | Thaumaturge Rank 10 reached",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Melnath's Shoulder",
         uid: "heroQ_shadowOfEnmity"
     },
@@ -67,7 +67,7 @@ export default [
         giver: "None",
         prerequisites: "The Illusion Returns quest completed",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Captocorn Peak",
         uid: "heroQ_inhumanity"
     },
@@ -76,7 +76,7 @@ export default [
         giver: "Nia",
         prerequisites: "Nia's Memories discussed | Lifesage rank 10 | Nia in the party",
         chapter: "After Completing The Main Story",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Captocorn Peak",
         uid: "heroQ_graspingMyFuture"
     },
@@ -85,7 +85,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "From the Beginning",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Expansion Pass",
         uid: "heroQ_championOfTheNopon"
     },
@@ -94,7 +94,7 @@ export default [
         giver: "Taion",
         prerequisites: "Helping Out quest started | \"Colony 4's Problems\" discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "heroQ_noWantOfCourage"
     },
@@ -103,7 +103,7 @@ export default [
         giver: "Valdi",
         prerequisites: "None",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "heroQ_theKindRightHand"
     },
@@ -112,7 +112,7 @@ export default [
         giver: "Colony 4 Soldier",
         prerequisites: "Colony 9 Lately discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "heroQ_whereTheHeartIs"
     },
@@ -121,7 +121,7 @@ export default [
         giver: "Alexandria",
         prerequisites: "None",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "sideQ_herReasons"
     },
@@ -130,7 +130,7 @@ export default [
         giver: "Yuzet",
         prerequisites: "Dorrick project at Level 5 | Boundary unlocked | War Medic Rank 10 | Valdi in the party",
         chapter: "After reaching Erythia Sea",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "heroQ_imAMechanic"
     },
@@ -139,7 +139,7 @@ export default [
         giver: "Sunny",
         prerequisites: "Going Full HD quest completed | The Castle Beckons quest accepted | Noponic Champion Rank 10 | Ino in the party",
         chapter: "After reaching Erythia Sea",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Dannagh Desert",
         uid: "heroQ_theHopeOfNoponkind"
     },
@@ -148,7 +148,7 @@ export default [
         giver: "Gambert",
         prerequisites: "Scant Supplies quest completed | Incursor Rank 10 reached | Alexandria in the party",
         chapter: "After reaching Erythia Sea",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "heroQ_inescapablePast"
     },
@@ -157,7 +157,7 @@ export default [
         giver: "Ashera",
         prerequisites: "Three Ravens at War quest completed | Side Story: Noah quest started | Lone Exile Rank 10 | Ashera in the party",
         chapter: "Chapter 7",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Rae-Bel Tableland",
         uid: "heroQ_aDeepSeatedScar"
     },
@@ -166,7 +166,7 @@ export default [
         giver: "Riku & Manana",
         prerequisites: "None",
         chapter: "After reaching the Pentelas Region",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Urayan Tunnels",
         uid: "heroQ_aNoponsCounsel"
     },
@@ -175,7 +175,7 @@ export default [
         giver: "Isurd",
         prerequisites: "None",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "heroQ_unwaveringResolve"
     },
@@ -184,7 +184,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "heroQ_naturalSelection"
     },
@@ -193,7 +193,7 @@ export default [
         giver: "Consul U",
         prerequisites: "Learning from Lambda quest completed | Stalker Rank 10 | Juniper in the party",
         chapter: "Chapter 6",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "heroQ_survivors"
     },
@@ -202,7 +202,7 @@ export default [
         giver: "Isurd",
         prerequisites: "New Developments quest completed | Strategos rank 10 reached | Isurd in the party",
         chapter: "Chapter 6",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "heroQ_effervescentHeart"
     },
@@ -211,7 +211,7 @@ export default [
         giver: "Ashera",
         prerequisites: "None",
         chapter: "After reaching the Keves Castle Region",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "heroQ_theWrathOfAshera"
     },
@@ -220,7 +220,7 @@ export default [
         giver: "Samon",
         prerequisites: "The Ultimate Vessel quest accepted | 5 Origin Metals obtained",
         chapter: "Chapter 7",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Elaice Highway or Low Maktha Wildwood",
         uid: "heroQ_sideStoryNoah"
     },
@@ -229,7 +229,7 @@ export default [
         giver: "Aizel",
         prerequisites: "All Colonies liberated | Royal Summoner rank 10 | Melia in the party",
         chapter: "After Completeing the Main Story",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Keves Castle",
         uid: "heroQ_fromAtopHerThrone"
     },
@@ -238,7 +238,7 @@ export default [
         giver: "Fiona",
         prerequisites: "None",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "heroQ_transparentDreams"
     },
@@ -247,7 +247,7 @@ export default [
         giver: "Triton",
         prerequisites: "Ishan Isle visited",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "heroQ_doingItMyWay"
     },
@@ -256,7 +256,7 @@ export default [
         giver: "Riku and Manana",
         prerequisites: "Recipe for Cerise-Caprice Acqua Pazza learned | Yumsmith Rank 10 | Riku & Manana in the party",
         chapter: "Chapter 6",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "heroQ_culinaryRepertoire"
     },
@@ -265,7 +265,7 @@ export default [
         giver: "Isurd",
         prerequisites: "The Sea discussed | Riku & Manana in the party",
         chapter: "Chapter 6",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "heroQ_sideStoryTaion"
     },
@@ -274,7 +274,7 @@ export default [
         giver: "Fiona",
         prerequisites: "To Face Forward quest completed | Signifer rank 10 | Fiona in the party",
         chapter: "Chapter 6",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "heroQ_aFarewellReset"
     },
@@ -283,7 +283,7 @@ export default [
         giver: "Segiri",
         prerequisites: "Acknowledging Feelings quest complete | Machine Assassin rank 10 | Segiri in party",
         chapter: "Chapter 7",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "heroQ_invisibleBond"
     },
@@ -292,7 +292,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "Available from the start",
-        reigon: "City",
+        region: "City",
         location: "Expansion Pass",
         uid: "heroQ_lapidaristExtraordinaire"
     },
@@ -301,7 +301,7 @@ export default [
         giver: "City Resident",
         prerequisites: "Castle Access quest accepted | \"Guernica Vandham\" discussed",
         chapter: "After reaching the City",
-        reigon: "City",
+        region: "City",
         location: "Praetorian Hill",
         uid: "heroQ_vandhamsHeir"
     },
@@ -310,7 +310,7 @@ export default [
         giver: "Bolearis",
         prerequisites: "Castle Access quest accepted | Fourtune Clovers discussed | Riku & Manana in the party",
         chapter: "After reaching the City",
-        reigon: "City",
+        region: "City",
         location: "City Camp",
         uid: "heroQ_sideStoryEunie"
     },
@@ -319,7 +319,7 @@ export default [
         giver: "Rozana",
         prerequisites: "Lovebirds quest complete | Full Metal Jaguar Rank 10 | Gray in the party",
         chapter: "After reaching Erythia Sea",
-        reigon: "City",
+        region: "City",
         location: "Caelum Residential Quarter",
         uid: "heroQ_paybackForTreason"
     },
@@ -328,7 +328,7 @@ export default [
         giver: "Masha",
         prerequisites: "Lapidarist Rank 10 | Masha in the party",
         chapter: "After leaving for the Cloudkeep",
-        reigon: "City",
+        region: "City",
         location: "City Camp",
         uid: "heroQ_forTheSakeOfKeepsakes"
     },
@@ -337,7 +337,7 @@ export default [
         giver: "Miyabi",
         prerequisites: "Troubadour Rank 10 reached | Miyabi in the party",
         chapter: "After leaving for the Cloudkeep",
-        reigon: "City",
+        region: "City",
         location: "Michiba Canteen",
         uid: "heroQ_happiness"
     },
@@ -346,7 +346,7 @@ export default [
         giver: "Monica",
         prerequisites: "Samon talked to after meeting with Nia | Ghondor's Grumblings discussed | Ghondor in the party",
         chapter: "Chapter 7",
-        reigon: "City",
+        region: "City",
         location: "Mxene Tech Quarter",
         uid: "heroQ_sideStorySena"
     },
@@ -355,7 +355,7 @@ export default [
         giver: "Monica",
         prerequisites: "Lost Vanguard Rank 10 reached | Monica in the party",
         chapter: "Chapter 7",
-        reigon: "City",
+        region: "City",
         location: "Virid Park",
         uid: "heroQ_promiseToTheFuture"
     },
@@ -364,7 +364,7 @@ export default [
         giver: "Ghondor",
         prerequisites: "Martial Artist Rank 10 reached | Ghondor in the party",
         chapter: "Chapter 7",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Ascension Grounds",
         uid: "heroQ_knowingYourFamily"
     },

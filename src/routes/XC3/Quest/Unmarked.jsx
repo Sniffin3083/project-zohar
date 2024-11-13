@@ -34,7 +34,7 @@ const columns = [
     },
     {
         name: "Location",
-        selector: row => row.area,
+        selector: row => row.location,
         sortable: false,
         width: "300px"
     }

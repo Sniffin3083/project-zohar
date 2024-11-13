@@ -30,7 +30,7 @@ const columns = [
         name: "Req. Chapter",
         selector: row => row.chapter,
         sortable: true,
-        width: "150px"
+        width: "300px"
     },
     {
         name: "Region",
@@ -40,7 +40,7 @@ const columns = [
     },
     {
         name: "Location",
-        selector: row => row.area,
+        selector: row => row.location,
         sortable: false,
         width: "300px"
     }

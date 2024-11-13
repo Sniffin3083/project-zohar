@@ -23,13 +23,8 @@ const columns = [
         name: "Area",
         selector: row => row.area,
         sortable: true,
-        width: "150px"
-    },
-    {
-        name: "Location",
-        selector: row => row.location,
-        sortable: true,
-        width: "200px"
+        width: "200px",
+        wrap: true
     },
     {
         name: "Prerequisites",

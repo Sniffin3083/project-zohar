@@ -11,7 +11,7 @@ const columns = [
         name: "Title",
         selector: row => row.title,
         sortable: true,
-        width: "150px"
+        width: "200px"
     },
     {
         name: "Location",

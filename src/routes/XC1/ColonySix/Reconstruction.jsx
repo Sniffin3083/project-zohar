@@ -15,7 +15,7 @@ const columns = [
     },
     {
         name: "Items Needed",
-        selector: row => row.item,
+        selector: row => row.items,
         sortable: true,
         width: "400px",
         wrap: true

@@ -4,7 +4,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "From the Beginning",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_preparingForBattle"
     },
@@ -13,7 +13,7 @@ export default [
         giver: "Pollux",
         prerequisites: "None",
         chapter: "From the Beginning",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_suppliesInTheWind"
     },
@@ -22,7 +22,7 @@ export default [
         giver: "Laurea",
         prerequisites: "None",
         chapter: "From the Start",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_friendlySupport"
     },
@@ -31,7 +31,7 @@ export default [
         giver: "Lenny",
         prerequisites: "None",
         chapter: "From the Start",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_farewellMelody"
     },
@@ -40,7 +40,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "Chapter 2",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Millick Meadows",
         uid: "sideQ_theHillsideHulk"
     },
@@ -49,7 +49,7 @@ export default [
         giver: "Shillshill",
         prerequisites: "The Hillside Hulk quest complete",
         chapter: "Chapter 2",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Millick Meadows",
         uid: "sideQ_noponRegister"
     },
@@ -58,7 +58,7 @@ export default [
         giver: "None",
         prerequisites: "Where The Heart Is quest complete | Colony 9's Off-Seer discussed",
         chapter: "After leaving Colony 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_anOffSeersAnguish"
     },
@@ -67,7 +67,7 @@ export default [
         giver: "None",
         prerequisites: "Where The Heart Is quest complete | Colony 9 Shortages discussed",
         chapter: "After leaving Colony 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_leanTimesInColony9"
     },
@@ -76,7 +76,7 @@ export default [
         giver: "None",
         prerequisites: "Teach's Teachers quest accepted | Tutors: Sena and Eunie discussed",
         chapter: "After leaving Colony 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Melnath's Shoulder",
         uid: "sideQ_liveCombatTraining"
     },
@@ -85,7 +85,7 @@ export default [
         giver: "None",
         prerequisites: "Teach's Teachers quest accepted | Tutor: Taion discussed",
         chapter: "After leaving Colony 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Melnath's Shoulder",
         uid: "sideQ_theoreticalKnowledge"
     },
@@ -94,7 +94,7 @@ export default [
         giver: "None",
         prerequisites: "Where The Heart Is quest complete | Colony 9's Situation discussed",
         chapter: "After leaving Colony 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_forgottenSupplies"
     },
@@ -103,7 +103,7 @@ export default [
         giver: "Teach",
         prerequisites: "Going Beyond Power quest complete | Request from Teach discussed",
         chapter: "After leaving Colony 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Melnath's Shoulder",
         uid: "sideQ_teachsTeachers"
     },
@@ -112,7 +112,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "After leaving Colony 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Everblight Plain",
         uid: "sideQ_theBattlescarHulk"
     },
@@ -121,7 +121,7 @@ export default [
         giver: "None",
         prerequisites: "Teach's Teachers accepted | Tutor: Off-Seer discussed",
         chapter: "Chapter 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Melnath's Shoulder",
         uid: "sideQ_aLessonInOffSeeing"
     },
@@ -130,7 +130,7 @@ export default [
         giver: "None",
         prerequisites: "Colony 9 Affinity Level 3 | Lenny and Eastman's Row discussed",
         chapter: "Chapter 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_sharedSecret"
     },
@@ -139,7 +139,7 @@ export default [
         giver: "None",
         prerequisites: "Lean Times in Colony 9, Forgotten Supplies, Shared Secret, & An Off-Seer's Anguish quests completed | Colony 9 Level 3 Affinity | Colony 9 Food Issues discussed",
         chapter: "Chapter 4",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_aDifficultTransition"
     },
@@ -148,7 +148,7 @@ export default [
         giver: "Namuki",
         prerequisites: "Teach's Teachers quest accepted | Namuki discussed",
         chapter: "Chapter 5",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Melnath's Shoulder",
         uid: "sideQ_researchProcedures"
     },
@@ -157,7 +157,7 @@ export default [
         giver: "None",
         prerequisites: "A Difficult Transition quest completed | Kite Gone Missing discussed | Zeon in the party",
         chapter: "Chapter 5",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_forColony9"
     },
@@ -166,7 +166,7 @@ export default [
         giver: "None",
         prerequisites: "Live Combat Training, Theoretical Knowledge, A Lesson in Off-Seeing, & Research Procedures quests completed | Tutor: Mio discussed",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Melnath's Shoulder",
         uid: "sideQ_extracurricularLesson"
     },
@@ -175,7 +175,7 @@ export default [
         giver: "None",
         prerequisites: "Reasons to Evolve quest completed | Spongy Spud Eval discussed | Zeon in the party",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_crusaderForSpuds"
     },
@@ -184,7 +184,7 @@ export default [
         giver: "Bambam",
         prerequisites: "Dorin and Bambam quest completed",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Captocorn Peak",
         uid: "sideQ_theBigUnseenMonster"
     },
@@ -193,7 +193,7 @@ export default [
         giver: "Segiri",
         prerequisites: "Inhumanity quest completed | Colony 0's Future discussed | Segiri in the party",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Captocorn Peak",
         uid: "sideQ_inSearchOfAHome"
     },
@@ -202,7 +202,7 @@ export default [
         giver: "None",
         prerequisites: "Writer's Block & Severed Connection quests completed",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Captocorn Peak",
         uid: "sideQ_theIllusionReturns"
     },
@@ -211,7 +211,7 @@ export default [
         giver: "None",
         prerequisites: "A Twist of Fate quest completed | News of Eilis discussed",
         chapter: "Chapter 6",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Yzana Plains",
         uid: "sideQ_aChanceEncounter"
     },
@@ -220,7 +220,7 @@ export default [
         giver: "Ysorra",
         prerequisites: "Teach's Teachers quest completed | Ysorra's Request discussed | Teach in the party",
         chapter: "Chapter 7",
-        reigon: "Aetia Region",
+        region: "Aetia Region",
         location: "Melnath's Shoulder",
         uid: "sideQ_specialInstructors"
     },
@@ -229,7 +229,7 @@ export default [
         giver: "Riku and Manana",
         prerequisites: "None",
         chapter: "After Reaching Fornis Region",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_rikuAndManana"
     },
@@ -238,7 +238,7 @@ export default [
         giver: "Panepane",
         prerequisites: "None",
         chapter: "After Reaching Fornis Region",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_collapsedTraderpon"
     },
@@ -247,7 +247,7 @@ export default [
         giver: "Taion",
         prerequisites: "None",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_helpingOut"
     },
@@ -256,7 +256,7 @@ export default [
         giver: "Colony 4 Soldier",
         prerequisites: "No Want of Courage completed | \"Herding Monsters\" discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_charityAndHypocrisy"
     },
@@ -265,7 +265,7 @@ export default [
         giver: "Colony 4 Soldier",
         prerequisites: "No Want of Courage quest completed | \"Colony 4 Nopon\" discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_dorinAndBambam"
     },
@@ -274,7 +274,7 @@ export default [
         giver: "Colony 4 Soldier",
         prerequisites: "Unsent Husks discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_melodyOfMourning"
     },
@@ -283,7 +283,7 @@ export default [
         giver: "Colony 30 Soldier",
         prerequisites: "The Kind Right Hand quest completed | Colony 30's Off-Seer discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "sideQ_sereneMelody"
     },
@@ -292,7 +292,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Rae-Bel Tableland",
         uid: "sideQ_theTablelandHulk"
     },
@@ -301,7 +301,7 @@ export default [
         giver: "Ven",
         prerequisites: "The Kind Right Hand quest completed | Expeditionary Mission discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "sideQ_theMissionSquad"
     },
@@ -310,7 +310,7 @@ export default [
         giver: "Colony 4 Soldier",
         prerequisites: "\"Irritation\" discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_exhaustedSupplies"
     },
@@ -319,7 +319,7 @@ export default [
         giver: "Colony 30 Soldier",
         prerequisites: "Widespread Custom discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "sideQ_wishUponAClover"
     },
@@ -328,7 +328,7 @@ export default [
         giver: "Dorin and Bambam",
         prerequisites: "Dorin and Bambam quest completed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Rae-Bel Tableland",
         uid: "sideQ_fearOfTheUnknown"
     },
@@ -337,7 +337,7 @@ export default [
         giver: "Burrburr",
         prerequisites: "None",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Dannagh Desert",
         uid: "sideQ_theThrillOfTheHunt"
     },
@@ -346,7 +346,7 @@ export default [
         giver: "Colony 30 Soldier",
         prerequisites: "The Kind Right Hand quest completed | Yuzet's Reputation discussed | Valdi in the party",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "sideQ_bigFriendlyFriend"
     },
@@ -355,7 +355,7 @@ export default [
         giver: "Chickadee",
         prerequisites: "Her Reasons quest completed | Alexandria in the party",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "sideQ_harvestDay"
     },
@@ -364,7 +364,7 @@ export default [
         giver: "Colony 4 Soldier",
         prerequisites: "Charity and Hypocrisy quest completed | Tactician's Plan discussed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_tacticalEradication"
     },
@@ -373,7 +373,7 @@ export default [
         giver: "Fla'ran",
         prerequisites: "Tactical Eradication quest accepted",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_flaransRequest"
     },
@@ -382,7 +382,7 @@ export default [
         giver: "Jeremy",
         prerequisites: "Tactical Eradication quest accepted",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_jeremysRequest"
     },
@@ -391,7 +391,7 @@ export default [
         giver: "Yorde",
         prerequisites: "Tactical Eradication quest accepted",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_yordesRequest"
     },
@@ -400,7 +400,7 @@ export default [
         giver: "Repapa",
         prerequisites: "Big Friendly Friend quest completed | Dorrick Project Stage 3 completed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "sideQ_missingParts"
     },
@@ -409,7 +409,7 @@ export default [
         giver: "Colony 30 Soldier",
         prerequisites: "Missing Parts quest completed | The Real Perpetrator discussed | Dorrick project Stage 5",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "sideQ_theTrueCulprit"
     },
@@ -418,7 +418,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Dannagh Desert",
         uid: "sideQ_theDesertHulk"
     },
@@ -427,7 +427,7 @@ export default [
         giver: "Fili",
         prerequisites: "Her Reasons quest completed",
         chapter: "Chapter 3",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "sideQ_finiteTime"
     },
@@ -436,7 +436,7 @@ export default [
         giver: "Injured Colony 4 Soldier",
         prerequisites: "Tactical Eradication & Imminent Illusion quests completed",
         chapter: "Chapter 4",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_severedConnection"
     },
@@ -445,7 +445,7 @@ export default [
         giver: "Alexandria",
         prerequisites: "Her Reasons quest completed | Colony Iota Goods discussed | Alexandria in the party",
         chapter: "Chapter 4",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "sideQ_enemiesAndAllies"
     },
@@ -454,7 +454,7 @@ export default [
         giver: "Maxie",
         prerequisites: "None",
         chapter: "Chapter 5",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_rousingBolearis"
     },
@@ -463,7 +463,7 @@ export default [
         giver: "Ymeer",
         prerequisites: "Rousing Bolearis completed",
         chapter: "Chapter 5",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_aBurningCuriosity"
     },
@@ -472,7 +472,7 @@ export default [
         giver: "Salazar",
         prerequisites: "Enemies and Allies quest completed | Ouroboros Research discussed",
         chapter: "Chapter 5",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "sideQ_theOuroborosExperiment"
     },
@@ -481,7 +481,7 @@ export default [
         giver: "Colony Iota Soldier",
         prerequisites: "Register the collectopaedia card from Sif | \"Collectopaedia Abuse\" discussed",
         chapter: "Chapter 5",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "sideQ_bugs"
     },
@@ -490,7 +490,7 @@ export default [
         giver: "Alexandria",
         prerequisites: "Enemies and Allies quest completed | Goods in Storage discussed | Alexandria in the party",
         chapter: "Chapter 5",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "sideQ_scantSupplies"
     },
@@ -499,7 +499,7 @@ export default [
         giver: "Colony 30 Soldier",
         prerequisites: "I'm a Mechanic quest completed | Dorrick project at level six | Ether Shortage discussed | Valdi in the party",
         chapter: "After Reaching Erythia Sea",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "sideQ_theresNoEther"
     },
@@ -508,7 +508,7 @@ export default [
         giver: "Colony Iota Soldiers",
         prerequisites: "Alexandria's Birthday discussed | Alexandria in the party",
         chapter: "After Reaching Erythia Sea",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "sideQ_alexandriasBirthday"
     },
@@ -517,7 +517,7 @@ export default [
         giver: "Maxie",
         prerequisites: "Tactical Eradication quest completed | Colony 4 Revitalized discussed",
         chapter: "Chapter 6",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_beyondMercyAndRevenge"
     },
@@ -526,7 +526,7 @@ export default [
         giver: "Ymeer",
         prerequisites: "A Burning Curiosity & Beyond Mercy and Revenge quests completed",
         chapter: "Chapter 6",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Eagus Wilderness",
         uid: "sideQ_aBurningCuriosityPart2"
     },
@@ -535,7 +535,7 @@ export default [
         giver: "Repapa",
         prerequisites: "Inescapable Past quest completed | Dorrick project reached level eight | Valdi in the party",
         chapter: "Chapter 6",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "sideQ_dorrickIsOnline"
     },
@@ -544,7 +544,7 @@ export default [
         giver: "Bambam",
         prerequisites: "Fear of the Unknown, A More Balanced Recipe, Missing Luggage, & The Big, Unseen Monster quests completed",
         chapter: "Chapter 6",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Rae-Bel Tableland or Old Cliffside Way or Erythia Sea or Captocorn Peak",
         uid: "sideQ_soMuchMoreToSee"
     },
@@ -553,7 +553,7 @@ export default [
         giver: "Colony Iota Soldier",
         prerequisites: "Alexandria's Birthday & Bugs quests completed | Collectopedia v.2.0 discussed | Alexandria in the party",
         chapter: "Chapter 7",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Elaice Highway",
         uid: "sideQ_bearingFruit"
     },
@@ -562,7 +562,7 @@ export default [
         giver: "Colony 30 Soldier",
         prerequisites: "Dorrick project reach level nine | Dorrick Complete discussed | Valdi in the party",
         chapter: "Chapter 7",
-        reigon: "Fornis Region",
+        region: "Fornis Region",
         location: "Ribbi Flats",
         uid: "sideQ_theFinalCog"
     },
@@ -571,7 +571,7 @@ export default [
         giver: "",
         prerequisites: "",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "",
         uid: "sideQ_"
     },
@@ -580,7 +580,7 @@ export default [
         giver: "Colony Lambda Soldiers",
         prerequisites: "Colony Lambda's Canteen discussed",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "sideQ_lambdasProblem"
     },
@@ -589,7 +589,7 @@ export default [
         giver: "Colony Lambda Soldiers",
         prerequisites: "\"Missing Off-Seer\" discussed",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "sideQ_theLostOffSeer"
     },
@@ -598,7 +598,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "sideQ_theCascadeHulk"
     },
@@ -607,7 +607,7 @@ export default [
         giver: "Colony Lambda Soldiers",
         prerequisites: "Unwavering Resolve quest completed | Auto-Lev Situation discussed",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "sideQ_restart"
     },
@@ -616,7 +616,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_imminentIllusion"
     },
@@ -625,7 +625,7 @@ export default [
         giver: "Cardamine",
         prerequisites: "Natural Selection quest completed | Colony Tau's Off-Seer discussed | Juniper in the party",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_offSeeingCustoms"
     },
@@ -634,7 +634,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_stolenProvisions"
     },
@@ -643,7 +643,7 @@ export default [
         giver: "Geum",
         prerequisites: "Natural Selection quest completed | Harvest Time discussed | Juniper in the party",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_theHarvest"
     },
@@ -652,7 +652,7 @@ export default [
         giver: "Dorin and Bambam",
         prerequisites: "Fear of the Unknown quest completed",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Old Cliffside Way",
         uid: "sideQ_aMoreBalancedRecipe"
     },
@@ -661,7 +661,7 @@ export default [
         giver: "Glory",
         prerequisites: "Natural Selection quest completed | Raine's Departure discussed | Juniper in the party",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_theHunter"
     },
@@ -670,7 +670,7 @@ export default [
         giver: "Rowland",
         prerequisites: "Natural Selection quest completed | Food for Tau discussed | Juniper in the party",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_tauTirkinAlliance"
     },
@@ -679,7 +679,7 @@ export default [
         giver: "Tonya, Tulgrim, & Hozumi",
         prerequisites: "Unwavering Resolve & Restart quests complete",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "sideQ_securingSupplies"
     },
@@ -688,7 +688,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Urayan Trail",
         uid: "sideQ_theClifftopHulk"
     },
@@ -697,7 +697,7 @@ export default [
         giver: "Gingin",
         prerequisites: "None",
         chapter: "Chapter 4",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Low Maktha Wildwood",
         uid: "sideQ_theWildwoodLife"
     },
@@ -706,7 +706,7 @@ export default [
         giver: "Colony Lambda Soldiers",
         prerequisites: "Bountiful Ether discussed",
         chapter: "Chapter 5",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "sideQ_surplusSupply"
     },
@@ -715,7 +715,7 @@ export default [
         giver: "Cardamine",
         prerequisites: "Where's Imogen? discussed | Juniper in the party",
         chapter: "Chapter 5",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_lostFriend"
     },
@@ -724,7 +724,7 @@ export default [
         giver: "Graziana",
         prerequisites: "The Nopon are Here discussed | Juniper in the party",
         chapter: "Chapter 5",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_culturalExchange"
     },
@@ -733,7 +733,7 @@ export default [
         giver: "Glory & Graziana",
         prerequisites: "\"Korresia's Return\" discussed | Juniper in the party",
         chapter: "Chapter 5",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_korresiaFindsHerCalling"
     },
@@ -742,7 +742,7 @@ export default [
         giver: "Colony Lambda Soldiers",
         prerequisites: "Securing Supplies quest completed | Colony Lambda Defenses discussed",
         chapter: "Chapter 6",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "sideQ_newDevelopments"
     },
@@ -751,7 +751,7 @@ export default [
         giver: "Carson",
         prerequisites: "Learning from Lambda & Her Reasons quests complete | Strength-Giving Water discussed | Juniper in the party",
         chapter: "Chapter 6",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_waterOfRhonnar"
     },
@@ -760,7 +760,7 @@ export default [
         giver: "Colony Lambda Soldiers",
         prerequisites: "The Lost Off-Seer & New Developments quests complete | Moraine and Shijima discussed",
         chapter: "Chapter 6",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "sideQ_duty"
     },
@@ -769,7 +769,7 @@ export default [
         giver: "Selin and Nootka",
         prerequisites: "Tau-Tirkin Alliance & New Developments quests complete | Juniper in the party",
         chapter: "Chapter 6",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_learningFromLambda"
     },
@@ -778,7 +778,7 @@ export default [
         giver: "Cardamine & Glory",
         prerequisites: "Water of Rhonnar, Survivors, & Korresia Finds Her Calling quests complete | Raine discussed | Juniper in the party",
         chapter: "Chapter 6",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "High Maktha Wildwood",
         uid: "sideQ_theHuntOfPlenty"
     },
@@ -787,7 +787,7 @@ export default [
         giver: "Colony Lambda Soldiers",
         prerequisites: "Duty quest complete | Situation in Colony Lambda discussed | Isurd in the party",
         chapter: "Chapter 6",
-        reigon: "Pentelas Region",
+        region: "Pentelas Region",
         location: "Great Cotte Falls",
         uid: "sideQ_pastAndPresent"
     },
@@ -796,7 +796,7 @@ export default [
         giver: "Colony 11 Soldiers",
         prerequisites: "Three Ravens at War quest accepted | Zoren's Unit discussed",
         chapter: "After reaching the Keves Castle Region",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_aWarriorsPride"
     },
@@ -805,7 +805,7 @@ export default [
         giver: "Colony 11 Soldiers",
         prerequisites: "Three Ravens at War quest accepted | Easel's Unit discussed",
         chapter: "After reaching the Keves Castle Region",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_rulesOfTheHunt"
     },
@@ -814,7 +814,7 @@ export default [
         giver: "Colony 11 Soldiers",
         prerequisites: "Three Ravens at War quest accepted | Clad's Unit discussed",
         chapter: "After reaching the Keves Castle Region",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_indomitable"
     },
@@ -823,7 +823,7 @@ export default [
         giver: "Ashera",
         prerequisites: "The Wrath of Ashera quest complete | Colony 11's Future discussed | Ashera in the party",
         chapter: "After reaching the Keves Castle Region",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_threeRavensAtWar"
     },
@@ -832,7 +832,7 @@ export default [
         giver: "Clad",
         prerequisites: "Three Ravens at War quest complete",
         chapter: "After reaching the Keves Castle Region",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_mercilessPursuit"
     },
@@ -841,7 +841,7 @@ export default [
         giver: "Colony 11 Soldiers",
         prerequisites: "Side Story: Noah quest complete | Curious Picture discussed",
         chapter: "Chapter 7",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_anArtist"
     },
@@ -850,7 +850,7 @@ export default [
         giver: "Heath",
         prerequisites: "Side Story: Noah quest complete | Leaders-in-Training discussed",
         chapter: "Chapter 7",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_leadersInTraining"
     },
@@ -859,7 +859,7 @@ export default [
         giver: "Ulrich",
         prerequisites: "Side Story: Noah, Reasons to Evolve, & Going Beyond Power quests complete",
         chapter: "Chapter 7",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_theNewInspector"
     },
@@ -868,7 +868,7 @@ export default [
         giver: "Heath & Wynonna",
         prerequisites: "The Castle Guard quest complete | Rumblings at the Mine discussed",
         chapter: "Chapter 7",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_aDarkCloud"
     },
@@ -877,7 +877,7 @@ export default [
         giver: "Sigrún",
         prerequisites: "Side Story: Noah & Leaders in Training quests complete | Captain of the Guard discussed",
         chapter: "Chapter 7",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_theCastleGuard"
     },
@@ -886,7 +886,7 @@ export default [
         giver: "Ashera",
         prerequisites: "A Deep-Seated Scar quest complete | Teach in the party",
         chapter: "Chapter 7",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_festivalOfWar"
     },
@@ -895,7 +895,7 @@ export default [
         giver: "Sigrún",
         prerequisites: "A Deep-Seated Scar & The Castle Guard quests complete",
         chapter: "Chapter 7",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_fate"
     },
@@ -904,7 +904,7 @@ export default [
         giver: "Fort O'Virbus Soldiers",
         prerequisites: "A Dark Cloud & The New Inspector quest complete | Rumblings at the Fort discussed",
         chapter: "Chapter 7",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Syra Hovering Reefs",
         uid: "sideQ_theTrueInspector"
     },
@@ -913,7 +913,7 @@ export default [
         giver: "Aizel",
         prerequisites: "From Atop Her Throne quest accepted | Melia in the party",
         chapter: "After Completeing the Main Story",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Keves Castle",
         uid: "sideQ_colony9sBackup"
     },
@@ -922,7 +922,7 @@ export default [
         giver: "Aizel",
         prerequisites: "From Atop Her Throne quest accepted | Melia in the party",
         chapter: "After Completeing the Main Story",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Keves Castle",
         uid: "sideQ_frictionWithAgnus"
     },
@@ -931,7 +931,7 @@ export default [
         giver: "Aizel",
         prerequisites: "From Atop Her Throne quest accepted | Melia in the party",
         chapter: "After Completeing the Main Story",
-        reigon: "Keves Castle Region",
+        region: "Keves Castle Region",
         location: "Keves Castle",
         uid: "sideQ_theCityPepTalk"
     },
@@ -940,7 +940,7 @@ export default [
         giver: "Monica",
         prerequisites: "Castle Access quest complete",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Great Sword's Base",
         uid: "sideQ_theCastleBeckons"
     },
@@ -949,7 +949,7 @@ export default [
         giver: "Dorin and Bambam",
         prerequisites: "A More Balanced Recipe quest complete",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_missingLuggage"
     },
@@ -958,7 +958,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_theAtollHulk"
     },
@@ -967,7 +967,7 @@ export default [
         giver: "Colony Mu Soldier",
         prerequisites: "Colony Mu's Future discussed | Fiona in the party",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_unease"
     },
@@ -976,7 +976,7 @@ export default [
         giver: "White Fog & City Residents",
         prerequisites: "The Castle Beckons quest completed | White Fog on Erythia Sea discussed",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_theMysteriousWhiteFog"
     },
@@ -985,7 +985,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "sideQ_firstDayOfPrison"
     },
@@ -994,7 +994,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "sideQ_secondDayOfPrison"
     },
@@ -1003,7 +1003,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "sideQ_thirdDayOfPrison"
     },
@@ -1012,7 +1012,7 @@ export default [
         giver: "Lotus",
         prerequisites: "To Face Forward quest complete | What Washed Ashore discussed",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_distressSignal"
     },
@@ -1021,7 +1021,7 @@ export default [
         giver: "Riku and Manana",
         prerequisites: "None",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_unspeakableBeing"
     },
@@ -1030,7 +1030,7 @@ export default [
         giver: "None",
         prerequisites: "None",
         chapter: "After reaching Erythia Sea",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_theSandbarHulk"
     },
@@ -1039,7 +1039,7 @@ export default [
         giver: "No. 3 & No. 10",
         prerequisites: "In Search of a Home quest complete | Life in Li Garte Prison discussed | Segiri in the party",
         chapter: "Chapter 6",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "sideQ_prisonRefurbishment"
     },
@@ -1048,7 +1048,7 @@ export default [
         giver: "No. 6 & No. 8",
         prerequisites: "Prison Refurbishment quest complete | Prison Refurbishment Level 1 | Prison Problems discussed | Segiri in the party",
         chapter: "Chapter 6",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "sideQ_prisonSpringClean"
     },
@@ -1057,7 +1057,7 @@ export default [
         giver: "Tussore",
         prerequisites: "A Farewell Reset quest completed | Changes Afoot in Colony Mu discussed",
         chapter: "Chapter 6",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_theFutureIWantToSpin"
     },
@@ -1066,7 +1066,7 @@ export default [
         giver: "Colony Mu Soldiers",
         prerequisites: "Lively Colony Mu discussed | Fiona in the party",
         chapter: "Chapter 6",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_colonyMusResolve"
     },
@@ -1075,7 +1075,7 @@ export default [
         giver: "No. 15",
         prerequisites: "Prison Spring Clean quest complete | Mystery Ferron discussed | Segiri in the party",
         chapter: "Chapter 6",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "sideQ_shutIn"
     },
@@ -1084,7 +1084,7 @@ export default [
         giver: "No. 9",
         prerequisites: "Shut-In and Side Story: Noah quests complete | Sena and No. 9 discussed",
         chapter: "Chapter 7",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "sideQ_contraryEmotions"
     },
@@ -1093,7 +1093,7 @@ export default [
         giver: "Samon",
         prerequisites: "None",
         chapter: "Chapter 7",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Great Sword's Base",
         uid: "sideQ_theUltimateVessel"
     },
@@ -1102,7 +1102,7 @@ export default [
         giver: "No. 6 & No. 9",
         prerequisites: "Contrary Emotions quest completed | Colony 0 Duties discussed | Segiri in the party",
         chapter: "Chapter 7",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "sideQ_acknowledgingFeelings"
     },
@@ -1111,7 +1111,7 @@ export default [
         giver: "Colony Mu Soldiers",
         prerequisites: "Colony Mu's Resolve & My Memories quests completed | New Gate discussed | Fiona in the party",
         chapter: "Chapter 7",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_treasuredMemory"
     },
@@ -1120,7 +1120,7 @@ export default [
         giver: "Samon",
         prerequisites: "The Ultimate Vessel quest complete",
         chapter: "Chapter 7",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Great Sword's Base",
         uid: "sideQ_unitingTheSevenNopon"
     },
@@ -1129,7 +1129,7 @@ export default [
         giver: "Segiri",
         prerequisites: "Invisible Bond quest complete | The Name \"Segiri\" discussed | Segiri in the party",
         chapter: "Chapter 7",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Li Garte Prison Camp",
         uid: "sideQ_newNames"
     },
@@ -1138,7 +1138,7 @@ export default [
         giver: "Colony Mu Soldiers",
         prerequisites: "Treasured Memory quest complete | The New Mu discussed | Fiona in the party",
         chapter: "Chapter 7",
-        reigon: "Cadensia Region",
+        region: "Cadensia Region",
         location: "Erythia Sea",
         uid: "sideQ_futureTrajectory"
     },
@@ -1147,7 +1147,7 @@ export default [
         giver: "Monica",
         prerequisites: "None",
         chapter: "After reaching the City",
-        reigon: "City",
+        region: "City",
         location: "War Room",
         uid: "sideQ_castleAccess"
     },
@@ -1156,7 +1156,7 @@ export default [
         giver: "Shiner",
         prerequisites: "Castle Access quest accepted",
         chapter: "After reaching the City",
-        reigon: "City",
+        region: "City",
         location: "Ribelly Plaza",
         uid: "sideQ_"
     },
@@ -1165,7 +1165,7 @@ export default [
         giver: "World Item",
         prerequisites: "Someone's Sheet Music discussed",
         chapter: "After reaching the City",
-        reigon: "City",
+        region: "City",
         location: "Centrilo Parade",
         uid: "sideQ_counterpoint"
     },
@@ -1174,7 +1174,7 @@ export default [
         giver: "City Resident",
         prerequisites: "Castle Access quest accepted | Scavenging discussed",
         chapter: "After reaching the City",
-        reigon: "City",
+        region: "City",
         location: "City",
         uid: "sideQ_theScavengerForce"
     },
@@ -1183,7 +1183,7 @@ export default [
         giver: "Romero",
         prerequisites: "None",
         chapter: "After reaching the City",
-        reigon: "City",
+        region: "City",
         location: "Mitia Lookout",
         uid: "sideQ_romeroAndJoulietta"
     },
@@ -1192,7 +1192,7 @@ export default [
         giver: "City Resident",
         prerequisites: "Castle Access quest completed | Gray's Autonomy discussed | Gray in the party", 
         chapter: "After reaching Erythia Sea",
-        reigon: "City",
+        region: "City",
         location: "Caelum Residential Quarter",
         uid: "sideQ_lovebirds"
     },
@@ -1201,7 +1201,7 @@ export default [
         giver: "City Resident",
         prerequisites: "The Castle Beckons quest accepted | A \"Novel\" Book discussed",
         chapter: "After reaching Erythia Sea",
-        reigon: "City",
+        region: "City",
         location: "Centrilo Parade",
         uid: "sideQ_writersBlock"
     },
@@ -1210,7 +1210,7 @@ export default [
         giver: "Shiner",
         prerequisites: "Triton in the party",
         chapter: "After reaching Erythia Sea",
-        reigon: "City",
+        region: "City",
         location: "Caelum Residential Quarter",
         uid: "sideQ_aYoungNoblesRequest"
     },
@@ -1219,7 +1219,7 @@ export default [
         giver: "City Resident",
         prerequisites: "A Young Noble's Request quest complete | The Colony 15 Folk discussed",
         chapter: "Chapter 6",
-        reigon: "City",
+        region: "City",
         location: "Remembrance Stones",
         uid: "sideQ_lifeInTheCity"
     },
@@ -1228,7 +1228,7 @@ export default [
         giver: "City Resident",
         prerequisites: "Romero and Joulietta quest complete | Joulietta's Attitude discussed",
         chapter: "Chapter 6",
-        reigon: "City",
+        region: "City",
         location: "Centrilo Parade",
         uid: "sideQ_jouliettaAndRomero"
     },
@@ -1237,7 +1237,7 @@ export default [
         giver: "Clara",
         prerequisites: "None",
         chapter: "Chapter 6",
-        reigon: "City",
+        region: "City",
         location: "Remembrance Stones",
         uid: "sideQ_shockToTheSystem"
     },
@@ -1246,7 +1246,7 @@ export default [
         giver: "City Resident",
         prerequisites: "Romero and Joulietta quest complete | City Discontent discussed",
         chapter: "Chapter 6",
-        reigon: "City",
+        region: "City",
         location: "City",
         uid: "sideQ_choices"
     },
@@ -1255,7 +1255,7 @@ export default [
         giver: "Lanz",
         prerequisites: "Unsolved Riddle quest complete | City Children discussed",
         chapter: "After leaving for the Cloudkeep",
-        reigon: "City",
+        region: "City",
         location: "Ribelly Plaza",
         uid: "sideQ_theKidsAspiration"
     },
@@ -1264,7 +1264,7 @@ export default [
         giver: "City Resident",
         prerequisites: "Life in the City quest complete | The Colony 15 Folk discussed | Triton in the party",
         chapter: "Chapter 7",
-        reigon: "City",
+        region: "City",
         location: "Remembrance Stones",
         uid: "sideQ_colony15SoldiersMissing"
     },
@@ -1273,7 +1273,7 @@ export default [
         giver: "City Resident",
         prerequisites: "Promise to the Future quest complete | Homecoming Rite discussed",
         chapter: "Chapter 7",
-        reigon: "City",
+        region: "City",
         location: "City",
         uid: "sideQ_theKeyToANewHome"
     },
@@ -1282,7 +1282,7 @@ export default [
         giver: "Jaggar",
         prerequisites: "My Memories & Colony 15 Soldiers Missing quests complete | City at Affinity Level 5 | Triton in the party",
         chapter: "After Completing the Main Story",
-        reigon: "City",
+        region: "City",
         location: "Michiba Canteen",
         uid: "sideQ_friendship"
     },
@@ -1291,7 +1291,7 @@ export default [
         giver: "Ruggyscruggy",
         prerequisites: "None",
         chapter: "After liberating Agnus Castle",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Death's Door",
         uid: "sideQ_lsotStones"
     },
@@ -1300,7 +1300,7 @@ export default [
         giver: "Seeker",
         prerequisites: "None",
         chapter: "After liberating Agnus Castle",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Ascension Grounds",
         uid: "sideQ_goingHome"
     },
@@ -1309,7 +1309,7 @@ export default [
         giver: "Lost Numbers Soldiers",
         prerequisites: "Going Home quest complete | Seeker's Rumors discussed",
         chapter: "After liberating Agnus Castle",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Ascension Grounds",
         uid: "sideQ_seekersTrueIntent"
     },
@@ -1318,7 +1318,7 @@ export default [
         giver: "Agnus Soldiers",
         prerequisites: "Going Home quest complete | Castle Prisoners discussed",
         chapter: "After liberating Agnus Castle",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Ascension Grounds",
         uid: "sideQ_theThreeFiends"
     },
@@ -1327,7 +1327,7 @@ export default [
         giver: "Xera",
         prerequisites: "The Three Fiends accepted",
         chapter: "After liberating Agnus Castle",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Ivory Gaol",
         uid: "sideQ_threFiendsXera"
     },
@@ -1336,7 +1336,7 @@ export default [
         giver: "Tohma",
         prerequisites: "The Three Fiends accepted",
         chapter: "After liberating Agnus Castle",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Ivory Gaol",
         uid: "sideQ_threeFiendsTohma"
     },
@@ -1345,7 +1345,7 @@ export default [
         giver: "Jhodor",
         prerequisites: "The Three Fiends accepted",
         chapter: "After liberating Agnus Castle",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Ivory Gaol",
         uid: "sideQ_threeFiendsJhodor"
     },
@@ -1354,7 +1354,7 @@ export default [
         giver: "Agnus Soldiers",
         prerequisites: "Seeker's True Intent quest complete | Peak Busyness discussed",
         chapter: "After liberating Agnus Castle",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Ascension Grounds",
         uid: "sideQ_whySoBusy"
     },
@@ -1363,7 +1363,7 @@ export default [
         giver: "Seeker",
         prerequisites: "Why So Busy? quest complete",
         chapter: "After liberating Agnus Castle",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Ascension Grounds",
         uid: "sideQ_"
     },
@@ -1372,7 +1372,7 @@ export default [
         giver: "Seeker",
         prerequisites: "The True Inspector quest complete | Tension with the City discussed | Ghondor in the party",
         chapter: "Chapter 7",
-        reigon: "Agnus Castle Region",
+        region: "Agnus Castle Region",
         location: "Agnus Castle",
         uid: "sideQ_thePathIForge"
     },

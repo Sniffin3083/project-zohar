@@ -37,7 +37,7 @@ const columns = [
         name: "Timed?",
         selector: row => row.timed,
         sortable: true,
-        width: "80px"
+        width: "100px"
     },
     {
         name: "Mutually Exclusive?",
