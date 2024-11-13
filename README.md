@@ -22,6 +22,10 @@ From here, select your category and start checking off everything that you have 
 
 This app is developed using React and Javascipt to help distinguish from the different components. I also used the Node Package Manager to help with the frontend of the website. Finally, localstorage is used to store everything that the user has clicked on. It is a very simple app with very simple code.
 
+## Inspiration
+
+I have many inspirations for this project but one big one is a similar project to this one but only covers Xenoblade Chronicles 2. Check it out here: https://r52.github.io/xc2-checklist/ repo: https://github.com/r52/xc2-checklist
+
 # Conclusion
 
 I hope that you enjoy using this I have some plans for updates in the future and I hope I can release them soon! :)
