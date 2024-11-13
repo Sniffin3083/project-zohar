@@ -12,17 +12,17 @@ function App() {
                 <div className="mt-12 w-screen flex flex-row justify-center items-center items-stretch">
                     <div className="">
                         <Link to={"/xeno1"}>
-                        <img className="w-24 lg:w-52 hover:w-56" src={require("./images/BoxArts/XenobladeOneBoxArt.jpg")} /> 
+                            <img className="transform transition duration-500 w-24 md:w-36 lg:w-52 hover:scale-125" src={require("./images/BoxArts/XenobladeOneBoxArt.jpg")} /> 
                         </Link>
                     </div>
                     <div>
                         <Link to={"/xeno2"}>
-                        <img className="w-20 lg:w-44 mx-16 lg:mx-32 hover:w-48" src={require("./images/BoxArts/XenobladeTwoBoxArt.jpg")} /> 
+                            <img className="transform transition duration-500 w-20 md:w-32 lg:w-48 mx-16 lg:mx-32 hover:scale-125" src={require("./images/BoxArts/XenobladeTwoBoxArt.jpg")} /> 
                         </Link>
                     </div>
                     <div>
                         <Link to={"/xeno3"}>
-                        <img className="w-20 lg:w-44 hover:w-48" src={require("./images/BoxArts/XenobladeThreeBoxArt.jpg")} /> 
+                            <img className="transform transition duration-500 w-24 md:w-36 lg:w-52 hover:scale-125" src={require("./images/BoxArts/XenobladeThreeBoxArt.jpg")} /> 
                         </Link>
                     </div>
                 </div>   
