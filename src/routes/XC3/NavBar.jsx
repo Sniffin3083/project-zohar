@@ -1,6 +1,9 @@
+// Component for XC3 navigation bar
+
 import { useState } from "react"
 import { Link } from 'react-router-dom';
 import { Dropdown } from "rsuite"; 
+import "rsuite/dist/rsuite.min.css";
 
 function reset() {
     localStorage.clear();
@@ -42,6 +45,9 @@ export default function NavBar() {
                         </div>
                         {/* Mobile Navigation Open */}
                         <ul className="flex flex-col items-center space-y-5 justify-betweeen min-h-[250px]">
+                            <li className="hover:font-bold hover:underline">
+                                <Link to="/">Home</Link>
+                            </li>
                             <li>
                                 <Link to="/xeno3/">Intro</Link>
                             </li>
@@ -109,6 +115,9 @@ export default function NavBar() {
 
                 {/* Desktop NavBar */}
                 <ul className="hidden md:flex text-xl m-4 pt-6 flex items-center flex-row justify-center">
+                    <li className="pr-12 hover:font-bold hover:underline">
+                        <Link to="/">Home</Link>
+                    </li>
                     <li>
                         <Link to="/xeno3/">Intro</Link>
                     </li>
@@ -172,6 +181,8 @@ export default function NavBar() {
                     </li>
                 </ul>
             </nav>
+
+            {/* Styling for mobile navigation menu */}
             <style>{`
                 .hideMenuNav {
                     display: none;

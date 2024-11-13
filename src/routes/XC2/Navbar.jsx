@@ -1,6 +1,9 @@
+// Component for XC2 navigation bar
+
 import { useState } from "react"
 import { Link } from 'react-router-dom';
 import { Dropdown } from "rsuite"; 
+import "rsuite/dist/rsuite.min.css";
 
 function reset() {
     localStorage.clear();
@@ -43,6 +46,9 @@ export default function NavBar() {
                         </div>
                         {/* Mobile Navigation Open */}
                         <ul className="flex flex-col items-center space-y-5 justify-betweeen min-h-[250px]">
+                            <li className="hover:font-bold hover:underline">
+                                <Link to="/">Home</Link>
+                            </li>
                             <li>
                                 <Link to="/xeno2/">Intro</Link>
                             </li>
@@ -114,10 +120,13 @@ export default function NavBar() {
 
                 {/* Desktop NavBar */}
                 <ul className="hidden md:flex text-xl m-4 pt-6 flex items-center flex-row justify-center">
-                    <li>
+                    <li className="pr-12 hover:font-bold hover:underline">
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li className="hover:font-bold hover:underline">
                         <Link to="/xeno2/">Intro</Link>
                     </li>
-                    <li className="px-4 lg:px-12">
+                    <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                         <Dropdown title="Quests">
                             <Dropdown.Item as="a" href="/xeno2/quests/story">
                                 Story Quests
@@ -133,7 +142,7 @@ export default function NavBar() {
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
-                    <li>
+                    <li className="hover:font-bold hover:underline">
                         <Dropdown title="Blades">
                             <Dropdown.Item as="a" href="/xeno2/blades/standard">
                                 Standard Blades
@@ -146,19 +155,19 @@ export default function NavBar() {
                             </Dropdown.Item>
                         </Dropdown>
                     </li>
-                    <li className="px-4 lg:px-12">
+                    <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                         <Link to="/xeno2/umonster">Unique Monsters</Link>
                     </li>
-                    <li>
+                    <li className="hover:font-bold hover:underline">
                         <Link to="/xeno2/hth">Heart to Hearts</Link>
                     </li>
-                    <li className="pl-4 lg:pl-12">
+                    <li className="pl-4 lg:pl-12 hover:font-bold hover:underline">
                         <Link to="/xeno2/mercm">Merc Missions</Link>
                     </li>
-                    <li className="px-4 lg:px-12">
+                    <li className="px-4 lg:px-12 hover:font-bold hover:underline">
                         <Link to="/xeno2/challenge">Challenge Mode</Link>
                     </li>
-                    <li>
+                    <li className="hover:font-bold hover:underline">
                         <Dropdown title="Others">
                             <Dropdown.Item as="a" href="/xeno2/foorara">
                                 Foorara
@@ -181,6 +190,8 @@ export default function NavBar() {
                     </li>
                 </ul>
             </nav>
+            
+            {/* Styling for mobile navigation menu */}
             <style>{`
                 .hideMenuNav {
                     display: none;
